@@ -67,17 +67,115 @@ AGE_SHARE = {"16-24": 0.10, "25-49": 0.40, "50+": 0.50}
 # Gender share. Source: UK Steel industry workforce stats (~95% male).
 GENDER_SHARE = {"male": 0.95, "female": 0.05}
 
+# ---------------------------------------------------------------------------
+# Income bands — SSI workforce distribution and outcome adjustments
+# ---------------------------------------------------------------------------
+# Source for shares: ASHE NE 2015 percentiles (p10=£288/wk, p25=£359/wk,
+# median=£486/wk, p75=£679/wk, p90=£882/wk) + UK Steel sector wage profile.
+# Outcome adjustments are relative to the £25k-£35k aggregate baseline at
+# Q4 2016 (retrain=6, share_similar=13, underemployed=52, exit=26, seeking=3).
+# Cross-episode basis: China Shock ADH 2021 — "low-wage → exit/underemployed;
+# high-wage → share_similar". Hartz: 80%+ re-employment to lower-paying employer.
+# All outcome_adj values are percentage-point shifts from the aggregate mid.
+INCOME_BANDS = {
+    "<£20k": dict(
+        share       = 0.05,   # ~5% — semi-skilled, admin, cleaners
+        skill_tier  = "low_skilled",
+        description = "Semi-skilled process support, admin, cleaners. "
+                      "ASHE NE p10 (£288/wk=£15k/yr). Lowest-paid SSI cohort. "
+                      "Estimated 5% of workforce — LOW confidence.",
+        outcome_adj = dict(retrain=-2, share_similar=-6, underemployed=+3, exit=+6, still_seeking=-1),
+        # Adj rationale: China Shock: low-wage workers → exit during mass layoffs.
+        # Less savings buffer → faster benefit exit into any available work (underemployed).
+        # Lower pension entitlement → some exit to ESA/disability rather than retirement.
+    ),
+    "£20k-£25k": dict(
+        share       = 0.15,  # ~15% — semi-skilled operators, junior technicians
+        skill_tier  = "skilled_manual",
+        description = "Semi-skilled process operators, junior technicians. "
+                      "ASHE NE p25-median range (£359-£486/wk). "
+                      "Estimated 15% of workforce — LOW confidence.",
+        outcome_adj = dict(retrain=-1, share_similar=-4, underemployed=+2, exit=+4, still_seeking=-1),
+    ),
+    "£25k-£35k": dict(
+        share       = 0.55,  # ~55% — the majority cohort, skilled process operators
+        skill_tier  = "skilled_manual",
+        description = "Skilled process operators, blast furnace operators. "
+                      "ASHE NE median-p75 range (£486-£679/wk). "
+                      "PRIMARY ESTIMATE — majority of SSI workforce. "
+                      "All aggregate anchors (25% still-seeking, 93% off benefits) apply directly.",
+        outcome_adj = dict(retrain=0, share_similar=0, underemployed=0, exit=0, still_seeking=0),
+        # This is the baseline — no adjustment applied.
+    ),
+    "£35k-£50k": dict(
+        share       = 0.20,  # ~20% — senior operators, supervisors, maintenance engineers
+        skill_tier  = "skilled_manual",
+        description = "Senior operators, shift supervisors, maintenance engineers, technicians. "
+                      "ASHE NE p75-p90 range (£679-£882/wk). "
+                      "Estimated 20% of workforce — LOW confidence.",
+        outcome_adj = dict(retrain=+1, share_similar=+7, underemployed=-6, exit=-4, still_seeking=+2),
+        # Adj rationale: China Shock: high-wage → share_similar (comparable employers).
+        # More transferable skills. Can afford longer job search (higher still_seeking).
+    ),
+    "£50k+": dict(
+        share       = 0.05,  # ~5% — management, senior engineers, plant managers
+        skill_tier  = "professional",
+        description = "Plant management, senior engineers, operations managers. "
+                      "Above ASHE NE p90 (£882/wk=£45.9k/yr). "
+                      "Estimated 5% of workforce — LOW confidence. "
+                      "Likely had enhanced redundancy packages separate from main SSI terms.",
+        outcome_adj = dict(retrain=-1, share_similar=+15, underemployed=-14, exit=-6, still_seeking=+6),
+        # Adj rationale: Management skills highly transferable across sectors.
+        # High still_seeking — can afford long search; high share_similar — comparable employers exist.
+    ),
+}
+
+# ---------------------------------------------------------------------------
+# Subsidy by age band (employer hiring subsidy was age-tiered)
+# ---------------------------------------------------------------------------
+# Source: DWP SSI JSA Statistics / Gov.uk 6-month press release
+SUBSIDY_BY_AGE = {
+    "16-24": (
+        "£11k employer hiring subsidy (under-45 tier); "
+        "Routes to Work pilot £7.5m (Tees Valley-wide); "
+        "Employer Ownership of Skills pilot; "
+        "£46m total government package"
+    ),
+    "25-49": (
+        "£11k employer hiring subsidy (under-45 tier); "
+        "Routes to Work pilot £7.5m (Tees Valley-wide); "
+        "£46m total government package"
+    ),
+    "50+": (
+        "£15k employer hiring subsidy (45+ tier — highest rate, recognising harder-to-place status); "
+        "Routes to Work pilot £7.5m (Tees Valley-wide); "
+        "£46m total government package"
+    ),
+    "all": (
+        "£11k-£15k employer hiring subsidy (age-tiered: £11k under-45, £15k aged 45+); "
+        "Routes to Work pilot £7.5m (Tees Valley-wide); "
+        "£46m total government package (announced Oct 2015)"
+    ),
+}
+
+# ---------------------------------------------------------------------------
+# UBI level — no UBI operational in UK 2015, but document the actual baseline
+# ---------------------------------------------------------------------------
+UBI_LEVEL = (
+    "N/A — no UBI operational in UK Oct 2015. "
+    "Actual baseline safety net: JSA £73.10/wk (adult rate) or £57.90/wk (under-25); "
+    "ESA (support group) £109.65/wk; UC standard allowance £317.82/month. "
+    "For model calibration: ubi_level = 0. "
+    "UBI counterfactuals are simulation scenarios, not historical data."
+)
+
 # Constant fields that are the same for every Redcar row
 REDCAR_CONSTANTS = dict(
-    episode_id        = "redcar_2015",
-    year_window       = "2015-2017",
-    geography         = "Redcar / Teesside",
-    region            = "North East England",
-    skill_tier        = "skilled_manual",
-    sector            = "primary_metals / steel_manufacturing",
-    prior_income_band = "£25k-£35k est.",
-    subsidy_level     = "£46m total government package; £11k-£15k employer hiring subsidy (age-tiered)",
-    ubi_level         = "N/A",
+    episode_id  = "redcar_2015",
+    year_window = "2015-2017",
+    geography   = "Redcar / Teesside",
+    region      = "North East England",
+    sector      = "primary_metals / steel_manufacturing",
 )
 
 # ---------------------------------------------------------------------------
@@ -302,7 +400,9 @@ def make_row(quarter, months_post, gender, age_band,
              ne_gender_claimants, ne_gender_pct_within_age,
              ne_unemp_rate, ne_emp_rate, ne_activity_rate, aps_period,
              ne_median_weekly_pay,
-             source_citation, source_url, data_quality):
+             source_citation, source_url, data_quality,
+             income_band="£25k-£35k est.", skill_tier="skilled_manual",
+             income_band_note=None):
 
     a = anchors_q
 
@@ -420,8 +520,6 @@ def make_row(quarter, months_post, gender, age_band,
         "All area-level data is NOT individual SSI worker tracking."
     )
 
-    notes = " ".join(note_parts)
-
     comparability = (
         "Nomis claimant count is AREA-LEVEL (Redcar & Cleveland LA or NE ITL1) — "
         "not individual SSI worker tracking. "
@@ -434,6 +532,12 @@ def make_row(quarter, months_post, gender, age_band,
         "Steel sector ~95% male; gender-disaggregated outcome rates unavailable from public sources."
     )
 
+    # Add income band note to notes if present
+    if income_band_note:
+        note_parts.insert(0, f"INCOME BAND: {income_band}. {income_band_note} ")
+
+    notes = " ".join(note_parts)
+
     return {
         # ---- Original evidence CSV columns ----
         "episode_id":               REDCAR_CONSTANTS["episode_id"],
@@ -443,11 +547,11 @@ def make_row(quarter, months_post, gender, age_band,
         "geography":                REDCAR_CONSTANTS["geography"],
         "region":                   REDCAR_CONSTANTS["region"],
         "age_band":                 age_band,
-        "skill_tier":               REDCAR_CONSTANTS["skill_tier"],
+        "skill_tier":               skill_tier,
         "sector":                   REDCAR_CONSTANTS["sector"],
-        "prior_income_band":        REDCAR_CONSTANTS["prior_income_band"],
-        "subsidy_level":            REDCAR_CONSTANTS["subsidy_level"],
-        "ubi_level":                REDCAR_CONSTANTS["ubi_level"],
+        "prior_income_band":        income_band,
+        "subsidy_level":            SUBSIDY_BY_AGE.get(age_band, SUBSIDY_BY_AGE["all"]),
+        "ubi_level":                UBI_LEVEL,
         "population_n":             ssi_n_cell if ssi_n_cell else SSI_N,
         "time_horizon":             f"{quarter} ({months_post} months post-closure)",
         "outcome_retrain_%":        None,
@@ -651,6 +755,74 @@ def main():
                     ne_gender_claimants=ne_g_n, ne_gender_pct_within_age=ne_g_pct,
                     **common,
                 ))
+
+        # --- Row D: per income band (all genders, all ages) ---
+        # Aggregate mid outcome estimates from estimate_redcar_outcomes.py
+        # applied at the quarter closest to each estimate time horizon.
+        # Baseline (£25k-£35k) = aggregate; other bands adjusted per INCOME_BANDS.
+        BASELINE_OUTCOMES = {
+            "2016Q1": dict(retrain=2,  share_similar=10, underemployed=43, exit=20, still_seeking=25),
+            "2016Q4": dict(retrain=6,  share_similar=13, underemployed=52, exit=26, still_seeking=3),
+            "2017Q4": dict(retrain=8,  share_similar=15, underemployed=45, exit=30, still_seeking=2),
+        }
+        # For quarters without a direct estimate, use the nearest
+        NEAREST = {
+            "2015Q4": "2016Q1", "2016Q1": "2016Q1", "2016Q2": "2016Q1",
+            "2016Q3": "2016Q4", "2016Q4": "2016Q4", "2017Q1": "2016Q4",
+            "2017Q2": "2017Q4", "2017Q3": "2017Q4", "2017Q4": "2017Q4",
+        }
+        base = BASELINE_OUTCOMES[NEAREST[q]]
+
+        for band_label, band in INCOME_BANDS.items():
+            adj     = band["outcome_adj"]
+            band_n  = round(SSI_N * band["share"])
+
+            # Apply adjustments — clamp to [0, 100] and renormalise to 100
+            raw = {
+                "retrain":       base["retrain"]       + adj["retrain"],
+                "share_similar": base["share_similar"] + adj["share_similar"],
+                "underemployed": base["underemployed"] + adj["underemployed"],
+                "exit":          base["exit"]          + adj["exit"],
+                "still_seeking": base["still_seeking"] + adj["still_seeking"],
+            }
+            raw = {k: max(0, v) for k, v in raw.items()}
+            total = sum(raw.values())
+            normed = {k: round(v / total * 100, 1) for k, v in raw.items()}
+
+            # For Q1 2016 still_seeking — keep the hard anchor for baseline band
+            still_seeking_val = (
+                anch.get("outcome_still_seeking_pct")
+                if band_label == "£25k-£35k" else normed["still_seeking"]
+            )
+
+            income_note = (
+                f"{band['description']} "
+                f"Outcome adjustments vs £25k-£35k baseline: "
+                f"retrain {adj['retrain']:+d}pp, share_similar {adj['share_similar']:+d}pp, "
+                f"underemployed {adj['underemployed']:+d}pp, exit {adj['exit']:+d}pp, "
+                f"still_seeking {adj['still_seeking']:+d}pp. "
+                f"Source: China Shock ADH (low-wage→exit/underemployed; high-wage→share_similar) "
+                f"+ Hartz re-employment wage analysis. All income-band outcomes ESTIMATED_LOW."
+            )
+
+            row = make_row(
+                quarter=q, months_post=mp, gender="all", age_band="all",
+                anchors_q=anch, ssi_n_cell=band_n,
+                rc_age_claimants=None, rc_age_pct=None,
+                ne_gender_claimants=None, ne_gender_pct_within_age=None,
+                income_band=band_label,
+                skill_tier=band["skill_tier"],
+                income_band_note=income_note,
+                **common,
+            )
+            # Overwrite outcome columns with income-adjusted estimates
+            row["outcome_retrain_%"]       = normed["retrain"]
+            row["outcome_share_similar_%"] = normed["share_similar"]
+            row["outcome_underemployed_%"] = normed["underemployed"]
+            row["outcome_exit_%"]          = normed["exit"]
+            row["outcome_still_seeking_%"] = still_seeking_val
+            row["data_quality"]            = "ESTIMATED_LOW" if band_label != "£25k-£35k" else row["data_quality"]
+            rows.append(row)
 
     panel = pd.DataFrame(rows)
     panel.to_csv(OUT, index=False)
