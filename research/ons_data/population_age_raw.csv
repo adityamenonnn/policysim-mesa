@@ -1,0 +1,518 @@
+"DATE_NAME","GEOGRAPHY_NAME","C_AGE_NAME","OBS_VALUE"
+"2025","North East","Age 18",32440
+"2025","North East","Age 19",37523
+"2025","North East","Age 20",38121
+"2025","North East","Age 21",37204
+"2025","North East","Age 22",35690
+"2025","North East","Age 23",33124
+"2025","North East","Age 24",31912
+"2025","North East","Age 25",31507
+"2025","North East","Age 26",31775
+"2025","North East","Age 27",32576
+"2025","North East","Age 28",33847
+"2025","North East","Age 29",33321
+"2025","North East","Age 30",34203
+"2025","North East","Age 31",34926
+"2025","North East","Age 32",35306
+"2025","North East","Age 33",36837
+"2025","North East","Age 34",36830
+"2025","North East","Age 35",36257
+"2025","North East","Age 36",36064
+"2025","North East","Age 37",36979
+"2025","North East","Age 38",36267
+"2025","North East","Age 39",36497
+"2025","North East","Age 40",35871
+"2025","North East","Age 41",34499
+"2025","North East","Age 42",34113
+"2025","North East","Age 43",33612
+"2025","North East","Age 44",33764
+"2025","North East","Age 45",34062
+"2025","North East","Age 46",32805
+"2025","North East","Age 47",29321
+"2025","North East","Age 48",27969
+"2025","North East","Age 49",29866
+"2025","North East","Age 50",30437
+"2025","North East","Age 51",30750
+"2025","North East","Age 52",32766
+"2025","North East","Age 53",35387
+"2025","North East","Age 54",37451
+"2025","North East","Age 55",35541
+"2025","North East","Age 56",36337
+"2025","North East","Age 57",37188
+"2025","North East","Age 58",37978
+"2025","North East","Age 59",38501
+"2025","North East","Age 60",39060
+"2025","North East","Age 61",38514
+"2025","North East","Age 62",38442
+"2025","North East","Age 63",38083
+"2025","North East","Age 64",36244
+"2025","North West","Age 18",92039
+"2025","North West","Age 19",97438
+"2025","North West","Age 20",100265
+"2025","North West","Age 21",98662
+"2025","North West","Age 22",95944
+"2025","North West","Age 23",96653
+"2025","North West","Age 24",95194
+"2025","North West","Age 25",96655
+"2025","North West","Age 26",99994
+"2025","North West","Age 27",100370
+"2025","North West","Age 28",103641
+"2025","North West","Age 29",100348
+"2025","North West","Age 30",102556
+"2025","North West","Age 31",104485
+"2025","North West","Age 32",105957
+"2025","North West","Age 33",108446
+"2025","North West","Age 34",110374
+"2025","North West","Age 35",108900
+"2025","North West","Age 36",108122
+"2025","North West","Age 37",109909
+"2025","North West","Age 38",105572
+"2025","North West","Age 39",106262
+"2025","North West","Age 40",105705
+"2025","North West","Age 41",101317
+"2025","North West","Age 42",100807
+"2025","North West","Age 43",98846
+"2025","North West","Age 44",98380
+"2025","North West","Age 45",98453
+"2025","North West","Age 46",93380
+"2025","North West","Age 47",85865
+"2025","North West","Age 48",83729
+"2025","North West","Age 49",86516
+"2025","North West","Age 50",88428
+"2025","North West","Age 51",89177
+"2025","North West","Age 52",93318
+"2025","North West","Age 53",98597
+"2025","North West","Age 54",102625
+"2025","North West","Age 55",100196
+"2025","North West","Age 56",102986
+"2025","North West","Age 57",101423
+"2025","North West","Age 58",102239
+"2025","North West","Age 59",101661
+"2025","North West","Age 60",103196
+"2025","North West","Age 61",102181
+"2025","North West","Age 62",99460
+"2025","North West","Age 63",98006
+"2025","North West","Age 64",93347
+"2025","Yorkshire and The Humber","Age 18",67718
+"2025","Yorkshire and The Humber","Age 19",72924
+"2025","Yorkshire and The Humber","Age 20",75409
+"2025","Yorkshire and The Humber","Age 21",73666
+"2025","Yorkshire and The Humber","Age 22",70502
+"2025","Yorkshire and The Humber","Age 23",69233
+"2025","Yorkshire and The Humber","Age 24",67402
+"2025","Yorkshire and The Humber","Age 25",68006
+"2025","Yorkshire and The Humber","Age 26",69244
+"2025","Yorkshire and The Humber","Age 27",71173
+"2025","Yorkshire and The Humber","Age 28",72254
+"2025","Yorkshire and The Humber","Age 29",71133
+"2025","Yorkshire and The Humber","Age 30",72809
+"2025","Yorkshire and The Humber","Age 31",75143
+"2025","Yorkshire and The Humber","Age 32",76178
+"2025","Yorkshire and The Humber","Age 33",78055
+"2025","Yorkshire and The Humber","Age 34",79345
+"2025","Yorkshire and The Humber","Age 35",78404
+"2025","Yorkshire and The Humber","Age 36",77130
+"2025","Yorkshire and The Humber","Age 37",78570
+"2025","Yorkshire and The Humber","Age 38",76942
+"2025","Yorkshire and The Humber","Age 39",76252
+"2025","Yorkshire and The Humber","Age 40",75142
+"2025","Yorkshire and The Humber","Age 41",72399
+"2025","Yorkshire and The Humber","Age 42",71918
+"2025","Yorkshire and The Humber","Age 43",71086
+"2025","Yorkshire and The Humber","Age 44",71483
+"2025","Yorkshire and The Humber","Age 45",71047
+"2025","Yorkshire and The Humber","Age 46",67542
+"2025","Yorkshire and The Humber","Age 47",62040
+"2025","Yorkshire and The Humber","Age 48",60777
+"2025","Yorkshire and The Humber","Age 49",62774
+"2025","Yorkshire and The Humber","Age 50",64063
+"2025","Yorkshire and The Humber","Age 51",65510
+"2025","Yorkshire and The Humber","Age 52",69477
+"2025","Yorkshire and The Humber","Age 53",72686
+"2025","Yorkshire and The Humber","Age 54",76636
+"2025","Yorkshire and The Humber","Age 55",74596
+"2025","Yorkshire and The Humber","Age 56",75800
+"2025","Yorkshire and The Humber","Age 57",75835
+"2025","Yorkshire and The Humber","Age 58",75844
+"2025","Yorkshire and The Humber","Age 59",74898
+"2025","Yorkshire and The Humber","Age 60",75358
+"2025","Yorkshire and The Humber","Age 61",74609
+"2025","Yorkshire and The Humber","Age 62",73219
+"2025","Yorkshire and The Humber","Age 63",71438
+"2025","Yorkshire and The Humber","Age 64",68673
+"2025","East Midlands","Age 18",59485
+"2025","East Midlands","Age 19",66623
+"2025","East Midlands","Age 20",67056
+"2025","East Midlands","Age 21",65051
+"2025","East Midlands","Age 22",61627
+"2025","East Midlands","Age 23",58787
+"2025","East Midlands","Age 24",56369
+"2025","East Midlands","Age 25",56157
+"2025","East Midlands","Age 26",58374
+"2025","East Midlands","Age 27",58665
+"2025","East Midlands","Age 28",61417
+"2025","East Midlands","Age 29",61496
+"2025","East Midlands","Age 30",63682
+"2025","East Midlands","Age 31",66338
+"2025","East Midlands","Age 32",66828
+"2025","East Midlands","Age 33",69105
+"2025","East Midlands","Age 34",70467
+"2025","East Midlands","Age 35",70737
+"2025","East Midlands","Age 36",69146
+"2025","East Midlands","Age 37",70122
+"2025","East Midlands","Age 38",68386
+"2025","East Midlands","Age 39",67681
+"2025","East Midlands","Age 40",67763
+"2025","East Midlands","Age 41",65261
+"2025","East Midlands","Age 42",64995
+"2025","East Midlands","Age 43",64005
+"2025","East Midlands","Age 44",65185
+"2025","East Midlands","Age 45",64964
+"2025","East Midlands","Age 46",61422
+"2025","East Midlands","Age 47",57020
+"2025","East Midlands","Age 48",56112
+"2025","East Midlands","Age 49",57705
+"2025","East Midlands","Age 50",59285
+"2025","East Midlands","Age 51",60720
+"2025","East Midlands","Age 52",63766
+"2025","East Midlands","Age 53",67149
+"2025","East Midlands","Age 54",70586
+"2025","East Midlands","Age 55",67406
+"2025","East Midlands","Age 56",70543
+"2025","East Midlands","Age 57",69649
+"2025","East Midlands","Age 58",69862
+"2025","East Midlands","Age 59",69248
+"2025","East Midlands","Age 60",69641
+"2025","East Midlands","Age 61",68322
+"2025","East Midlands","Age 62",67379
+"2025","East Midlands","Age 63",65136
+"2025","East Midlands","Age 64",62956
+"2025","West Midlands","Age 18",75988
+"2025","West Midlands","Age 19",75435
+"2025","West Midlands","Age 20",75810
+"2025","West Midlands","Age 21",75753
+"2025","West Midlands","Age 22",74738
+"2025","West Midlands","Age 23",75628
+"2025","West Midlands","Age 24",75203
+"2025","West Midlands","Age 25",74993
+"2025","West Midlands","Age 26",76549
+"2025","West Midlands","Age 27",78004
+"2025","West Midlands","Age 28",79609
+"2025","West Midlands","Age 29",78978
+"2025","West Midlands","Age 30",79797
+"2025","West Midlands","Age 31",81820
+"2025","West Midlands","Age 32",82602
+"2025","West Midlands","Age 33",85248
+"2025","West Midlands","Age 34",86663
+"2025","West Midlands","Age 35",86760
+"2025","West Midlands","Age 36",85909
+"2025","West Midlands","Age 37",85876
+"2025","West Midlands","Age 38",84961
+"2025","West Midlands","Age 39",83203
+"2025","West Midlands","Age 40",83571
+"2025","West Midlands","Age 41",79972
+"2025","West Midlands","Age 42",80194
+"2025","West Midlands","Age 43",78723
+"2025","West Midlands","Age 44",78944
+"2025","West Midlands","Age 45",79660
+"2025","West Midlands","Age 46",75068
+"2025","West Midlands","Age 47",69401
+"2025","West Midlands","Age 48",68068
+"2025","West Midlands","Age 49",70022
+"2025","West Midlands","Age 50",70774
+"2025","West Midlands","Age 51",72240
+"2025","West Midlands","Age 52",75725
+"2025","West Midlands","Age 53",78952
+"2025","West Midlands","Age 54",81862
+"2025","West Midlands","Age 55",80728
+"2025","West Midlands","Age 56",82154
+"2025","West Midlands","Age 57",81472
+"2025","West Midlands","Age 58",81171
+"2025","West Midlands","Age 59",80025
+"2025","West Midlands","Age 60",79833
+"2025","West Midlands","Age 61",78063
+"2025","West Midlands","Age 62",75926
+"2025","West Midlands","Age 63",74972
+"2025","West Midlands","Age 64",71948
+"2025","East","Age 18",74477
+"2025","East","Age 19",61129
+"2025","East","Age 20",58288
+"2025","East","Age 21",60364
+"2025","East","Age 22",63339
+"2025","East","Age 23",70259
+"2025","East","Age 24",73014
+"2025","East","Age 25",75245
+"2025","East","Age 26",77432
+"2025","East","Age 27",79362
+"2025","East","Age 28",80023
+"2025","East","Age 29",79907
+"2025","East","Age 30",82240
+"2025","East","Age 31",86371
+"2025","East","Age 32",86566
+"2025","East","Age 33",89898
+"2025","East","Age 34",92371
+"2025","East","Age 35",93001
+"2025","East","Age 36",92757
+"2025","East","Age 37",94747
+"2025","East","Age 38",92231
+"2025","East","Age 39",92176
+"2025","East","Age 40",90932
+"2025","East","Age 41",88631
+"2025","East","Age 42",87923
+"2025","East","Age 43",88307
+"2025","East","Age 44",89339
+"2025","East","Age 45",88941
+"2025","East","Age 46",86090
+"2025","East","Age 47",79365
+"2025","East","Age 48",78121
+"2025","East","Age 49",79264
+"2025","East","Age 50",80675
+"2025","East","Age 51",81676
+"2025","East","Age 52",84180
+"2025","East","Age 53",86475
+"2025","East","Age 54",89039
+"2025","East","Age 55",86171
+"2025","East","Age 56",88375
+"2025","East","Age 57",87903
+"2025","East","Age 58",88815
+"2025","East","Age 59",88751
+"2025","East","Age 60",88008
+"2025","East","Age 61",86604
+"2025","East","Age 62",83983
+"2025","East","Age 63",81945
+"2025","East","Age 64",79050
+"2025","London","Age 18",102850
+"2025","London","Age 19",95037
+"2025","London","Age 20",101172
+"2025","London","Age 21",110958
+"2025","London","Age 22",128458
+"2025","London","Age 23",146286
+"2025","London","Age 24",158859
+"2025","London","Age 25",169967
+"2025","London","Age 26",177574
+"2025","London","Age 27",181381
+"2025","London","Age 28",182004
+"2025","London","Age 29",177295
+"2025","London","Age 30",172167
+"2025","London","Age 31",167375
+"2025","London","Age 32",160964
+"2025","London","Age 33",158310
+"2025","London","Age 34",153955
+"2025","London","Age 35",153447
+"2025","London","Age 36",150050
+"2025","London","Age 37",147766
+"2025","London","Age 38",142198
+"2025","London","Age 39",140459
+"2025","London","Age 40",139189
+"2025","London","Age 41",133937
+"2025","London","Age 42",133555
+"2025","London","Age 43",132834
+"2025","London","Age 44",133388
+"2025","London","Age 45",132825
+"2025","London","Age 46",127318
+"2025","London","Age 47",121092
+"2025","London","Age 48",118023
+"2025","London","Age 49",116768
+"2025","London","Age 50",116515
+"2025","London","Age 51",112741
+"2025","London","Age 52",111988
+"2025","London","Age 53",111045
+"2025","London","Age 54",111733
+"2025","London","Age 55",110800
+"2025","London","Age 56",109316
+"2025","London","Age 57",107961
+"2025","London","Age 58",104500
+"2025","London","Age 59",103449
+"2025","London","Age 60",100268
+"2025","London","Age 61",97597
+"2025","London","Age 62",93588
+"2025","London","Age 63",88272
+"2025","London","Age 64",83865
+"2025","South East","Age 18",114947
+"2025","South East","Age 19",103571
+"2025","South East","Age 20",100879
+"2025","South East","Age 21",99947
+"2025","South East","Age 22",100231
+"2025","South East","Age 23",103823
+"2025","South East","Age 24",105026
+"2025","South East","Age 25",106206
+"2025","South East","Age 26",109194
+"2025","South East","Age 27",111364
+"2025","South East","Age 28",112485
+"2025","South East","Age 29",111569
+"2025","South East","Age 30",114850
+"2025","South East","Age 31",119555
+"2025","South East","Age 32",122101
+"2025","South East","Age 33",127630
+"2025","South East","Age 34",131284
+"2025","South East","Age 35",133409
+"2025","South East","Age 36",133991
+"2025","South East","Age 37",135724
+"2025","South East","Age 38",134551
+"2025","South East","Age 39",133700
+"2025","South East","Age 40",133108
+"2025","South East","Age 41",130146
+"2025","South East","Age 42",131337
+"2025","South East","Age 43",130888
+"2025","South East","Age 44",132923
+"2025","South East","Age 45",133213
+"2025","South East","Age 46",128774
+"2025","South East","Age 47",121170
+"2025","South East","Age 48",118695
+"2025","South East","Age 49",119059
+"2025","South East","Age 50",121876
+"2025","South East","Age 51",122733
+"2025","South East","Age 52",126393
+"2025","South East","Age 53",129170
+"2025","South East","Age 54",132470
+"2025","South East","Age 55",127383
+"2025","South East","Age 56",129842
+"2025","South East","Age 57",129982
+"2025","South East","Age 58",131389
+"2025","South East","Age 59",129799
+"2025","South East","Age 60",130011
+"2025","South East","Age 61",127284
+"2025","South East","Age 62",123869
+"2025","South East","Age 63",119333
+"2025","South East","Age 64",114587
+"2025","South West","Age 18",67282
+"2025","South West","Age 19",71646
+"2025","South West","Age 20",73970
+"2025","South West","Age 21",71446
+"2025","South West","Age 22",70366
+"2025","South West","Age 23",66507
+"2025","South West","Age 24",63873
+"2025","South West","Age 25",65226
+"2025","South West","Age 26",66301
+"2025","South West","Age 27",65940
+"2025","South West","Age 28",68309
+"2025","South West","Age 29",66990
+"2025","South West","Age 30",68153
+"2025","South West","Age 31",71437
+"2025","South West","Age 32",71505
+"2025","South West","Age 33",73855
+"2025","South West","Age 34",75896
+"2025","South West","Age 35",76234
+"2025","South West","Age 36",76346
+"2025","South West","Age 37",77164
+"2025","South West","Age 38",75842
+"2025","South West","Age 39",74778
+"2025","South West","Age 40",74172
+"2025","South West","Age 41",72516
+"2025","South West","Age 42",72233
+"2025","South West","Age 43",72309
+"2025","South West","Age 44",72890
+"2025","South West","Age 45",72896
+"2025","South West","Age 46",69985
+"2025","South West","Age 47",64181
+"2025","South West","Age 48",64002
+"2025","South West","Age 49",65392
+"2025","South West","Age 50",67536
+"2025","South West","Age 51",69946
+"2025","South West","Age 52",73249
+"2025","South West","Age 53",76500
+"2025","South West","Age 54",79518
+"2025","South West","Age 55",78180
+"2025","South West","Age 56",80508
+"2025","South West","Age 57",80458
+"2025","South West","Age 58",83214
+"2025","South West","Age 59",83660
+"2025","South West","Age 60",84165
+"2025","South West","Age 61",84080
+"2025","South West","Age 62",81393
+"2025","South West","Age 63",80352
+"2025","South West","Age 64",77680
+"2025","Wales","Age 18",34742
+"2025","Wales","Age 19",35107
+"2025","Wales","Age 20",37019
+"2025","Wales","Age 21",36097
+"2025","Wales","Age 22",37240
+"2025","Wales","Age 23",38234
+"2025","Wales","Age 24",37742
+"2025","Wales","Age 25",37432
+"2025","Wales","Age 26",37971
+"2025","Wales","Age 27",37607
+"2025","Wales","Age 28",39364
+"2025","Wales","Age 29",37870
+"2025","Wales","Age 30",38462
+"2025","Wales","Age 31",39450
+"2025","Wales","Age 32",39523
+"2025","Wales","Age 33",41145
+"2025","Wales","Age 34",42038
+"2025","Wales","Age 35",41419
+"2025","Wales","Age 36",41220
+"2025","Wales","Age 37",42078
+"2025","Wales","Age 38",41098
+"2025","Wales","Age 39",40401
+"2025","Wales","Age 40",40261
+"2025","Wales","Age 41",38391
+"2025","Wales","Age 42",38731
+"2025","Wales","Age 43",38145
+"2025","Wales","Age 44",38348
+"2025","Wales","Age 45",38824
+"2025","Wales","Age 46",36672
+"2025","Wales","Age 47",33798
+"2025","Wales","Age 48",33448
+"2025","Wales","Age 49",34253
+"2025","Wales","Age 50",35581
+"2025","Wales","Age 51",36600
+"2025","Wales","Age 52",38839
+"2025","Wales","Age 53",41240
+"2025","Wales","Age 54",43840
+"2025","Wales","Age 55",42219
+"2025","Wales","Age 56",44247
+"2025","Wales","Age 57",43707
+"2025","Wales","Age 58",44621
+"2025","Wales","Age 59",44592
+"2025","Wales","Age 60",45781
+"2025","Wales","Age 61",45613
+"2025","Wales","Age 62",44510
+"2025","Wales","Age 63",43653
+"2025","Wales","Age 64",42025
+"2025","Scotland","Age 18",58845
+"2025","Scotland","Age 19",60417
+"2025","Scotland","Age 20",59475
+"2025","Scotland","Age 21",64516
+"2025","Scotland","Age 22",70491
+"2025","Scotland","Age 23",71968
+"2025","Scotland","Age 24",74061
+"2025","Scotland","Age 25",76186
+"2025","Scotland","Age 26",72864
+"2025","Scotland","Age 27",70538
+"2025","Scotland","Age 28",71461
+"2025","Scotland","Age 29",70063
+"2025","Scotland","Age 30",69546
+"2025","Scotland","Age 31",71622
+"2025","Scotland","Age 32",71860
+"2025","Scotland","Age 33",74136
+"2025","Scotland","Age 34",75554
+"2025","Scotland","Age 35",73473
+"2025","Scotland","Age 36",73538
+"2025","Scotland","Age 37",74838
+"2025","Scotland","Age 38",72020
+"2025","Scotland","Age 39",72592
+"2025","Scotland","Age 40",72734
+"2025","Scotland","Age 41",70758
+"2025","Scotland","Age 42",71110
+"2025","Scotland","Age 43",70799
+"2025","Scotland","Age 44",71485
+"2025","Scotland","Age 45",69461
+"2025","Scotland","Age 46",68064
+"2025","Scotland","Age 47",62504
+"2025","Scotland","Age 48",61517
+"2025","Scotland","Age 49",64733
+"2025","Scotland","Age 50",65383
+"2025","Scotland","Age 51",66698
+"2025","Scotland","Age 52",69890
+"2025","Scotland","Age 53",73609
+"2025","Scotland","Age 54",77062
+"2025","Scotland","Age 55",76766
+"2025","Scotland","Age 56",79339
+"2025","Scotland","Age 57",80438
+"2025","Scotland","Age 58",80521
+"2025","Scotland","Age 59",79857
+"2025","Scotland","Age 60",82402
+"2025","Scotland","Age 61",81670
+"2025","Scotland","Age 62",80291
+"2025","Scotland","Age 63",77239
+"2025","Scotland","Age 64",74637

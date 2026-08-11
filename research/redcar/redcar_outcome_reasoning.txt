@@ -1,0 +1,296 @@
+REDCAR 2015 — OUTCOME ESTIMATE REASONING
+======================================================================
+
+All estimates are ESTIMATED_LOW data quality.
+Mid values represent the most plausible single estimate.
+Low/high values represent the plausible range given data uncertainty.
+All mid values sum to 100% at each time horizon.
+
+
+======================================================================
+TIME HORIZON: Q1 2016 (5 months post-closure)
+AGE BAND: all
+
+HARD ANCHORS USED:
+  still_seeking=25% (DWP JSA stats, HIGH). 35% never claimed JSA (unknown split). Remaining 40% left JSA by Feb 2016 (not necessarily employed).
+
+MATH:
+  still_seeking FIXED at 25% (DWP). exit MID: 12-18% early retirement (of 35% never-claimed) + ~2-3% early ESA = 20%. retrain MID: 2% — too early for genuine occupational retraining (courses only just starting). share_similar MID: 10% — workers with portable skills (electricians, HGV, maintenance) found work quickly. underemployed MID: 100-25-20-2-10 = 43%. Sum check: 25+20+2+10+43 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz: re-employment wages fell 10%; 80%+ moved to lower-paying employer → underemployment dominant. Port Talbot 5-month analogue: retraining near zero at 5 months. China Shock: immediate re-employment mainly low-wage (underemployed); high-wage workers → share_similar.
+
+DOMINANT UNCERTAINTY:
+  Split of the 35% who never claimed JSA — we cannot tell if they retired, were immediately re-employed, or left the UK.
+
+ESTIMATES:
+  retrain:       1-4%  (mid 2%)
+  share_similar: 6-15%  (mid 10%)
+  underemployed: 30-50%  (mid 43%)
+  exit:          12-28%  (mid 20%)
+  still_seeking: 25-25%  (mid 25%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q1 2016 (5 months post-closure)
+AGE BAND: 16-24
+
+HARD ANCHORS USED:
+  still_seeking=25% aggregate (DWP) — 16-24 cohort likely slightly higher than average as they are more persistent searchers.
+
+MATH:
+  exit LOW for 16-24: no pension access; only disability/ESA route (rare at young age). MID=7%. retrain MID=5%: young workers more likely to enter training programmes early. share_similar MID=15%: more geographically mobile, some find equivalent work quickly. still_seeking MID=28%: slightly above aggregate (more choosy, longer search acceptable). underemployed = 100-7-5-15-28 = 45%. Sum: 7+5+15+28+45 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  China Shock: younger workers more likely to move region and find equivalent work (share_similar). Hartz: younger workers had shorter benefit duration cuts, faster re-employment. Port Talbot: average age 36 — younger workers showed faster resolution.
+
+DOMINANT UNCERTAINTY:
+  Very small cohort (~207 workers). Individual variation dominates; aggregate rates less reliable.
+
+ESTIMATES:
+  retrain:       2-10%  (mid 5%)
+  share_similar: 8-22%  (mid 15%)
+  underemployed: 30-55%  (mid 45%)
+  exit:          3-13%  (mid 7%)
+  still_seeking: 25-32%  (mid 28%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q1 2016 (5 months post-closure)
+AGE BAND: 25-49
+
+HARD ANCHORS USED:
+  still_seeking=25% aggregate (DWP). 25-49 cohort near aggregate.
+
+MATH:
+  exit MID=16%: limited pension access at this age; mainly ESA and some early leavers. retrain MID=3%: too early for full retraining; family obligations limit options. share_similar MID=11%: moderate portable skills. underemployed = 100-16-3-11-28 = 42%. Sum: 28+16+3+11+42 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz 25-49: re-employment at lower wages dominates. Mini-job and temp work explosion in this age group.
+
+DOMINANT UNCERTAINTY:
+  How many in the 45-49 subgroup accessed early pension at 5 months vs still searching.
+
+ESTIMATES:
+  retrain:       1-7%  (mid 3%)
+  share_similar: 6-17%  (mid 11%)
+  underemployed: 28-52%  (mid 42%)
+  exit:          8-24%  (mid 16%)
+  still_seeking: 25-32%  (mid 28%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q1 2016 (5 months post-closure)
+AGE BAND: 50+
+
+HARD ANCHORS USED:
+  50%+ of workers seeking work aged 45+ (DWP note). still_seeking for 50+ estimated at 23% MID — slightly below aggregate as more exit rather than seek.
+
+MATH:
+  exit MID=33%: most early retirements happen immediately. 35% never claimed JSA — the 50+ cohort dominates this group. If ~65% of never-claimed are aged 50+ (proportional to workforce share): 0.65 × 35% = 22.75% of total workforce = 45.5% of 50+ cohort who never claimed. Of those, most retired → exit for 50+ is high even at 5 months. retrain MID=1%: near zero — too old, too early. share_similar MID=8%: some workers with specific expertise placed quickly. underemployed = 100-33-1-8-23 = 35%. Sum: 33+1+8+23+35 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz 50+: systematically pushed into pension system = EXIT. China Shock: older low-wage workers → exit. BSPS (British Steel Pension Scheme): DB pension accessible at 55; SSI workers aged 55-64 (~15% of total) likely all retire.
+
+DOMINANT UNCERTAINTY:
+  Proportion of 50+ cohort with sufficient pension entitlement to retire at 50-55 (depends on individual years of service).
+
+ESTIMATES:
+  retrain:       0-3%  (mid 1%)
+  share_similar: 4-13%  (mid 8%)
+  underemployed: 22-45%  (mid 35%)
+  exit:          20-42%  (mid 33%)
+  still_seeking: 20-28%  (mid 23%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2016 (12 months post-closure)
+AGE BAND: all
+
+HARD ANCHORS USED:
+  off_all_benefits=93% (Task Force, HIGH). still_on_benefits=7% (Task Force). self_employment=8.3% (172/2070). RC LA claimant count BELOW baseline by Q4 2016.
+
+MATH:
+  still_seeking MID=3%: RC LA claimants at Q4 2016 already -284 below baseline. Most workers resolved. 3% still on JSA estimate. exit_ESA = 7% - still_seeking = 7-3 = 4%. exit_retirement: ~15% aged 55-64 (most retire) + ~7% aged 50-54 with long service = ~22%. exit_total MID = exit_ESA(4) + exit_retirement(22) = 26%. Constraint check: exit_ESA(4) + still_seeking(3) = 7% = still_on_benefits ✓. retrain MID=6%: 15,510 courses / 2070 = 7.5 courses per worker but mostly short refreshers. Genuine occupational change estimated at 6% (above Port Talbot near-zero; UK has better programmes). share_similar MID=13%: self-employment floor 8.3% + ~5% who found equivalent industrial work = 13%. underemployed MID = 100-3-26-6-13 = 52%. Sum check: 3+26+6+13+52 = 100 ✓. Consistency: retrain+share_similar+underemployed+exit_retirement = 6+13+52+22 = 93% = off_all_benefits ✓.
+
+CROSS-EPISODE PRIORS:
+  Hartz: 80%+ re-employment to lower-paying employer → underemployment dominant → supports 52% MID. Port Talbot: 16% into new jobs at 12 months (floor for share_similar+retrain = 19% here). China Shock: TAA retrain <10% take-up; most retrained workers underemployed not share_similar. Hartz 50+: systematic pension shift = EXIT → supports high exit estimate.
+
+DOMINANT UNCERTAINTY:
+  Size of early retirement cohort (depends on individual pension entitlements — not public data). Whether self-employed workers count as share_similar or underemployed (income not verified).
+
+ESTIMATES:
+  retrain:       3-10%  (mid 6%)
+  share_similar: 8-20%  (mid 13%)
+  underemployed: 38-60%  (mid 52%)
+  exit:          18-34%  (mid 26%)
+  still_seeking: 2-5%  (mid 3%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2016 (12 months post-closure)
+AGE BAND: 16-24
+
+HARD ANCHORS USED:
+  No age-specific anchors available. Derived from aggregate + age-band adjustments.
+
+MATH:
+  exit MID=8%: no pension access; only disability (ESA) route. Rare at this age. retrain MID=12%: young workers more likely to change career; longer payback. share_similar MID=18%: more mobile; some left Teesside for equivalent roles. still_seeking MID=7%: above average — still searching for right role. underemployed = 100-8-12-18-7 = 55%. Sum: 8+12+18+7+55 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  China Shock: young workers more likely to relocate and find share_similar work. Hartz: younger workers had faster re-employment transitions.
+
+DOMINANT UNCERTAINTY:
+  Small cohort (~207 workers). Geographic mobility assumption — did young Redcar workers actually relocate?
+
+ESTIMATES:
+  retrain:       7-20%  (mid 12%)
+  share_similar: 10-28%  (mid 18%)
+  underemployed: 45-65%  (mid 55%)
+  exit:          4-14%  (mid 8%)
+  still_seeking: 3-12%  (mid 7%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2016 (12 months post-closure)
+AGE BAND: 25-49
+
+HARD ANCHORS USED:
+  No age-specific anchors. Derived from aggregate + age-band adjustments.
+
+MATH:
+  exit MID=18%: limited pension access (mainly 45-49 subgroup with long service). retrain MID=6%: near-aggregate — family obligations limit but not prevent retraining. share_similar MID=14%: moderate — some equivalent roles found. still_seeking MID=4%: near average. underemployed = 100-18-6-14-4 = 58%. Sum: 18+6+14+4+58 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz 25-49: dominant re-employment to lower-paying employer. Mini-jobs + temp work concentration in this age group.
+
+DOMINANT UNCERTAINTY:
+  The 45-49 subgroup straddles two regimes (pension access vs not) — splitting at 45 vs 50 affects exit estimate significantly.
+
+ESTIMATES:
+  retrain:       3-11%  (mid 6%)
+  share_similar: 8-22%  (mid 14%)
+  underemployed: 48-68%  (mid 58%)
+  exit:          12-26%  (mid 18%)
+  still_seeking: 2-8%  (mid 4%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2016 (12 months post-closure)
+AGE BAND: 50+
+
+HARD ANCHORS USED:
+  50%+ of workforce aged 45+ (DWP). Age-tiered hiring subsidy £15k for 45+ acknowledges higher exit risk.
+
+MATH:
+  exit MID=40%: exit_ESA ~6% (disability higher at this age) + exit_retirement ~34% (workers aged 55-64 = ~15% of total workforce = 30% of 50+ cohort → most retire; plus 50-54 with long service = additional 10% of 50+ cohort → some retire early). Total retirement exit for 50+ cohort MID = 34%. exit_total = 40%. Constraint: exit_ESA + still_seeking should ≈ 7% at aggregate — 50+ cohort's contribution is exit_ESA=6, still_seeking=3 → 9% for this cohort; weighted by 50% of workforce: contributes 4.5% to the aggregate 7% (other cohorts contribute 2.5%). retrain MID=3%: Hartz shows 50+ not retrained — pushed to pension. Very short payback period. share_similar MID=10%: harder to place; age discrimination; £15k hiring subsidy helps at the margin. underemployed = 100-40-3-10-3 = 44%. Sum: 40+3+10+3+44 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz 50+: systematically pushed into pension system = EXIT (strongest applicable prior). China Shock: older workers → exit/disability (SSDI uptake elevated in trade-exposed regions). BSPS: workers aged 55-64 with DB pension can retire; 50-54 with 30+ service years can access early pension.
+
+DOMINANT UNCERTAINTY:
+  Pension entitlement data (years of service) is not publicly available. Age discrimination in re-employment is difficult to quantify.
+
+ESTIMATES:
+  retrain:       1-6%  (mid 3%)
+  share_similar: 5-16%  (mid 10%)
+  underemployed: 34-54%  (mid 44%)
+  exit:          30-52%  (mid 40%)
+  still_seeking: 1-6%  (mid 3%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2017 (24 months post-closure)
+AGE BAND: all
+
+HARD ANCHORS USED:
+  self_employment=15.2% (315/2070). area_wage_change=-0.5% real (vs +1.6% NE). claimant count returned to pre-closure baseline by Oct 2017.
+
+MATH:
+  still_seeking MID=2%: claimant count at pre-closure baseline by Oct 2017. Essentially resolved. exit MID=30%: some additional workers who failed at job search moved to pension/disability by 24 months. More 50-54 workers with 2 years of failed search accepted early retirement. retrain MID=8%: delayed retraining completed. £9m invested in 23,000 courses by 2 years. Some workers who couldn't find work used the time to retrain. share_similar MID=15%: self-employment = 15.2% (315/2070) — this is the direct anchor. Note: some self-employed may be underemployed (lower income than pre-closure). underemployed MID = 100-2-30-8-15 = 45%. Sum check: 2+30+8+15+45 = 100 ✓. Wage check: area wages still -0.5% real → underemployment persists → 45% consistent.
+
+CROSS-EPISODE PRIORS:
+  Hartz: revolving door — workers cycle back to unemployment after unstable new jobs. Some who appeared re-employed at 12 months may have returned to unemployment by 24 months. China Shock: effects persisted to 2019 with no recovery 9 years after shock plateau. BUT: Redcar had £46m government support → better than unsupported closures.
+
+DOMINANT UNCERTAINTY:
+  Whether self-employment (15.2%) is genuinely share_similar or masked underemployment. Income data for the self-employed not available.
+
+ESTIMATES:
+  retrain:       5-14%  (mid 8%)
+  share_similar: 10-22%  (mid 15%)
+  underemployed: 35-55%  (mid 45%)
+  exit:          22-40%  (mid 30%)
+  still_seeking: 1-4%  (mid 2%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2017 (24 months post-closure)
+AGE BAND: 16-24
+
+HARD ANCHORS USED:
+  No age-specific data at 24 months.
+
+MATH:
+  retrain MID=18%: by 24 months, young workers who couldn't find work have completed retraining. share_similar MID=22%: 2 years is enough time to relocate and find equivalent work. exit MID=7%: only disability; no retirement. underemployed = 100-18-22-7-3 = 50. Sum: 18+22+7+3+50 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz: younger workers showed faster labour market recovery at 2 years than older workers.
+
+DOMINANT UNCERTAINTY:
+  Geographic mobility — whether young Redcar workers relocated or stayed in the area.
+
+ESTIMATES:
+  retrain:       10-28%  (mid 18%)
+  share_similar: 12-32%  (mid 22%)
+  underemployed: 35-55%  (mid 45%)
+  exit:          3-13%  (mid 7%)
+  still_seeking: 1-6%  (mid 3%)
+  mid sum: 95
+
+======================================================================
+TIME HORIZON: Q4 2017 (24 months post-closure)
+AGE BAND: 25-49
+
+HARD ANCHORS USED:
+  No age-specific data at 24 months.
+
+MATH:
+  exit MID=22%: 45-49 subgroup increasingly accessing early pension by 24 months. retrain MID=10%: some completed retraining after failed job search. share_similar MID=16%: near aggregate. underemployed = 100-22-10-16-2 = 50. Sum: 22+10+16+2+50 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz: 25-49 cohort showed persistent underemployment at 2 years (mini-jobs, temp contracts).
+
+DOMINANT UNCERTAINTY:
+  Family obligations limiting geographic mobility — reduces share_similar.
+
+ESTIMATES:
+  retrain:       5-17%  (mid 10%)
+  share_similar: 10-24%  (mid 16%)
+  underemployed: 38-60%  (mid 50%)
+  exit:          16-30%  (mid 22%)
+  still_seeking: 1-4%  (mid 2%)
+  mid sum: 100
+
+======================================================================
+TIME HORIZON: Q4 2017 (24 months post-closure)
+AGE BAND: 50+
+
+HARD ANCHORS USED:
+  No age-specific data at 24 months.
+
+MATH:
+  exit MID=45%: by 24 months, more 50-54 workers have given up search and accessed pension. Some who were underemployed at 12 months left poor jobs and retired. retrain MID=3%: near zero — too late and too old to recoup investment. share_similar MID=12%: slight increase from 12 months as hiring subsidy takes time to work. underemployed = 100-45-3-12-2 = 38. Sum: 45+3+12+2+38 = 100 ✓
+
+CROSS-EPISODE PRIORS:
+  Hartz 50+: pension shift predominantly completed within 2 years. China Shock: older workers showed no recovery even at 9 years in trade-exposed zones.
+
+DOMINANT UNCERTAINTY:
+  Whether underemployed workers at 12 months stayed in work or moved to early retirement by 24 months (revolving door effect).
+
+ESTIMATES:
+  retrain:       1-6%  (mid 3%)
+  share_similar: 8-18%  (mid 12%)
+  underemployed: 28-48%  (mid 38%)
+  exit:          38-56%  (mid 45%)
+  still_seeking: 0-4%  (mid 2%)
+  mid sum: 100

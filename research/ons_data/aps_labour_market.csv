@@ -1,0 +1,1882 @@
+period,region,variable,value
+Jan 2005-Dec 2005,North East,Economic activity rate - aged 16-64,73.1
+Jan 2005-Dec 2005,North East,Employment rate - aged 16-64,69.0
+Jan 2005-Dec 2005,North East,Unemployment rate - aged 16+,5.6
+Jan 2005-Dec 2005,North West,Economic activity rate - aged 16-64,74.5
+Jan 2005-Dec 2005,North West,Employment rate - aged 16-64,70.6
+Jan 2005-Dec 2005,North West,Unemployment rate - aged 16+,5.2
+Jan 2005-Dec 2005,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.9
+Jan 2005-Dec 2005,Yorkshire and The Humber,Employment rate - aged 16-64,72.3
+Jan 2005-Dec 2005,Yorkshire and The Humber,Unemployment rate - aged 16+,4.8
+Jan 2005-Dec 2005,East Midlands,Economic activity rate - aged 16-64,77.5
+Jan 2005-Dec 2005,East Midlands,Employment rate - aged 16-64,73.9
+Jan 2005-Dec 2005,East Midlands,Unemployment rate - aged 16+,4.7
+Jan 2005-Dec 2005,West Midlands,Economic activity rate - aged 16-64,75.5
+Jan 2005-Dec 2005,West Midlands,Employment rate - aged 16-64,71.6
+Jan 2005-Dec 2005,West Midlands,Unemployment rate - aged 16+,5.1
+Jan 2005-Dec 2005,East,Economic activity rate - aged 16-64,79.5
+Jan 2005-Dec 2005,East,Employment rate - aged 16-64,76.3
+Jan 2005-Dec 2005,East,Unemployment rate - aged 16+,4.0
+Jan 2005-Dec 2005,London,Economic activity rate - aged 16-64,73.4
+Jan 2005-Dec 2005,London,Employment rate - aged 16-64,68.0
+Jan 2005-Dec 2005,London,Unemployment rate - aged 16+,7.2
+Jan 2005-Dec 2005,South East,Economic activity rate - aged 16-64,80.4
+Jan 2005-Dec 2005,South East,Employment rate - aged 16-64,77.4
+Jan 2005-Dec 2005,South East,Unemployment rate - aged 16+,3.7
+Jan 2005-Dec 2005,South West,Economic activity rate - aged 16-64,78.4
+Jan 2005-Dec 2005,South West,Employment rate - aged 16-64,75.7
+Jan 2005-Dec 2005,South West,Unemployment rate - aged 16+,3.4
+Jan 2005-Dec 2005,Wales,Economic activity rate - aged 16-64,73.0
+Jan 2005-Dec 2005,Wales,Employment rate - aged 16-64,69.2
+Jan 2005-Dec 2005,Wales,Unemployment rate - aged 16+,5.1
+Jan 2005-Dec 2005,Scotland,Economic activity rate - aged 16-64,77.1
+Jan 2005-Dec 2005,Scotland,Employment rate - aged 16-64,73.0
+Jan 2005-Dec 2005,Scotland,Unemployment rate - aged 16+,5.3
+Apr 2005-Mar 2006,North East,Economic activity rate - aged 16-64,73.2
+Apr 2005-Mar 2006,North East,Employment rate - aged 16-64,68.7
+Apr 2005-Mar 2006,North East,Unemployment rate - aged 16+,6.1
+Apr 2005-Mar 2006,North West,Economic activity rate - aged 16-64,74.4
+Apr 2005-Mar 2006,North West,Employment rate - aged 16-64,70.6
+Apr 2005-Mar 2006,North West,Unemployment rate - aged 16+,5.0
+Apr 2005-Mar 2006,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.8
+Apr 2005-Mar 2006,Yorkshire and The Humber,Employment rate - aged 16-64,71.9
+Apr 2005-Mar 2006,Yorkshire and The Humber,Unemployment rate - aged 16+,5.1
+Apr 2005-Mar 2006,East Midlands,Economic activity rate - aged 16-64,78.2
+Apr 2005-Mar 2006,East Midlands,Employment rate - aged 16-64,74.5
+Apr 2005-Mar 2006,East Midlands,Unemployment rate - aged 16+,4.6
+Apr 2005-Mar 2006,West Midlands,Economic activity rate - aged 16-64,75.0
+Apr 2005-Mar 2006,West Midlands,Employment rate - aged 16-64,71.0
+Apr 2005-Mar 2006,West Midlands,Unemployment rate - aged 16+,5.2
+Apr 2005-Mar 2006,East,Economic activity rate - aged 16-64,79.1
+Apr 2005-Mar 2006,East,Employment rate - aged 16-64,75.9
+Apr 2005-Mar 2006,East,Unemployment rate - aged 16+,4.0
+Apr 2005-Mar 2006,London,Economic activity rate - aged 16-64,73.4
+Apr 2005-Mar 2006,London,Employment rate - aged 16-64,67.7
+Apr 2005-Mar 2006,London,Unemployment rate - aged 16+,7.7
+Apr 2005-Mar 2006,South East,Economic activity rate - aged 16-64,80.5
+Apr 2005-Mar 2006,South East,Employment rate - aged 16-64,77.3
+Apr 2005-Mar 2006,South East,Unemployment rate - aged 16+,3.9
+Apr 2005-Mar 2006,South West,Economic activity rate - aged 16-64,78.3
+Apr 2005-Mar 2006,South West,Employment rate - aged 16-64,75.6
+Apr 2005-Mar 2006,South West,Unemployment rate - aged 16+,3.4
+Apr 2005-Mar 2006,Wales,Economic activity rate - aged 16-64,72.8
+Apr 2005-Mar 2006,Wales,Employment rate - aged 16-64,69.1
+Apr 2005-Mar 2006,Wales,Unemployment rate - aged 16+,5.1
+Apr 2005-Mar 2006,Scotland,Economic activity rate - aged 16-64,77.1
+Apr 2005-Mar 2006,Scotland,Employment rate - aged 16-64,72.9
+Apr 2005-Mar 2006,Scotland,Unemployment rate - aged 16+,5.4
+Jul 2005-Jun 2006,North East,Economic activity rate - aged 16-64,73.4
+Jul 2005-Jun 2006,North East,Employment rate - aged 16-64,68.9
+Jul 2005-Jun 2006,North East,Unemployment rate - aged 16+,6.1
+Jul 2005-Jun 2006,North West,Economic activity rate - aged 16-64,74.4
+Jul 2005-Jun 2006,North West,Employment rate - aged 16-64,70.5
+Jul 2005-Jun 2006,North West,Unemployment rate - aged 16+,5.2
+Jul 2005-Jun 2006,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.2
+Jul 2005-Jun 2006,Yorkshire and The Humber,Employment rate - aged 16-64,72.0
+Jul 2005-Jun 2006,Yorkshire and The Humber,Unemployment rate - aged 16+,5.4
+Jul 2005-Jun 2006,East Midlands,Economic activity rate - aged 16-64,78.3
+Jul 2005-Jun 2006,East Midlands,Employment rate - aged 16-64,74.4
+Jul 2005-Jun 2006,East Midlands,Unemployment rate - aged 16+,5.0
+Jul 2005-Jun 2006,West Midlands,Economic activity rate - aged 16-64,75.2
+Jul 2005-Jun 2006,West Midlands,Employment rate - aged 16-64,71.1
+Jul 2005-Jun 2006,West Midlands,Unemployment rate - aged 16+,5.4
+Jul 2005-Jun 2006,East,Economic activity rate - aged 16-64,79.2
+Jul 2005-Jun 2006,East,Employment rate - aged 16-64,75.6
+Jul 2005-Jun 2006,East,Unemployment rate - aged 16+,4.4
+Jul 2005-Jun 2006,London,Economic activity rate - aged 16-64,73.5
+Jul 2005-Jun 2006,London,Employment rate - aged 16-64,67.7
+Jul 2005-Jun 2006,London,Unemployment rate - aged 16+,7.8
+Jul 2005-Jun 2006,South East,Economic activity rate - aged 16-64,80.4
+Jul 2005-Jun 2006,South East,Employment rate - aged 16-64,77.0
+Jul 2005-Jun 2006,South East,Unemployment rate - aged 16+,4.3
+Jul 2005-Jun 2006,South West,Economic activity rate - aged 16-64,78.6
+Jul 2005-Jun 2006,South West,Employment rate - aged 16-64,75.7
+Jul 2005-Jun 2006,South West,Unemployment rate - aged 16+,3.7
+Jul 2005-Jun 2006,Wales,Economic activity rate - aged 16-64,73.1
+Jul 2005-Jun 2006,Wales,Employment rate - aged 16-64,69.2
+Jul 2005-Jun 2006,Wales,Unemployment rate - aged 16+,5.2
+Jul 2005-Jun 2006,Scotland,Economic activity rate - aged 16-64,77.3
+Jul 2005-Jun 2006,Scotland,Employment rate - aged 16-64,73.1
+Jul 2005-Jun 2006,Scotland,Unemployment rate - aged 16+,5.5
+Oct 2005-Sep 2006,North East,Economic activity rate - aged 16-64,73.7
+Oct 2005-Sep 2006,North East,Employment rate - aged 16-64,68.8
+Oct 2005-Sep 2006,North East,Unemployment rate - aged 16+,6.6
+Oct 2005-Sep 2006,North West,Economic activity rate - aged 16-64,74.6
+Oct 2005-Sep 2006,North West,Employment rate - aged 16-64,70.6
+Oct 2005-Sep 2006,North West,Unemployment rate - aged 16+,5.2
+Oct 2005-Sep 2006,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.0
+Oct 2005-Sep 2006,Yorkshire and The Humber,Employment rate - aged 16-64,71.6
+Oct 2005-Sep 2006,Yorkshire and The Humber,Unemployment rate - aged 16+,5.7
+Oct 2005-Sep 2006,East Midlands,Economic activity rate - aged 16-64,78.3
+Oct 2005-Sep 2006,East Midlands,Employment rate - aged 16-64,74.3
+Oct 2005-Sep 2006,East Midlands,Unemployment rate - aged 16+,5.0
+Oct 2005-Sep 2006,West Midlands,Economic activity rate - aged 16-64,75.3
+Oct 2005-Sep 2006,West Midlands,Employment rate - aged 16-64,71.0
+Oct 2005-Sep 2006,West Midlands,Unemployment rate - aged 16+,5.6
+Oct 2005-Sep 2006,East,Economic activity rate - aged 16-64,79.3
+Oct 2005-Sep 2006,East,Employment rate - aged 16-64,75.6
+Oct 2005-Sep 2006,East,Unemployment rate - aged 16+,4.6
+Oct 2005-Sep 2006,London,Economic activity rate - aged 16-64,73.3
+Oct 2005-Sep 2006,London,Employment rate - aged 16-64,67.4
+Oct 2005-Sep 2006,London,Unemployment rate - aged 16+,8.0
+Oct 2005-Sep 2006,South East,Economic activity rate - aged 16-64,80.5
+Oct 2005-Sep 2006,South East,Employment rate - aged 16-64,77.0
+Oct 2005-Sep 2006,South East,Unemployment rate - aged 16+,4.4
+Oct 2005-Sep 2006,South West,Economic activity rate - aged 16-64,78.5
+Oct 2005-Sep 2006,South West,Employment rate - aged 16-64,75.5
+Oct 2005-Sep 2006,South West,Unemployment rate - aged 16+,3.8
+Oct 2005-Sep 2006,Wales,Economic activity rate - aged 16-64,73.1
+Oct 2005-Sep 2006,Wales,Employment rate - aged 16-64,69.2
+Oct 2005-Sep 2006,Wales,Unemployment rate - aged 16+,5.3
+Oct 2005-Sep 2006,Scotland,Economic activity rate - aged 16-64,77.2
+Oct 2005-Sep 2006,Scotland,Employment rate - aged 16-64,73.1
+Oct 2005-Sep 2006,Scotland,Unemployment rate - aged 16+,5.2
+Jan 2006-Dec 2006,North East,Economic activity rate - aged 16-64,74.0
+Jan 2006-Dec 2006,North East,Employment rate - aged 16-64,68.9
+Jan 2006-Dec 2006,North East,Unemployment rate - aged 16+,6.9
+Jan 2006-Dec 2006,North West,Economic activity rate - aged 16-64,74.6
+Jan 2006-Dec 2006,North West,Employment rate - aged 16-64,70.6
+Jan 2006-Dec 2006,North West,Unemployment rate - aged 16+,5.3
+Jan 2006-Dec 2006,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.1
+Jan 2006-Dec 2006,Yorkshire and The Humber,Employment rate - aged 16-64,71.9
+Jan 2006-Dec 2006,Yorkshire and The Humber,Unemployment rate - aged 16+,5.5
+Jan 2006-Dec 2006,East Midlands,Economic activity rate - aged 16-64,78.4
+Jan 2006-Dec 2006,East Midlands,Employment rate - aged 16-64,74.3
+Jan 2006-Dec 2006,East Midlands,Unemployment rate - aged 16+,5.2
+Jan 2006-Dec 2006,West Midlands,Economic activity rate - aged 16-64,75.5
+Jan 2006-Dec 2006,West Midlands,Employment rate - aged 16-64,71.3
+Jan 2006-Dec 2006,West Midlands,Unemployment rate - aged 16+,5.5
+Jan 2006-Dec 2006,East,Economic activity rate - aged 16-64,78.9
+Jan 2006-Dec 2006,East,Employment rate - aged 16-64,75.3
+Jan 2006-Dec 2006,East,Unemployment rate - aged 16+,4.6
+Jan 2006-Dec 2006,London,Economic activity rate - aged 16-64,73.8
+Jan 2006-Dec 2006,London,Employment rate - aged 16-64,68.1
+Jan 2006-Dec 2006,London,Unemployment rate - aged 16+,7.7
+Jan 2006-Dec 2006,South East,Economic activity rate - aged 16-64,80.4
+Jan 2006-Dec 2006,South East,Employment rate - aged 16-64,76.8
+Jan 2006-Dec 2006,South East,Unemployment rate - aged 16+,4.5
+Jan 2006-Dec 2006,South West,Economic activity rate - aged 16-64,78.8
+Jan 2006-Dec 2006,South West,Employment rate - aged 16-64,75.9
+Jan 2006-Dec 2006,South West,Unemployment rate - aged 16+,3.7
+Jan 2006-Dec 2006,Wales,Economic activity rate - aged 16-64,73.1
+Jan 2006-Dec 2006,Wales,Employment rate - aged 16-64,69.2
+Jan 2006-Dec 2006,Wales,Unemployment rate - aged 16+,5.2
+Jan 2006-Dec 2006,Scotland,Economic activity rate - aged 16-64,77.8
+Jan 2006-Dec 2006,Scotland,Employment rate - aged 16-64,73.7
+Jan 2006-Dec 2006,Scotland,Unemployment rate - aged 16+,5.2
+Apr 2006-Mar 2007,North East,Economic activity rate - aged 16-64,74.2
+Apr 2006-Mar 2007,North East,Employment rate - aged 16-64,69.3
+Apr 2006-Mar 2007,North East,Unemployment rate - aged 16+,6.6
+Apr 2006-Mar 2007,North West,Economic activity rate - aged 16-64,74.7
+Apr 2006-Mar 2007,North West,Employment rate - aged 16-64,70.5
+Apr 2006-Mar 2007,North West,Unemployment rate - aged 16+,5.4
+Apr 2006-Mar 2007,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.0
+Apr 2006-Mar 2007,Yorkshire and The Humber,Employment rate - aged 16-64,71.8
+Apr 2006-Mar 2007,Yorkshire and The Humber,Unemployment rate - aged 16+,5.5
+Apr 2006-Mar 2007,East Midlands,Economic activity rate - aged 16-64,78.3
+Apr 2006-Mar 2007,East Midlands,Employment rate - aged 16-64,74.3
+Apr 2006-Mar 2007,East Midlands,Unemployment rate - aged 16+,5.1
+Apr 2006-Mar 2007,West Midlands,Economic activity rate - aged 16-64,75.6
+Apr 2006-Mar 2007,West Midlands,Employment rate - aged 16-64,71.4
+Apr 2006-Mar 2007,West Midlands,Unemployment rate - aged 16+,5.5
+Apr 2006-Mar 2007,East,Economic activity rate - aged 16-64,78.7
+Apr 2006-Mar 2007,East,Employment rate - aged 16-64,75.1
+Apr 2006-Mar 2007,East,Unemployment rate - aged 16+,4.5
+Apr 2006-Mar 2007,London,Economic activity rate - aged 16-64,74.0
+Apr 2006-Mar 2007,London,Employment rate - aged 16-64,68.3
+Apr 2006-Mar 2007,London,Unemployment rate - aged 16+,7.5
+Apr 2006-Mar 2007,South East,Economic activity rate - aged 16-64,80.4
+Apr 2006-Mar 2007,South East,Employment rate - aged 16-64,76.8
+Apr 2006-Mar 2007,South East,Unemployment rate - aged 16+,4.4
+Apr 2006-Mar 2007,South West,Economic activity rate - aged 16-64,78.8
+Apr 2006-Mar 2007,South West,Employment rate - aged 16-64,75.8
+Apr 2006-Mar 2007,South West,Unemployment rate - aged 16+,3.8
+Apr 2006-Mar 2007,Wales,Economic activity rate - aged 16-64,73.1
+Apr 2006-Mar 2007,Wales,Employment rate - aged 16-64,69.1
+Apr 2006-Mar 2007,Wales,Unemployment rate - aged 16+,5.3
+Apr 2006-Mar 2007,Scotland,Economic activity rate - aged 16-64,77.9
+Apr 2006-Mar 2007,Scotland,Employment rate - aged 16-64,73.8
+Apr 2006-Mar 2007,Scotland,Unemployment rate - aged 16+,5.2
+Jul 2006-Jun 2007,North East,Economic activity rate - aged 16-64,74.5
+Jul 2006-Jun 2007,North East,Employment rate - aged 16-64,69.5
+Jul 2006-Jun 2007,North East,Unemployment rate - aged 16+,6.7
+Jul 2006-Jun 2007,North West,Economic activity rate - aged 16-64,74.9
+Jul 2006-Jun 2007,North West,Employment rate - aged 16-64,70.6
+Jul 2006-Jun 2007,North West,Unemployment rate - aged 16+,5.6
+Jul 2006-Jun 2007,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.6
+Jul 2006-Jun 2007,Yorkshire and The Humber,Employment rate - aged 16-64,71.4
+Jul 2006-Jun 2007,Yorkshire and The Humber,Unemployment rate - aged 16+,5.5
+Jul 2006-Jun 2007,East Midlands,Economic activity rate - aged 16-64,78.1
+Jul 2006-Jun 2007,East Midlands,Employment rate - aged 16-64,74.3
+Jul 2006-Jun 2007,East Midlands,Unemployment rate - aged 16+,4.9
+Jul 2006-Jun 2007,West Midlands,Economic activity rate - aged 16-64,75.5
+Jul 2006-Jun 2007,West Midlands,Employment rate - aged 16-64,71.1
+Jul 2006-Jun 2007,West Midlands,Unemployment rate - aged 16+,5.7
+Jul 2006-Jun 2007,East,Economic activity rate - aged 16-64,78.6
+Jul 2006-Jun 2007,East,Employment rate - aged 16-64,75.2
+Jul 2006-Jun 2007,East,Unemployment rate - aged 16+,4.3
+Jul 2006-Jun 2007,London,Economic activity rate - aged 16-64,74.1
+Jul 2006-Jun 2007,London,Employment rate - aged 16-64,68.5
+Jul 2006-Jun 2007,London,Unemployment rate - aged 16+,7.5
+Jul 2006-Jun 2007,South East,Economic activity rate - aged 16-64,80.3
+Jul 2006-Jun 2007,South East,Employment rate - aged 16-64,76.9
+Jul 2006-Jun 2007,South East,Unemployment rate - aged 16+,4.2
+Jul 2006-Jun 2007,South West,Economic activity rate - aged 16-64,79.2
+Jul 2006-Jun 2007,South West,Employment rate - aged 16-64,76.2
+Jul 2006-Jun 2007,South West,Unemployment rate - aged 16+,3.7
+Jul 2006-Jun 2007,Wales,Economic activity rate - aged 16-64,73.2
+Jul 2006-Jun 2007,Wales,Employment rate - aged 16-64,69.2
+Jul 2006-Jun 2007,Wales,Unemployment rate - aged 16+,5.4
+Jul 2006-Jun 2007,Scotland,Economic activity rate - aged 16-64,77.9
+Jul 2006-Jun 2007,Scotland,Employment rate - aged 16-64,74.0
+Jul 2006-Jun 2007,Scotland,Unemployment rate - aged 16+,4.9
+Oct 2006-Sep 2007,North East,Economic activity rate - aged 16-64,74.3
+Oct 2006-Sep 2007,North East,Employment rate - aged 16-64,69.6
+Oct 2006-Sep 2007,North East,Unemployment rate - aged 16+,6.4
+Oct 2006-Sep 2007,North West,Economic activity rate - aged 16-64,74.5
+Oct 2006-Sep 2007,North West,Employment rate - aged 16-64,70.2
+Oct 2006-Sep 2007,North West,Unemployment rate - aged 16+,5.7
+Oct 2006-Sep 2007,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.6
+Oct 2006-Sep 2007,Yorkshire and The Humber,Employment rate - aged 16-64,71.5
+Oct 2006-Sep 2007,Yorkshire and The Humber,Unemployment rate - aged 16+,5.5
+Oct 2006-Sep 2007,East Midlands,Economic activity rate - aged 16-64,78.3
+Oct 2006-Sep 2007,East Midlands,Employment rate - aged 16-64,74.4
+Oct 2006-Sep 2007,East Midlands,Unemployment rate - aged 16+,5.0
+Oct 2006-Sep 2007,West Midlands,Economic activity rate - aged 16-64,75.2
+Oct 2006-Sep 2007,West Midlands,Employment rate - aged 16-64,70.8
+Oct 2006-Sep 2007,West Midlands,Unemployment rate - aged 16+,5.7
+Oct 2006-Sep 2007,East,Economic activity rate - aged 16-64,78.2
+Oct 2006-Sep 2007,East,Employment rate - aged 16-64,74.8
+Oct 2006-Sep 2007,East,Unemployment rate - aged 16+,4.3
+Oct 2006-Sep 2007,London,Economic activity rate - aged 16-64,73.9
+Oct 2006-Sep 2007,London,Employment rate - aged 16-64,68.6
+Oct 2006-Sep 2007,London,Unemployment rate - aged 16+,7.0
+Oct 2006-Sep 2007,South East,Economic activity rate - aged 16-64,80.2
+Oct 2006-Sep 2007,South East,Employment rate - aged 16-64,76.8
+Oct 2006-Sep 2007,South East,Unemployment rate - aged 16+,4.1
+Oct 2006-Sep 2007,South West,Economic activity rate - aged 16-64,79.5
+Oct 2006-Sep 2007,South West,Employment rate - aged 16-64,76.5
+Oct 2006-Sep 2007,South West,Unemployment rate - aged 16+,3.7
+Oct 2006-Sep 2007,Wales,Economic activity rate - aged 16-64,73.0
+Oct 2006-Sep 2007,Wales,Employment rate - aged 16-64,69.0
+Oct 2006-Sep 2007,Wales,Unemployment rate - aged 16+,5.3
+Oct 2006-Sep 2007,Scotland,Economic activity rate - aged 16-64,78.0
+Oct 2006-Sep 2007,Scotland,Employment rate - aged 16-64,74.1
+Oct 2006-Sep 2007,Scotland,Unemployment rate - aged 16+,5.0
+Jan 2007-Dec 2007,North East,Economic activity rate - aged 16-64,74.1
+Jan 2007-Dec 2007,North East,Employment rate - aged 16-64,69.6
+Jan 2007-Dec 2007,North East,Unemployment rate - aged 16+,6.1
+Jan 2007-Dec 2007,North West,Economic activity rate - aged 16-64,74.7
+Jan 2007-Dec 2007,North West,Employment rate - aged 16-64,70.5
+Jan 2007-Dec 2007,North West,Unemployment rate - aged 16+,5.6
+Jan 2007-Dec 2007,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.5
+Jan 2007-Dec 2007,Yorkshire and The Humber,Employment rate - aged 16-64,71.3
+Jan 2007-Dec 2007,Yorkshire and The Humber,Unemployment rate - aged 16+,5.4
+Jan 2007-Dec 2007,East Midlands,Economic activity rate - aged 16-64,77.7
+Jan 2007-Dec 2007,East Midlands,Employment rate - aged 16-64,73.7
+Jan 2007-Dec 2007,East Midlands,Unemployment rate - aged 16+,5.0
+Jan 2007-Dec 2007,West Midlands,Economic activity rate - aged 16-64,75.2
+Jan 2007-Dec 2007,West Midlands,Employment rate - aged 16-64,70.7
+Jan 2007-Dec 2007,West Midlands,Unemployment rate - aged 16+,5.9
+Jan 2007-Dec 2007,East,Economic activity rate - aged 16-64,78.7
+Jan 2007-Dec 2007,East,Employment rate - aged 16-64,75.3
+Jan 2007-Dec 2007,East,Unemployment rate - aged 16+,4.3
+Jan 2007-Dec 2007,London,Economic activity rate - aged 16-64,73.7
+Jan 2007-Dec 2007,London,Employment rate - aged 16-64,68.6
+Jan 2007-Dec 2007,London,Unemployment rate - aged 16+,6.9
+Jan 2007-Dec 2007,South East,Economic activity rate - aged 16-64,80.1
+Jan 2007-Dec 2007,South East,Employment rate - aged 16-64,76.7
+Jan 2007-Dec 2007,South East,Unemployment rate - aged 16+,4.2
+Jan 2007-Dec 2007,South West,Economic activity rate - aged 16-64,79.2
+Jan 2007-Dec 2007,South West,Employment rate - aged 16-64,76.1
+Jan 2007-Dec 2007,South West,Unemployment rate - aged 16+,3.9
+Jan 2007-Dec 2007,Wales,Economic activity rate - aged 16-64,73.3
+Jan 2007-Dec 2007,Wales,Employment rate - aged 16-64,69.2
+Jan 2007-Dec 2007,Wales,Unemployment rate - aged 16+,5.5
+Jan 2007-Dec 2007,Scotland,Economic activity rate - aged 16-64,77.6
+Jan 2007-Dec 2007,Scotland,Employment rate - aged 16-64,73.9
+Jan 2007-Dec 2007,Scotland,Unemployment rate - aged 16+,4.7
+Apr 2007-Mar 2008,North East,Economic activity rate - aged 16-64,74.1
+Apr 2007-Mar 2008,North East,Employment rate - aged 16-64,69.3
+Apr 2007-Mar 2008,North East,Unemployment rate - aged 16+,6.4
+Apr 2007-Mar 2008,North West,Economic activity rate - aged 16-64,74.7
+Apr 2007-Mar 2008,North West,Employment rate - aged 16-64,70.3
+Apr 2007-Mar 2008,North West,Unemployment rate - aged 16+,5.7
+Apr 2007-Mar 2008,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.6
+Apr 2007-Mar 2008,Yorkshire and The Humber,Employment rate - aged 16-64,71.7
+Apr 2007-Mar 2008,Yorkshire and The Humber,Unemployment rate - aged 16+,5.1
+Apr 2007-Mar 2008,East Midlands,Economic activity rate - aged 16-64,77.7
+Apr 2007-Mar 2008,East Midlands,Employment rate - aged 16-64,73.6
+Apr 2007-Mar 2008,East Midlands,Unemployment rate - aged 16+,5.2
+Apr 2007-Mar 2008,West Midlands,Economic activity rate - aged 16-64,75.5
+Apr 2007-Mar 2008,West Midlands,Employment rate - aged 16-64,70.7
+Apr 2007-Mar 2008,West Midlands,Unemployment rate - aged 16+,6.2
+Apr 2007-Mar 2008,East,Economic activity rate - aged 16-64,79.1
+Apr 2007-Mar 2008,East,Employment rate - aged 16-64,75.7
+Apr 2007-Mar 2008,East,Unemployment rate - aged 16+,4.2
+Apr 2007-Mar 2008,London,Economic activity rate - aged 16-64,73.9
+Apr 2007-Mar 2008,London,Employment rate - aged 16-64,68.8
+Apr 2007-Mar 2008,London,Unemployment rate - aged 16+,6.8
+Apr 2007-Mar 2008,South East,Economic activity rate - aged 16-64,80.1
+Apr 2007-Mar 2008,South East,Employment rate - aged 16-64,76.8
+Apr 2007-Mar 2008,South East,Unemployment rate - aged 16+,4.1
+Apr 2007-Mar 2008,South West,Economic activity rate - aged 16-64,79.4
+Apr 2007-Mar 2008,South West,Employment rate - aged 16-64,76.4
+Apr 2007-Mar 2008,South West,Unemployment rate - aged 16+,3.7
+Apr 2007-Mar 2008,Wales,Economic activity rate - aged 16-64,73.4
+Apr 2007-Mar 2008,Wales,Employment rate - aged 16-64,69.3
+Apr 2007-Mar 2008,Wales,Unemployment rate - aged 16+,5.6
+Apr 2007-Mar 2008,Scotland,Economic activity rate - aged 16-64,77.6
+Apr 2007-Mar 2008,Scotland,Employment rate - aged 16-64,74.0
+Apr 2007-Mar 2008,Scotland,Unemployment rate - aged 16+,4.6
+Jul 2007-Jun 2008,North East,Economic activity rate - aged 16-64,73.6
+Jul 2007-Jun 2008,North East,Employment rate - aged 16-64,68.8
+Jul 2007-Jun 2008,North East,Unemployment rate - aged 16+,6.5
+Jul 2007-Jun 2008,North West,Economic activity rate - aged 16-64,74.5
+Jul 2007-Jun 2008,North West,Employment rate - aged 16-64,70.1
+Jul 2007-Jun 2008,North West,Unemployment rate - aged 16+,5.8
+Jul 2007-Jun 2008,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.5
+Jul 2007-Jun 2008,Yorkshire and The Humber,Employment rate - aged 16-64,71.3
+Jul 2007-Jun 2008,Yorkshire and The Humber,Unemployment rate - aged 16+,5.5
+Jul 2007-Jun 2008,East Midlands,Economic activity rate - aged 16-64,78.0
+Jul 2007-Jun 2008,East Midlands,Employment rate - aged 16-64,73.7
+Jul 2007-Jun 2008,East Midlands,Unemployment rate - aged 16+,5.3
+Jul 2007-Jun 2008,West Midlands,Economic activity rate - aged 16-64,75.4
+Jul 2007-Jun 2008,West Midlands,Employment rate - aged 16-64,70.7
+Jul 2007-Jun 2008,West Midlands,Unemployment rate - aged 16+,6.2
+Jul 2007-Jun 2008,East,Economic activity rate - aged 16-64,79.0
+Jul 2007-Jun 2008,East,Employment rate - aged 16-64,75.6
+Jul 2007-Jun 2008,East,Unemployment rate - aged 16+,4.2
+Jul 2007-Jun 2008,London,Economic activity rate - aged 16-64,74.2
+Jul 2007-Jun 2008,London,Employment rate - aged 16-64,69.3
+Jul 2007-Jun 2008,London,Unemployment rate - aged 16+,6.5
+Jul 2007-Jun 2008,South East,Economic activity rate - aged 16-64,80.2
+Jul 2007-Jun 2008,South East,Employment rate - aged 16-64,76.8
+Jul 2007-Jun 2008,South East,Unemployment rate - aged 16+,4.2
+Jul 2007-Jun 2008,South West,Economic activity rate - aged 16-64,79.4
+Jul 2007-Jun 2008,South West,Employment rate - aged 16-64,76.4
+Jul 2007-Jun 2008,South West,Unemployment rate - aged 16+,3.7
+Jul 2007-Jun 2008,Wales,Economic activity rate - aged 16-64,73.5
+Jul 2007-Jun 2008,Wales,Employment rate - aged 16-64,69.4
+Jul 2007-Jun 2008,Wales,Unemployment rate - aged 16+,5.5
+Jul 2007-Jun 2008,Scotland,Economic activity rate - aged 16-64,77.7
+Jul 2007-Jun 2008,Scotland,Employment rate - aged 16-64,74.3
+Jul 2007-Jun 2008,Scotland,Unemployment rate - aged 16+,4.4
+Oct 2007-Sep 2008,North East,Economic activity rate - aged 16-64,74.0
+Oct 2007-Sep 2008,North East,Employment rate - aged 16-64,68.9
+Oct 2007-Sep 2008,North East,Unemployment rate - aged 16+,6.8
+Oct 2007-Sep 2008,North West,Economic activity rate - aged 16-64,74.5
+Oct 2007-Sep 2008,North West,Employment rate - aged 16-64,70.1
+Oct 2007-Sep 2008,North West,Unemployment rate - aged 16+,5.8
+Oct 2007-Sep 2008,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.9
+Oct 2007-Sep 2008,Yorkshire and The Humber,Employment rate - aged 16-64,71.5
+Oct 2007-Sep 2008,Yorkshire and The Humber,Unemployment rate - aged 16+,5.8
+Oct 2007-Sep 2008,East Midlands,Economic activity rate - aged 16-64,78.2
+Oct 2007-Sep 2008,East Midlands,Employment rate - aged 16-64,73.9
+Oct 2007-Sep 2008,East Midlands,Unemployment rate - aged 16+,5.3
+Oct 2007-Sep 2008,West Midlands,Economic activity rate - aged 16-64,75.0
+Oct 2007-Sep 2008,West Midlands,Employment rate - aged 16-64,70.3
+Oct 2007-Sep 2008,West Midlands,Unemployment rate - aged 16+,6.1
+Oct 2007-Sep 2008,East,Economic activity rate - aged 16-64,78.9
+Oct 2007-Sep 2008,East,Employment rate - aged 16-64,75.4
+Oct 2007-Sep 2008,East,Unemployment rate - aged 16+,4.3
+Oct 2007-Sep 2008,London,Economic activity rate - aged 16-64,74.3
+Oct 2007-Sep 2008,London,Employment rate - aged 16-64,69.2
+Oct 2007-Sep 2008,London,Unemployment rate - aged 16+,6.9
+Oct 2007-Sep 2008,South East,Economic activity rate - aged 16-64,80.1
+Oct 2007-Sep 2008,South East,Employment rate - aged 16-64,76.6
+Oct 2007-Sep 2008,South East,Unemployment rate - aged 16+,4.2
+Oct 2007-Sep 2008,South West,Economic activity rate - aged 16-64,79.5
+Oct 2007-Sep 2008,South West,Employment rate - aged 16-64,76.4
+Oct 2007-Sep 2008,South West,Unemployment rate - aged 16+,3.8
+Oct 2007-Sep 2008,Wales,Economic activity rate - aged 16-64,73.5
+Oct 2007-Sep 2008,Wales,Employment rate - aged 16-64,69.3
+Oct 2007-Sep 2008,Wales,Unemployment rate - aged 16+,5.7
+Oct 2007-Sep 2008,Scotland,Economic activity rate - aged 16-64,77.8
+Oct 2007-Sep 2008,Scotland,Employment rate - aged 16-64,74.3
+Oct 2007-Sep 2008,Scotland,Unemployment rate - aged 16+,4.5
+Jan 2008-Dec 2008,North East,Economic activity rate - aged 16-64,74.2
+Jan 2008-Dec 2008,North East,Employment rate - aged 16-64,68.6
+Jan 2008-Dec 2008,North East,Unemployment rate - aged 16+,7.4
+Jan 2008-Dec 2008,North West,Economic activity rate - aged 16-64,74.1
+Jan 2008-Dec 2008,North West,Employment rate - aged 16-64,69.4
+Jan 2008-Dec 2008,North West,Unemployment rate - aged 16+,6.3
+Jan 2008-Dec 2008,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.7
+Jan 2008-Dec 2008,Yorkshire and The Humber,Employment rate - aged 16-64,71.0
+Jan 2008-Dec 2008,Yorkshire and The Humber,Unemployment rate - aged 16+,6.2
+Jan 2008-Dec 2008,East Midlands,Economic activity rate - aged 16-64,78.3
+Jan 2008-Dec 2008,East Midlands,Employment rate - aged 16-64,73.6
+Jan 2008-Dec 2008,East Midlands,Unemployment rate - aged 16+,5.8
+Jan 2008-Dec 2008,West Midlands,Economic activity rate - aged 16-64,75.3
+Jan 2008-Dec 2008,West Midlands,Employment rate - aged 16-64,70.0
+Jan 2008-Dec 2008,West Midlands,Unemployment rate - aged 16+,6.9
+Jan 2008-Dec 2008,East,Economic activity rate - aged 16-64,78.9
+Jan 2008-Dec 2008,East,Employment rate - aged 16-64,75.0
+Jan 2008-Dec 2008,East,Unemployment rate - aged 16+,4.9
+Jan 2008-Dec 2008,London,Economic activity rate - aged 16-64,74.4
+Jan 2008-Dec 2008,London,Employment rate - aged 16-64,69.1
+Jan 2008-Dec 2008,London,Unemployment rate - aged 16+,7.0
+Jan 2008-Dec 2008,South East,Economic activity rate - aged 16-64,80.2
+Jan 2008-Dec 2008,South East,Employment rate - aged 16-64,76.6
+Jan 2008-Dec 2008,South East,Unemployment rate - aged 16+,4.4
+Jan 2008-Dec 2008,South West,Economic activity rate - aged 16-64,79.5
+Jan 2008-Dec 2008,South West,Employment rate - aged 16-64,76.2
+Jan 2008-Dec 2008,South West,Unemployment rate - aged 16+,4.1
+Jan 2008-Dec 2008,Wales,Economic activity rate - aged 16-64,73.4
+Jan 2008-Dec 2008,Wales,Employment rate - aged 16-64,68.7
+Jan 2008-Dec 2008,Wales,Unemployment rate - aged 16+,6.3
+Jan 2008-Dec 2008,Scotland,Economic activity rate - aged 16-64,77.4
+Jan 2008-Dec 2008,Scotland,Employment rate - aged 16-64,73.6
+Jan 2008-Dec 2008,Scotland,Unemployment rate - aged 16+,4.9
+Apr 2008-Mar 2009,North East,Economic activity rate - aged 16-64,74.3
+Apr 2008-Mar 2009,North East,Employment rate - aged 16-64,68.2
+Apr 2008-Mar 2009,North East,Unemployment rate - aged 16+,8.1
+Apr 2008-Mar 2009,North West,Economic activity rate - aged 16-64,74.3
+Apr 2008-Mar 2009,North West,Employment rate - aged 16-64,69.2
+Apr 2008-Mar 2009,North West,Unemployment rate - aged 16+,6.8
+Apr 2008-Mar 2009,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.9
+Apr 2008-Mar 2009,Yorkshire and The Humber,Employment rate - aged 16-64,70.5
+Apr 2008-Mar 2009,Yorkshire and The Humber,Unemployment rate - aged 16+,7.0
+Apr 2008-Mar 2009,East Midlands,Economic activity rate - aged 16-64,78.1
+Apr 2008-Mar 2009,East Midlands,Employment rate - aged 16-64,73.1
+Apr 2008-Mar 2009,East Midlands,Unemployment rate - aged 16+,6.4
+Apr 2008-Mar 2009,West Midlands,Economic activity rate - aged 16-64,75.2
+Apr 2008-Mar 2009,West Midlands,Employment rate - aged 16-64,69.5
+Apr 2008-Mar 2009,West Midlands,Unemployment rate - aged 16+,7.5
+Apr 2008-Mar 2009,East,Economic activity rate - aged 16-64,79.4
+Apr 2008-Mar 2009,East,Employment rate - aged 16-64,75.1
+Apr 2008-Mar 2009,East,Unemployment rate - aged 16+,5.3
+Apr 2008-Mar 2009,London,Economic activity rate - aged 16-64,74.4
+Apr 2008-Mar 2009,London,Employment rate - aged 16-64,68.8
+Apr 2008-Mar 2009,London,Unemployment rate - aged 16+,7.5
+Apr 2008-Mar 2009,South East,Economic activity rate - aged 16-64,80.4
+Apr 2008-Mar 2009,South East,Employment rate - aged 16-64,76.6
+Apr 2008-Mar 2009,South East,Unemployment rate - aged 16+,4.6
+Apr 2008-Mar 2009,South West,Economic activity rate - aged 16-64,79.5
+Apr 2008-Mar 2009,South West,Employment rate - aged 16-64,75.8
+Apr 2008-Mar 2009,South West,Unemployment rate - aged 16+,4.5
+Apr 2008-Mar 2009,Wales,Economic activity rate - aged 16-64,73.5
+Apr 2008-Mar 2009,Wales,Employment rate - aged 16-64,68.4
+Apr 2008-Mar 2009,Wales,Unemployment rate - aged 16+,6.8
+Apr 2008-Mar 2009,Scotland,Economic activity rate - aged 16-64,77.5
+Apr 2008-Mar 2009,Scotland,Employment rate - aged 16-64,73.3
+Apr 2008-Mar 2009,Scotland,Unemployment rate - aged 16+,5.3
+Jul 2008-Jun 2009,North East,Economic activity rate - aged 16-64,74.2
+Jul 2008-Jun 2009,North East,Employment rate - aged 16-64,67.6
+Jul 2008-Jun 2009,North East,Unemployment rate - aged 16+,8.7
+Jul 2008-Jun 2009,North West,Economic activity rate - aged 16-64,74.6
+Jul 2008-Jun 2009,North West,Employment rate - aged 16-64,68.9
+Jul 2008-Jun 2009,North West,Unemployment rate - aged 16+,7.5
+Jul 2008-Jun 2009,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.0
+Jul 2008-Jun 2009,Yorkshire and The Humber,Employment rate - aged 16-64,70.2
+Jul 2008-Jun 2009,Yorkshire and The Humber,Unemployment rate - aged 16+,7.5
+Jul 2008-Jun 2009,East Midlands,Economic activity rate - aged 16-64,78.3
+Jul 2008-Jun 2009,East Midlands,Employment rate - aged 16-64,72.9
+Jul 2008-Jun 2009,East Midlands,Unemployment rate - aged 16+,6.8
+Jul 2008-Jun 2009,West Midlands,Economic activity rate - aged 16-64,75.3
+Jul 2008-Jun 2009,West Midlands,Employment rate - aged 16-64,68.7
+Jul 2008-Jun 2009,West Midlands,Unemployment rate - aged 16+,8.5
+Jul 2008-Jun 2009,East,Economic activity rate - aged 16-64,79.5
+Jul 2008-Jun 2009,East,Employment rate - aged 16-64,74.8
+Jul 2008-Jun 2009,East,Unemployment rate - aged 16+,5.8
+Jul 2008-Jun 2009,London,Economic activity rate - aged 16-64,74.1
+Jul 2008-Jun 2009,London,Employment rate - aged 16-64,67.9
+Jul 2008-Jun 2009,London,Unemployment rate - aged 16+,8.3
+Jul 2008-Jun 2009,South East,Economic activity rate - aged 16-64,80.2
+Jul 2008-Jun 2009,South East,Employment rate - aged 16-64,76.2
+Jul 2008-Jun 2009,South East,Unemployment rate - aged 16+,5.0
+Jul 2008-Jun 2009,South West,Economic activity rate - aged 16-64,79.4
+Jul 2008-Jun 2009,South West,Employment rate - aged 16-64,75.1
+Jul 2008-Jun 2009,South West,Unemployment rate - aged 16+,5.3
+Jul 2008-Jun 2009,Wales,Economic activity rate - aged 16-64,73.2
+Jul 2008-Jun 2009,Wales,Employment rate - aged 16-64,67.5
+Jul 2008-Jun 2009,Wales,Unemployment rate - aged 16+,7.6
+Jul 2008-Jun 2009,Scotland,Economic activity rate - aged 16-64,77.4
+Jul 2008-Jun 2009,Scotland,Employment rate - aged 16-64,72.8
+Jul 2008-Jun 2009,Scotland,Unemployment rate - aged 16+,5.9
+Oct 2008-Sep 2009,North East,Economic activity rate - aged 16-64,73.8
+Oct 2008-Sep 2009,North East,Employment rate - aged 16-64,67.0
+Oct 2008-Sep 2009,North East,Unemployment rate - aged 16+,9.1
+Oct 2008-Sep 2009,North West,Economic activity rate - aged 16-64,74.7
+Oct 2008-Sep 2009,North West,Employment rate - aged 16-64,68.4
+Oct 2008-Sep 2009,North West,Unemployment rate - aged 16+,8.2
+Oct 2008-Sep 2009,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.6
+Oct 2008-Sep 2009,Yorkshire and The Humber,Employment rate - aged 16-64,69.4
+Oct 2008-Sep 2009,Yorkshire and The Humber,Unemployment rate - aged 16+,8.1
+Oct 2008-Sep 2009,East Midlands,Economic activity rate - aged 16-64,77.9
+Oct 2008-Sep 2009,East Midlands,Employment rate - aged 16-64,72.2
+Oct 2008-Sep 2009,East Midlands,Unemployment rate - aged 16+,7.2
+Oct 2008-Sep 2009,West Midlands,Economic activity rate - aged 16-64,75.6
+Oct 2008-Sep 2009,West Midlands,Employment rate - aged 16-64,68.5
+Oct 2008-Sep 2009,West Midlands,Unemployment rate - aged 16+,9.3
+Oct 2008-Sep 2009,East,Economic activity rate - aged 16-64,79.6
+Oct 2008-Sep 2009,East,Employment rate - aged 16-64,74.7
+Oct 2008-Sep 2009,East,Unemployment rate - aged 16+,6.0
+Oct 2008-Sep 2009,London,Economic activity rate - aged 16-64,74.3
+Oct 2008-Sep 2009,London,Employment rate - aged 16-64,67.8
+Oct 2008-Sep 2009,London,Unemployment rate - aged 16+,8.5
+Oct 2008-Sep 2009,South East,Economic activity rate - aged 16-64,80.1
+Oct 2008-Sep 2009,South East,Employment rate - aged 16-64,75.6
+Oct 2008-Sep 2009,South East,Unemployment rate - aged 16+,5.6
+Oct 2008-Sep 2009,South West,Economic activity rate - aged 16-64,79.3
+Oct 2008-Sep 2009,South West,Employment rate - aged 16-64,74.6
+Oct 2008-Sep 2009,South West,Unemployment rate - aged 16+,5.8
+Oct 2008-Sep 2009,Wales,Economic activity rate - aged 16-64,73.2
+Oct 2008-Sep 2009,Wales,Employment rate - aged 16-64,67.2
+Oct 2008-Sep 2009,Wales,Unemployment rate - aged 16+,8.1
+Oct 2008-Sep 2009,Scotland,Economic activity rate - aged 16-64,77.5
+Oct 2008-Sep 2009,Scotland,Employment rate - aged 16-64,72.3
+Oct 2008-Sep 2009,Scotland,Unemployment rate - aged 16+,6.6
+Jan 2009-Dec 2009,North East,Economic activity rate - aged 16-64,73.3
+Jan 2009-Dec 2009,North East,Employment rate - aged 16-64,66.3
+Jan 2009-Dec 2009,North East,Unemployment rate - aged 16+,9.5
+Jan 2009-Dec 2009,North West,Economic activity rate - aged 16-64,74.6
+Jan 2009-Dec 2009,North West,Employment rate - aged 16-64,68.1
+Jan 2009-Dec 2009,North West,Unemployment rate - aged 16+,8.5
+Jan 2009-Dec 2009,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.3
+Jan 2009-Dec 2009,Yorkshire and The Humber,Employment rate - aged 16-64,68.9
+Jan 2009-Dec 2009,Yorkshire and The Humber,Unemployment rate - aged 16+,8.5
+Jan 2009-Dec 2009,East Midlands,Economic activity rate - aged 16-64,77.9
+Jan 2009-Dec 2009,East Midlands,Employment rate - aged 16-64,72.2
+Jan 2009-Dec 2009,East Midlands,Unemployment rate - aged 16+,7.3
+Jan 2009-Dec 2009,West Midlands,Economic activity rate - aged 16-64,75.4
+Jan 2009-Dec 2009,West Midlands,Employment rate - aged 16-64,68.2
+Jan 2009-Dec 2009,West Midlands,Unemployment rate - aged 16+,9.4
+Jan 2009-Dec 2009,East,Economic activity rate - aged 16-64,79.3
+Jan 2009-Dec 2009,East,Employment rate - aged 16-64,74.2
+Jan 2009-Dec 2009,East,Unemployment rate - aged 16+,6.3
+Jan 2009-Dec 2009,London,Economic activity rate - aged 16-64,74.9
+Jan 2009-Dec 2009,London,Employment rate - aged 16-64,67.9
+Jan 2009-Dec 2009,London,Unemployment rate - aged 16+,9.2
+Jan 2009-Dec 2009,South East,Economic activity rate - aged 16-64,79.9
+Jan 2009-Dec 2009,South East,Employment rate - aged 16-64,75.1
+Jan 2009-Dec 2009,South East,Unemployment rate - aged 16+,5.9
+Jan 2009-Dec 2009,South West,Economic activity rate - aged 16-64,79.3
+Jan 2009-Dec 2009,South West,Employment rate - aged 16-64,74.4
+Jan 2009-Dec 2009,South West,Unemployment rate - aged 16+,6.2
+Jan 2009-Dec 2009,Wales,Economic activity rate - aged 16-64,72.9
+Jan 2009-Dec 2009,Wales,Employment rate - aged 16-64,66.7
+Jan 2009-Dec 2009,Wales,Unemployment rate - aged 16+,8.2
+Jan 2009-Dec 2009,Scotland,Economic activity rate - aged 16-64,77.4
+Jan 2009-Dec 2009,Scotland,Employment rate - aged 16-64,72.0
+Jan 2009-Dec 2009,Scotland,Unemployment rate - aged 16+,6.9
+Apr 2009-Mar 2010,North East,Economic activity rate - aged 16-64,73.0
+Apr 2009-Mar 2010,North East,Employment rate - aged 16-64,65.8
+Apr 2009-Mar 2010,North East,Unemployment rate - aged 16+,9.7
+Apr 2009-Mar 2010,North West,Economic activity rate - aged 16-64,74.4
+Apr 2009-Mar 2010,North West,Employment rate - aged 16-64,67.8
+Apr 2009-Mar 2010,North West,Unemployment rate - aged 16+,8.7
+Apr 2009-Mar 2010,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.3
+Apr 2009-Mar 2010,Yorkshire and The Humber,Employment rate - aged 16-64,68.5
+Apr 2009-Mar 2010,Yorkshire and The Humber,Unemployment rate - aged 16+,8.9
+Apr 2009-Mar 2010,East Midlands,Economic activity rate - aged 16-64,77.3
+Apr 2009-Mar 2010,East Midlands,Employment rate - aged 16-64,71.6
+Apr 2009-Mar 2010,East Midlands,Unemployment rate - aged 16+,7.3
+Apr 2009-Mar 2010,West Midlands,Economic activity rate - aged 16-64,75.6
+Apr 2009-Mar 2010,West Midlands,Employment rate - aged 16-64,68.5
+Apr 2009-Mar 2010,West Midlands,Unemployment rate - aged 16+,9.3
+Apr 2009-Mar 2010,East,Economic activity rate - aged 16-64,78.8
+Apr 2009-Mar 2010,East,Employment rate - aged 16-64,73.4
+Apr 2009-Mar 2010,East,Unemployment rate - aged 16+,6.6
+Apr 2009-Mar 2010,London,Economic activity rate - aged 16-64,74.5
+Apr 2009-Mar 2010,London,Employment rate - aged 16-64,67.5
+Apr 2009-Mar 2010,London,Unemployment rate - aged 16+,9.3
+Apr 2009-Mar 2010,South East,Economic activity rate - aged 16-64,79.7
+Apr 2009-Mar 2010,South East,Employment rate - aged 16-64,74.7
+Apr 2009-Mar 2010,South East,Unemployment rate - aged 16+,6.3
+Apr 2009-Mar 2010,South West,Economic activity rate - aged 16-64,78.8
+Apr 2009-Mar 2010,South West,Employment rate - aged 16-64,73.9
+Apr 2009-Mar 2010,South West,Unemployment rate - aged 16+,6.2
+Apr 2009-Mar 2010,Wales,Economic activity rate - aged 16-64,72.8
+Apr 2009-Mar 2010,Wales,Employment rate - aged 16-64,66.6
+Apr 2009-Mar 2010,Wales,Unemployment rate - aged 16+,8.3
+Apr 2009-Mar 2010,Scotland,Economic activity rate - aged 16-64,77.0
+Apr 2009-Mar 2010,Scotland,Employment rate - aged 16-64,71.3
+Apr 2009-Mar 2010,Scotland,Unemployment rate - aged 16+,7.3
+Jul 2009-Jun 2010,North East,Economic activity rate - aged 16-64,73.6
+Jul 2009-Jun 2010,North East,Employment rate - aged 16-64,66.2
+Jul 2009-Jun 2010,North East,Unemployment rate - aged 16+,9.8
+Jul 2009-Jun 2010,North West,Economic activity rate - aged 16-64,74.4
+Jul 2009-Jun 2010,North West,Employment rate - aged 16-64,68.2
+Jul 2009-Jun 2010,North West,Unemployment rate - aged 16+,8.2
+Jul 2009-Jun 2010,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.6
+Jul 2009-Jun 2010,Yorkshire and The Humber,Employment rate - aged 16-64,68.9
+Jul 2009-Jun 2010,Yorkshire and The Humber,Unemployment rate - aged 16+,8.7
+Jul 2009-Jun 2010,East Midlands,Economic activity rate - aged 16-64,77.1
+Jul 2009-Jun 2010,East Midlands,Employment rate - aged 16-64,71.5
+Jul 2009-Jun 2010,East Midlands,Unemployment rate - aged 16+,7.2
+Jul 2009-Jun 2010,West Midlands,Economic activity rate - aged 16-64,75.2
+Jul 2009-Jun 2010,West Midlands,Employment rate - aged 16-64,68.3
+Jul 2009-Jun 2010,West Midlands,Unemployment rate - aged 16+,9.0
+Jul 2009-Jun 2010,East,Economic activity rate - aged 16-64,78.7
+Jul 2009-Jun 2010,East,Employment rate - aged 16-64,73.4
+Jul 2009-Jun 2010,East,Unemployment rate - aged 16+,6.6
+Jul 2009-Jun 2010,London,Economic activity rate - aged 16-64,74.5
+Jul 2009-Jun 2010,London,Employment rate - aged 16-64,67.6
+Jul 2009-Jun 2010,London,Unemployment rate - aged 16+,9.1
+Jul 2009-Jun 2010,South East,Economic activity rate - aged 16-64,79.3
+Jul 2009-Jun 2010,South East,Employment rate - aged 16-64,74.3
+Jul 2009-Jun 2010,South East,Unemployment rate - aged 16+,6.1
+Jul 2009-Jun 2010,South West,Economic activity rate - aged 16-64,78.5
+Jul 2009-Jun 2010,South West,Employment rate - aged 16-64,73.6
+Jul 2009-Jun 2010,South West,Unemployment rate - aged 16+,6.1
+Jul 2009-Jun 2010,Wales,Economic activity rate - aged 16-64,72.9
+Jul 2009-Jun 2010,Wales,Employment rate - aged 16-64,66.9
+Jul 2009-Jun 2010,Wales,Unemployment rate - aged 16+,8.0
+Jul 2009-Jun 2010,Scotland,Economic activity rate - aged 16-64,76.9
+Jul 2009-Jun 2010,Scotland,Employment rate - aged 16-64,71.0
+Jul 2009-Jun 2010,Scotland,Unemployment rate - aged 16+,7.5
+Oct 2009-Sep 2010,North East,Economic activity rate - aged 16-64,73.8
+Oct 2009-Sep 2010,North East,Employment rate - aged 16-64,66.6
+Oct 2009-Sep 2010,North East,Unemployment rate - aged 16+,9.6
+Oct 2009-Sep 2010,North West,Economic activity rate - aged 16-64,74.7
+Oct 2009-Sep 2010,North West,Employment rate - aged 16-64,68.5
+Oct 2009-Sep 2010,North West,Unemployment rate - aged 16+,8.2
+Oct 2009-Sep 2010,Yorkshire and The Humber,Economic activity rate - aged 16-64,74.9
+Oct 2009-Sep 2010,Yorkshire and The Humber,Employment rate - aged 16-64,68.4
+Oct 2009-Sep 2010,Yorkshire and The Humber,Unemployment rate - aged 16+,8.5
+Oct 2009-Sep 2010,East Midlands,Economic activity rate - aged 16-64,77.0
+Oct 2009-Sep 2010,East Midlands,Employment rate - aged 16-64,71.2
+Oct 2009-Sep 2010,East Midlands,Unemployment rate - aged 16+,7.4
+Oct 2009-Sep 2010,West Midlands,Economic activity rate - aged 16-64,74.7
+Oct 2009-Sep 2010,West Midlands,Employment rate - aged 16-64,67.9
+Oct 2009-Sep 2010,West Midlands,Unemployment rate - aged 16+,9.0
+Oct 2009-Sep 2010,East,Economic activity rate - aged 16-64,78.7
+Oct 2009-Sep 2010,East,Employment rate - aged 16-64,73.4
+Oct 2009-Sep 2010,East,Unemployment rate - aged 16+,6.6
+Oct 2009-Sep 2010,London,Economic activity rate - aged 16-64,74.3
+Oct 2009-Sep 2010,London,Employment rate - aged 16-64,67.5
+Oct 2009-Sep 2010,London,Unemployment rate - aged 16+,9.1
+Oct 2009-Sep 2010,South East,Economic activity rate - aged 16-64,79.4
+Oct 2009-Sep 2010,South East,Employment rate - aged 16-64,74.6
+Oct 2009-Sep 2010,South East,Unemployment rate - aged 16+,6.0
+Oct 2009-Sep 2010,South West,Economic activity rate - aged 16-64,78.7
+Oct 2009-Sep 2010,South West,Employment rate - aged 16-64,73.9
+Oct 2009-Sep 2010,South West,Unemployment rate - aged 16+,5.9
+Oct 2009-Sep 2010,Wales,Economic activity rate - aged 16-64,72.9
+Oct 2009-Sep 2010,Wales,Employment rate - aged 16-64,66.8
+Oct 2009-Sep 2010,Wales,Unemployment rate - aged 16+,8.1
+Oct 2009-Sep 2010,Scotland,Economic activity rate - aged 16-64,76.9
+Oct 2009-Sep 2010,Scotland,Employment rate - aged 16-64,71.0
+Oct 2009-Sep 2010,Scotland,Unemployment rate - aged 16+,7.5
+Jan 2010-Dec 2010,North East,Economic activity rate - aged 16-64,73.4
+Jan 2010-Dec 2010,North East,Employment rate - aged 16-64,66.2
+Jan 2010-Dec 2010,North East,Unemployment rate - aged 16+,9.7
+Jan 2010-Dec 2010,North West,Economic activity rate - aged 16-64,74.9
+Jan 2010-Dec 2010,North West,Employment rate - aged 16-64,68.8
+Jan 2010-Dec 2010,North West,Unemployment rate - aged 16+,8.0
+Jan 2010-Dec 2010,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.1
+Jan 2010-Dec 2010,Yorkshire and The Humber,Employment rate - aged 16-64,68.5
+Jan 2010-Dec 2010,Yorkshire and The Humber,Unemployment rate - aged 16+,8.7
+Jan 2010-Dec 2010,East Midlands,Economic activity rate - aged 16-64,76.6
+Jan 2010-Dec 2010,East Midlands,Employment rate - aged 16-64,70.8
+Jan 2010-Dec 2010,East Midlands,Unemployment rate - aged 16+,7.4
+Jan 2010-Dec 2010,West Midlands,Economic activity rate - aged 16-64,74.3
+Jan 2010-Dec 2010,West Midlands,Employment rate - aged 16-64,67.6
+Jan 2010-Dec 2010,West Midlands,Unemployment rate - aged 16+,8.8
+Jan 2010-Dec 2010,East,Economic activity rate - aged 16-64,78.6
+Jan 2010-Dec 2010,East,Employment rate - aged 16-64,73.3
+Jan 2010-Dec 2010,East,Unemployment rate - aged 16+,6.6
+Jan 2010-Dec 2010,London,Economic activity rate - aged 16-64,74.0
+Jan 2010-Dec 2010,London,Employment rate - aged 16-64,67.3
+Jan 2010-Dec 2010,London,Unemployment rate - aged 16+,8.9
+Jan 2010-Dec 2010,South East,Economic activity rate - aged 16-64,79.4
+Jan 2010-Dec 2010,South East,Employment rate - aged 16-64,74.6
+Jan 2010-Dec 2010,South East,Unemployment rate - aged 16+,6.0
+Jan 2010-Dec 2010,South West,Economic activity rate - aged 16-64,78.5
+Jan 2010-Dec 2010,South West,Employment rate - aged 16-64,73.7
+Jan 2010-Dec 2010,South West,Unemployment rate - aged 16+,5.9
+Jan 2010-Dec 2010,Wales,Economic activity rate - aged 16-64,72.7
+Jan 2010-Dec 2010,Wales,Employment rate - aged 16-64,66.5
+Jan 2010-Dec 2010,Wales,Unemployment rate - aged 16+,8.3
+Jan 2010-Dec 2010,Scotland,Economic activity rate - aged 16-64,77.0
+Jan 2010-Dec 2010,Scotland,Employment rate - aged 16-64,71.0
+Jan 2010-Dec 2010,Scotland,Unemployment rate - aged 16+,7.7
+Apr 2010-Mar 2011,North East,Economic activity rate - aged 16-64,73.4
+Apr 2010-Mar 2011,North East,Employment rate - aged 16-64,65.9
+Apr 2010-Mar 2011,North East,Unemployment rate - aged 16+,10.0
+Apr 2010-Mar 2011,North West,Economic activity rate - aged 16-64,74.5
+Apr 2010-Mar 2011,North West,Employment rate - aged 16-64,68.6
+Apr 2010-Mar 2011,North West,Unemployment rate - aged 16+,7.7
+Apr 2010-Mar 2011,Yorkshire and The Humber,Economic activity rate - aged 16-64,74.9
+Apr 2010-Mar 2011,Yorkshire and The Humber,Employment rate - aged 16-64,68.4
+Apr 2010-Mar 2011,Yorkshire and The Humber,Unemployment rate - aged 16+,8.6
+Apr 2010-Mar 2011,East Midlands,Economic activity rate - aged 16-64,76.8
+Apr 2010-Mar 2011,East Midlands,Employment rate - aged 16-64,71.1
+Apr 2010-Mar 2011,East Midlands,Unemployment rate - aged 16+,7.4
+Apr 2010-Mar 2011,West Midlands,Economic activity rate - aged 16-64,74.2
+Apr 2010-Mar 2011,West Midlands,Employment rate - aged 16-64,67.4
+Apr 2010-Mar 2011,West Midlands,Unemployment rate - aged 16+,8.9
+Apr 2010-Mar 2011,East,Economic activity rate - aged 16-64,78.5
+Apr 2010-Mar 2011,East,Employment rate - aged 16-64,73.2
+Apr 2010-Mar 2011,East,Unemployment rate - aged 16+,6.6
+Apr 2010-Mar 2011,London,Economic activity rate - aged 16-64,74.2
+Apr 2010-Mar 2011,London,Employment rate - aged 16-64,67.5
+Apr 2010-Mar 2011,London,Unemployment rate - aged 16+,8.9
+Apr 2010-Mar 2011,South East,Economic activity rate - aged 16-64,79.4
+Apr 2010-Mar 2011,South East,Employment rate - aged 16-64,74.7
+Apr 2010-Mar 2011,South East,Unemployment rate - aged 16+,5.8
+Apr 2010-Mar 2011,South West,Economic activity rate - aged 16-64,78.5
+Apr 2010-Mar 2011,South West,Employment rate - aged 16-64,73.7
+Apr 2010-Mar 2011,South West,Unemployment rate - aged 16+,6.0
+Apr 2010-Mar 2011,Wales,Economic activity rate - aged 16-64,72.7
+Apr 2010-Mar 2011,Wales,Employment rate - aged 16-64,66.4
+Apr 2010-Mar 2011,Wales,Unemployment rate - aged 16+,8.4
+Apr 2010-Mar 2011,Scotland,Economic activity rate - aged 16-64,77.1
+Apr 2010-Mar 2011,Scotland,Employment rate - aged 16-64,71.0
+Apr 2010-Mar 2011,Scotland,Unemployment rate - aged 16+,7.7
+Jul 2010-Jun 2011,North East,Economic activity rate - aged 16-64,73.0
+Jul 2010-Jun 2011,North East,Employment rate - aged 16-64,65.8
+Jul 2010-Jun 2011,North East,Unemployment rate - aged 16+,9.7
+Jul 2010-Jun 2011,North West,Economic activity rate - aged 16-64,74.6
+Jul 2010-Jun 2011,North West,Employment rate - aged 16-64,68.4
+Jul 2010-Jun 2011,North West,Unemployment rate - aged 16+,8.1
+Jul 2010-Jun 2011,Yorkshire and The Humber,Economic activity rate - aged 16-64,74.5
+Jul 2010-Jun 2011,Yorkshire and The Humber,Employment rate - aged 16-64,67.8
+Jul 2010-Jun 2011,Yorkshire and The Humber,Unemployment rate - aged 16+,8.8
+Jul 2010-Jun 2011,East Midlands,Economic activity rate - aged 16-64,76.9
+Jul 2010-Jun 2011,East Midlands,Employment rate - aged 16-64,70.9
+Jul 2010-Jun 2011,East Midlands,Unemployment rate - aged 16+,7.7
+Jul 2010-Jun 2011,West Midlands,Economic activity rate - aged 16-64,73.8
+Jul 2010-Jun 2011,West Midlands,Employment rate - aged 16-64,67.2
+Jul 2010-Jun 2011,West Midlands,Unemployment rate - aged 16+,8.7
+Jul 2010-Jun 2011,East,Economic activity rate - aged 16-64,78.8
+Jul 2010-Jun 2011,East,Employment rate - aged 16-64,73.4
+Jul 2010-Jun 2011,East,Unemployment rate - aged 16+,6.7
+Jul 2010-Jun 2011,London,Economic activity rate - aged 16-64,74.3
+Jul 2010-Jun 2011,London,Employment rate - aged 16-64,67.3
+Jul 2010-Jun 2011,London,Unemployment rate - aged 16+,9.3
+Jul 2010-Jun 2011,South East,Economic activity rate - aged 16-64,79.5
+Jul 2010-Jun 2011,South East,Employment rate - aged 16-64,74.8
+Jul 2010-Jun 2011,South East,Unemployment rate - aged 16+,5.9
+Jul 2010-Jun 2011,South West,Economic activity rate - aged 16-64,78.4
+Jul 2010-Jun 2011,South West,Employment rate - aged 16-64,73.7
+Jul 2010-Jun 2011,South West,Unemployment rate - aged 16+,5.9
+Jul 2010-Jun 2011,Wales,Economic activity rate - aged 16-64,72.8
+Jul 2010-Jun 2011,Wales,Employment rate - aged 16-64,66.4
+Jul 2010-Jun 2011,Wales,Unemployment rate - aged 16+,8.5
+Jul 2010-Jun 2011,Scotland,Economic activity rate - aged 16-64,76.9
+Jul 2010-Jun 2011,Scotland,Employment rate - aged 16-64,70.9
+Jul 2010-Jun 2011,Scotland,Unemployment rate - aged 16+,7.8
+Oct 2010-Sep 2011,North East,Economic activity rate - aged 16-64,72.5
+Oct 2010-Sep 2011,North East,Employment rate - aged 16-64,64.9
+Oct 2010-Sep 2011,North East,Unemployment rate - aged 16+,10.3
+Oct 2010-Sep 2011,North West,Economic activity rate - aged 16-64,74.3
+Oct 2010-Sep 2011,North West,Employment rate - aged 16-64,68.2
+Oct 2010-Sep 2011,North West,Unemployment rate - aged 16+,8.1
+Oct 2010-Sep 2011,Yorkshire and The Humber,Economic activity rate - aged 16-64,74.9
+Oct 2010-Sep 2011,Yorkshire and The Humber,Employment rate - aged 16-64,67.7
+Oct 2010-Sep 2011,Yorkshire and The Humber,Unemployment rate - aged 16+,9.4
+Oct 2010-Sep 2011,East Midlands,Economic activity rate - aged 16-64,76.8
+Oct 2010-Sep 2011,East Midlands,Employment rate - aged 16-64,70.9
+Oct 2010-Sep 2011,East Midlands,Unemployment rate - aged 16+,7.6
+Oct 2010-Sep 2011,West Midlands,Economic activity rate - aged 16-64,73.8
+Oct 2010-Sep 2011,West Midlands,Employment rate - aged 16-64,67.0
+Oct 2010-Sep 2011,West Midlands,Unemployment rate - aged 16+,9.0
+Oct 2010-Sep 2011,East,Economic activity rate - aged 16-64,78.6
+Oct 2010-Sep 2011,East,Employment rate - aged 16-64,73.3
+Oct 2010-Sep 2011,East,Unemployment rate - aged 16+,6.6
+Oct 2010-Sep 2011,London,Economic activity rate - aged 16-64,74.3
+Oct 2010-Sep 2011,London,Employment rate - aged 16-64,67.2
+Oct 2010-Sep 2011,London,Unemployment rate - aged 16+,9.5
+Oct 2010-Sep 2011,South East,Economic activity rate - aged 16-64,79.2
+Oct 2010-Sep 2011,South East,Employment rate - aged 16-64,74.4
+Oct 2010-Sep 2011,South East,Unemployment rate - aged 16+,5.9
+Oct 2010-Sep 2011,South West,Economic activity rate - aged 16-64,78.5
+Oct 2010-Sep 2011,South West,Employment rate - aged 16-64,73.7
+Oct 2010-Sep 2011,South West,Unemployment rate - aged 16+,6.0
+Oct 2010-Sep 2011,Wales,Economic activity rate - aged 16-64,72.6
+Oct 2010-Sep 2011,Wales,Employment rate - aged 16-64,66.3
+Oct 2010-Sep 2011,Wales,Unemployment rate - aged 16+,8.5
+Oct 2010-Sep 2011,Scotland,Economic activity rate - aged 16-64,76.8
+Oct 2010-Sep 2011,Scotland,Employment rate - aged 16-64,70.5
+Oct 2010-Sep 2011,Scotland,Unemployment rate - aged 16+,8.0
+Jan 2011-Dec 2011,North East,Economic activity rate - aged 16-64,72.6
+Jan 2011-Dec 2011,North East,Employment rate - aged 16-64,64.9
+Jan 2011-Dec 2011,North East,Unemployment rate - aged 16+,10.4
+Jan 2011-Dec 2011,North West,Economic activity rate - aged 16-64,74.7
+Jan 2011-Dec 2011,North West,Employment rate - aged 16-64,68.3
+Jan 2011-Dec 2011,North West,Unemployment rate - aged 16+,8.4
+Jan 2011-Dec 2011,Yorkshire and The Humber,Economic activity rate - aged 16-64,74.8
+Jan 2011-Dec 2011,Yorkshire and The Humber,Employment rate - aged 16-64,67.6
+Jan 2011-Dec 2011,Yorkshire and The Humber,Unemployment rate - aged 16+,9.4
+Jan 2011-Dec 2011,East Midlands,Economic activity rate - aged 16-64,77.2
+Jan 2011-Dec 2011,East Midlands,Employment rate - aged 16-64,70.8
+Jan 2011-Dec 2011,East Midlands,Unemployment rate - aged 16+,8.1
+Jan 2011-Dec 2011,West Midlands,Economic activity rate - aged 16-64,74.2
+Jan 2011-Dec 2011,West Midlands,Employment rate - aged 16-64,67.2
+Jan 2011-Dec 2011,West Midlands,Unemployment rate - aged 16+,9.3
+Jan 2011-Dec 2011,East,Economic activity rate - aged 16-64,79.1
+Jan 2011-Dec 2011,East,Employment rate - aged 16-64,73.7
+Jan 2011-Dec 2011,East,Unemployment rate - aged 16+,6.7
+Jan 2011-Dec 2011,London,Economic activity rate - aged 16-64,74.4
+Jan 2011-Dec 2011,London,Employment rate - aged 16-64,67.3
+Jan 2011-Dec 2011,London,Unemployment rate - aged 16+,9.5
+Jan 2011-Dec 2011,South East,Economic activity rate - aged 16-64,79.1
+Jan 2011-Dec 2011,South East,Employment rate - aged 16-64,74.2
+Jan 2011-Dec 2011,South East,Unemployment rate - aged 16+,5.9
+Jan 2011-Dec 2011,South West,Economic activity rate - aged 16-64,78.4
+Jan 2011-Dec 2011,South West,Employment rate - aged 16-64,73.6
+Jan 2011-Dec 2011,South West,Unemployment rate - aged 16+,6.0
+Jan 2011-Dec 2011,Wales,Economic activity rate - aged 16-64,73.0
+Jan 2011-Dec 2011,Wales,Employment rate - aged 16-64,66.8
+Jan 2011-Dec 2011,Wales,Unemployment rate - aged 16+,8.3
+Jan 2011-Dec 2011,Scotland,Economic activity rate - aged 16-64,76.9
+Jan 2011-Dec 2011,Scotland,Employment rate - aged 16-64,70.5
+Jan 2011-Dec 2011,Scotland,Unemployment rate - aged 16+,8.2
+Apr 2011-Mar 2012,North East,Economic activity rate - aged 16-64,73.1
+Apr 2011-Mar 2012,North East,Employment rate - aged 16-64,65.1
+Apr 2011-Mar 2012,North East,Unemployment rate - aged 16+,10.7
+Apr 2011-Mar 2012,North West,Economic activity rate - aged 16-64,74.8
+Apr 2011-Mar 2012,North West,Employment rate - aged 16-64,68.2
+Apr 2011-Mar 2012,North West,Unemployment rate - aged 16+,8.8
+Apr 2011-Mar 2012,Yorkshire and The Humber,Economic activity rate - aged 16-64,74.8
+Apr 2011-Mar 2012,Yorkshire and The Humber,Employment rate - aged 16-64,67.5
+Apr 2011-Mar 2012,Yorkshire and The Humber,Unemployment rate - aged 16+,9.6
+Apr 2011-Mar 2012,East Midlands,Economic activity rate - aged 16-64,77.5
+Apr 2011-Mar 2012,East Midlands,Employment rate - aged 16-64,71.2
+Apr 2011-Mar 2012,East Midlands,Unemployment rate - aged 16+,8.0
+Apr 2011-Mar 2012,West Midlands,Economic activity rate - aged 16-64,74.3
+Apr 2011-Mar 2012,West Midlands,Employment rate - aged 16-64,67.4
+Apr 2011-Mar 2012,West Midlands,Unemployment rate - aged 16+,9.1
+Apr 2011-Mar 2012,East,Economic activity rate - aged 16-64,79.5
+Apr 2011-Mar 2012,East,Employment rate - aged 16-64,74.1
+Apr 2011-Mar 2012,East,Unemployment rate - aged 16+,6.7
+Apr 2011-Mar 2012,London,Economic activity rate - aged 16-64,74.5
+Apr 2011-Mar 2012,London,Employment rate - aged 16-64,67.2
+Apr 2011-Mar 2012,London,Unemployment rate - aged 16+,9.6
+Apr 2011-Mar 2012,South East,Economic activity rate - aged 16-64,79.4
+Apr 2011-Mar 2012,South East,Employment rate - aged 16-64,74.6
+Apr 2011-Mar 2012,South East,Unemployment rate - aged 16+,6.0
+Apr 2011-Mar 2012,South West,Economic activity rate - aged 16-64,78.5
+Apr 2011-Mar 2012,South West,Employment rate - aged 16-64,73.5
+Apr 2011-Mar 2012,South West,Unemployment rate - aged 16+,6.1
+Apr 2011-Mar 2012,Wales,Economic activity rate - aged 16-64,73.0
+Apr 2011-Mar 2012,Wales,Employment rate - aged 16-64,66.7
+Apr 2011-Mar 2012,Wales,Unemployment rate - aged 16+,8.4
+Apr 2011-Mar 2012,Scotland,Economic activity rate - aged 16-64,76.7
+Apr 2011-Mar 2012,Scotland,Employment rate - aged 16-64,70.4
+Apr 2011-Mar 2012,Scotland,Unemployment rate - aged 16+,8.1
+Jul 2011-Jun 2012,North East,Economic activity rate - aged 16-64,73.6
+Jul 2011-Jun 2012,North East,Employment rate - aged 16-64,65.2
+Jul 2011-Jun 2012,North East,Unemployment rate - aged 16+,11.2
+Jul 2011-Jun 2012,North West,Economic activity rate - aged 16-64,75.2
+Jul 2011-Jun 2012,North West,Employment rate - aged 16-64,68.5
+Jul 2011-Jun 2012,North West,Unemployment rate - aged 16+,8.7
+Jul 2011-Jun 2012,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.3
+Jul 2011-Jun 2012,Yorkshire and The Humber,Employment rate - aged 16-64,67.8
+Jul 2011-Jun 2012,Yorkshire and The Humber,Unemployment rate - aged 16+,9.8
+Jul 2011-Jun 2012,East Midlands,Economic activity rate - aged 16-64,77.4
+Jul 2011-Jun 2012,East Midlands,Employment rate - aged 16-64,71.0
+Jul 2011-Jun 2012,East Midlands,Unemployment rate - aged 16+,8.1
+Jul 2011-Jun 2012,West Midlands,Economic activity rate - aged 16-64,74.3
+Jul 2011-Jun 2012,West Midlands,Employment rate - aged 16-64,67.5
+Jul 2011-Jun 2012,West Midlands,Unemployment rate - aged 16+,9.0
+Jul 2011-Jun 2012,East,Economic activity rate - aged 16-64,79.4
+Jul 2011-Jun 2012,East,Employment rate - aged 16-64,74.0
+Jul 2011-Jun 2012,East,Unemployment rate - aged 16+,6.7
+Jul 2011-Jun 2012,London,Economic activity rate - aged 16-64,74.5
+Jul 2011-Jun 2012,London,Employment rate - aged 16-64,67.3
+Jul 2011-Jun 2012,London,Unemployment rate - aged 16+,9.5
+Jul 2011-Jun 2012,South East,Economic activity rate - aged 16-64,79.3
+Jul 2011-Jun 2012,South East,Employment rate - aged 16-64,74.5
+Jul 2011-Jun 2012,South East,Unemployment rate - aged 16+,5.9
+Jul 2011-Jun 2012,South West,Economic activity rate - aged 16-64,78.7
+Jul 2011-Jun 2012,South West,Employment rate - aged 16-64,73.7
+Jul 2011-Jun 2012,South West,Unemployment rate - aged 16+,6.2
+Jul 2011-Jun 2012,Wales,Economic activity rate - aged 16-64,73.3
+Jul 2011-Jun 2012,Wales,Employment rate - aged 16-64,67.0
+Jul 2011-Jun 2012,Wales,Unemployment rate - aged 16+,8.4
+Jul 2011-Jun 2012,Scotland,Economic activity rate - aged 16-64,77.0
+Jul 2011-Jun 2012,Scotland,Employment rate - aged 16-64,70.7
+Jul 2011-Jun 2012,Scotland,Unemployment rate - aged 16+,8.1
+Oct 2011-Sep 2012,North East,Economic activity rate - aged 16-64,73.9
+Oct 2011-Sep 2012,North East,Employment rate - aged 16-64,65.7
+Oct 2011-Sep 2012,North East,Unemployment rate - aged 16+,10.8
+Oct 2011-Sep 2012,North West,Economic activity rate - aged 16-64,75.2
+Oct 2011-Sep 2012,North West,Employment rate - aged 16-64,68.5
+Oct 2011-Sep 2012,North West,Unemployment rate - aged 16+,8.7
+Oct 2011-Sep 2012,Yorkshire and The Humber,Economic activity rate - aged 16-64,75.7
+Oct 2011-Sep 2012,Yorkshire and The Humber,Employment rate - aged 16-64,68.5
+Oct 2011-Sep 2012,Yorkshire and The Humber,Unemployment rate - aged 16+,9.3
+Oct 2011-Sep 2012,East Midlands,Economic activity rate - aged 16-64,77.7
+Oct 2011-Sep 2012,East Midlands,Employment rate - aged 16-64,71.2
+Oct 2011-Sep 2012,East Midlands,Unemployment rate - aged 16+,8.2
+Oct 2011-Sep 2012,West Midlands,Economic activity rate - aged 16-64,74.6
+Oct 2011-Sep 2012,West Midlands,Employment rate - aged 16-64,68.0
+Oct 2011-Sep 2012,West Midlands,Unemployment rate - aged 16+,8.7
+Oct 2011-Sep 2012,East,Economic activity rate - aged 16-64,79.8
+Oct 2011-Sep 2012,East,Employment rate - aged 16-64,74.1
+Oct 2011-Sep 2012,East,Unemployment rate - aged 16+,6.9
+Oct 2011-Sep 2012,London,Economic activity rate - aged 16-64,74.9
+Oct 2011-Sep 2012,London,Employment rate - aged 16-64,67.9
+Oct 2011-Sep 2012,London,Unemployment rate - aged 16+,9.2
+Oct 2011-Sep 2012,South East,Economic activity rate - aged 16-64,79.4
+Oct 2011-Sep 2012,South East,Employment rate - aged 16-64,74.7
+Oct 2011-Sep 2012,South East,Unemployment rate - aged 16+,5.8
+Oct 2011-Sep 2012,South West,Economic activity rate - aged 16-64,78.5
+Oct 2011-Sep 2012,South West,Employment rate - aged 16-64,73.7
+Oct 2011-Sep 2012,South West,Unemployment rate - aged 16+,5.9
+Oct 2011-Sep 2012,Wales,Economic activity rate - aged 16-64,73.4
+Oct 2011-Sep 2012,Wales,Employment rate - aged 16-64,67.2
+Oct 2011-Sep 2012,Wales,Unemployment rate - aged 16+,8.4
+Oct 2011-Sep 2012,Scotland,Economic activity rate - aged 16-64,76.9
+Oct 2011-Sep 2012,Scotland,Employment rate - aged 16-64,70.6
+Oct 2011-Sep 2012,Scotland,Unemployment rate - aged 16+,8.0
+Jan 2012-Dec 2012,North East,Economic activity rate - aged 16-64,74.0
+Jan 2012-Dec 2012,North East,Employment rate - aged 16-64,66.0
+Jan 2012-Dec 2012,North East,Unemployment rate - aged 16+,10.6
+Jan 2012-Dec 2012,North West,Economic activity rate - aged 16-64,75.3
+Jan 2012-Dec 2012,North West,Employment rate - aged 16-64,68.8
+Jan 2012-Dec 2012,North West,Unemployment rate - aged 16+,8.5
+Jan 2012-Dec 2012,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.1
+Jan 2012-Dec 2012,Yorkshire and The Humber,Employment rate - aged 16-64,68.9
+Jan 2012-Dec 2012,Yorkshire and The Humber,Unemployment rate - aged 16+,9.3
+Jan 2012-Dec 2012,East Midlands,Economic activity rate - aged 16-64,77.6
+Jan 2012-Dec 2012,East Midlands,Employment rate - aged 16-64,71.4
+Jan 2012-Dec 2012,East Midlands,Unemployment rate - aged 16+,7.9
+Jan 2012-Dec 2012,West Midlands,Economic activity rate - aged 16-64,74.9
+Jan 2012-Dec 2012,West Midlands,Employment rate - aged 16-64,68.2
+Jan 2012-Dec 2012,West Midlands,Unemployment rate - aged 16+,8.7
+Jan 2012-Dec 2012,East,Economic activity rate - aged 16-64,79.8
+Jan 2012-Dec 2012,East,Employment rate - aged 16-64,74.4
+Jan 2012-Dec 2012,East,Unemployment rate - aged 16+,6.6
+Jan 2012-Dec 2012,London,Economic activity rate - aged 16-64,75.3
+Jan 2012-Dec 2012,London,Employment rate - aged 16-64,68.2
+Jan 2012-Dec 2012,London,Unemployment rate - aged 16+,9.2
+Jan 2012-Dec 2012,South East,Economic activity rate - aged 16-64,79.6
+Jan 2012-Dec 2012,South East,Employment rate - aged 16-64,74.7
+Jan 2012-Dec 2012,South East,Unemployment rate - aged 16+,6.0
+Jan 2012-Dec 2012,South West,Economic activity rate - aged 16-64,78.4
+Jan 2012-Dec 2012,South West,Employment rate - aged 16-64,73.7
+Jan 2012-Dec 2012,South West,Unemployment rate - aged 16+,5.8
+Jan 2012-Dec 2012,Wales,Economic activity rate - aged 16-64,73.6
+Jan 2012-Dec 2012,Wales,Employment rate - aged 16-64,67.3
+Jan 2012-Dec 2012,Wales,Unemployment rate - aged 16+,8.3
+Jan 2012-Dec 2012,Scotland,Economic activity rate - aged 16-64,76.8
+Jan 2012-Dec 2012,Scotland,Employment rate - aged 16-64,70.5
+Jan 2012-Dec 2012,Scotland,Unemployment rate - aged 16+,8.0
+Apr 2012-Mar 2013,North East,Economic activity rate - aged 16-64,73.8
+Apr 2012-Mar 2013,North East,Employment rate - aged 16-64,66.3
+Apr 2012-Mar 2013,North East,Unemployment rate - aged 16+,10.0
+Apr 2012-Mar 2013,North West,Economic activity rate - aged 16-64,75.5
+Apr 2012-Mar 2013,North West,Employment rate - aged 16-64,69.1
+Apr 2012-Mar 2013,North West,Unemployment rate - aged 16+,8.3
+Apr 2012-Mar 2013,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.8
+Apr 2012-Mar 2013,Yorkshire and The Humber,Employment rate - aged 16-64,69.6
+Apr 2012-Mar 2013,Yorkshire and The Humber,Unemployment rate - aged 16+,9.1
+Apr 2012-Mar 2013,East Midlands,Economic activity rate - aged 16-64,77.4
+Apr 2012-Mar 2013,East Midlands,Employment rate - aged 16-64,71.2
+Apr 2012-Mar 2013,East Midlands,Unemployment rate - aged 16+,7.7
+Apr 2012-Mar 2013,West Midlands,Economic activity rate - aged 16-64,75.2
+Apr 2012-Mar 2013,West Midlands,Employment rate - aged 16-64,68.3
+Apr 2012-Mar 2013,West Midlands,Unemployment rate - aged 16+,8.9
+Apr 2012-Mar 2013,East,Economic activity rate - aged 16-64,79.8
+Apr 2012-Mar 2013,East,Employment rate - aged 16-64,74.4
+Apr 2012-Mar 2013,East,Unemployment rate - aged 16+,6.6
+Apr 2012-Mar 2013,London,Economic activity rate - aged 16-64,75.8
+Apr 2012-Mar 2013,London,Employment rate - aged 16-64,68.8
+Apr 2012-Mar 2013,London,Unemployment rate - aged 16+,9.1
+Apr 2012-Mar 2013,South East,Economic activity rate - aged 16-64,79.4
+Apr 2012-Mar 2013,South East,Employment rate - aged 16-64,74.4
+Apr 2012-Mar 2013,South East,Unemployment rate - aged 16+,6.1
+Apr 2012-Mar 2013,South West,Economic activity rate - aged 16-64,78.8
+Apr 2012-Mar 2013,South West,Employment rate - aged 16-64,74.0
+Apr 2012-Mar 2013,South West,Unemployment rate - aged 16+,5.9
+Apr 2012-Mar 2013,Wales,Economic activity rate - aged 16-64,73.9
+Apr 2012-Mar 2013,Wales,Employment rate - aged 16-64,67.6
+Apr 2012-Mar 2013,Wales,Unemployment rate - aged 16+,8.3
+Apr 2012-Mar 2013,Scotland,Economic activity rate - aged 16-64,76.7
+Apr 2012-Mar 2013,Scotland,Employment rate - aged 16-64,70.6
+Apr 2012-Mar 2013,Scotland,Unemployment rate - aged 16+,7.9
+Jul 2012-Jun 2013,North East,Economic activity rate - aged 16-64,73.9
+Jul 2012-Jun 2013,North East,Employment rate - aged 16-64,66.4
+Jul 2012-Jun 2013,North East,Unemployment rate - aged 16+,9.9
+Jul 2012-Jun 2013,North West,Economic activity rate - aged 16-64,75.3
+Jul 2012-Jun 2013,North West,Employment rate - aged 16-64,69.1
+Jul 2012-Jun 2013,North West,Unemployment rate - aged 16+,8.1
+Jul 2012-Jun 2013,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.7
+Jul 2012-Jun 2013,Yorkshire and The Humber,Employment rate - aged 16-64,69.6
+Jul 2012-Jun 2013,Yorkshire and The Humber,Unemployment rate - aged 16+,9.1
+Jul 2012-Jun 2013,East Midlands,Economic activity rate - aged 16-64,77.4
+Jul 2012-Jun 2013,East Midlands,Employment rate - aged 16-64,71.1
+Jul 2012-Jun 2013,East Midlands,Unemployment rate - aged 16+,7.9
+Jul 2012-Jun 2013,West Midlands,Economic activity rate - aged 16-64,76.1
+Jul 2012-Jun 2013,West Midlands,Employment rate - aged 16-64,68.9
+Jul 2012-Jun 2013,West Midlands,Unemployment rate - aged 16+,9.2
+Jul 2012-Jun 2013,East,Economic activity rate - aged 16-64,80.1
+Jul 2012-Jun 2013,East,Employment rate - aged 16-64,74.9
+Jul 2012-Jun 2013,East,Unemployment rate - aged 16+,6.5
+Jul 2012-Jun 2013,London,Economic activity rate - aged 16-64,75.8
+Jul 2012-Jun 2013,London,Employment rate - aged 16-64,68.8
+Jul 2012-Jun 2013,London,Unemployment rate - aged 16+,9.1
+Jul 2012-Jun 2013,South East,Economic activity rate - aged 16-64,79.8
+Jul 2012-Jun 2013,South East,Employment rate - aged 16-64,74.6
+Jul 2012-Jun 2013,South East,Unemployment rate - aged 16+,6.2
+Jul 2012-Jun 2013,South West,Economic activity rate - aged 16-64,79.0
+Jul 2012-Jun 2013,South West,Employment rate - aged 16-64,74.4
+Jul 2012-Jun 2013,South West,Unemployment rate - aged 16+,5.7
+Jul 2012-Jun 2013,Wales,Economic activity rate - aged 16-64,73.9
+Jul 2012-Jun 2013,Wales,Employment rate - aged 16-64,67.7
+Jul 2012-Jun 2013,Wales,Unemployment rate - aged 16+,8.2
+Jul 2012-Jun 2013,Scotland,Economic activity rate - aged 16-64,76.6
+Jul 2012-Jun 2013,Scotland,Employment rate - aged 16-64,70.4
+Jul 2012-Jun 2013,Scotland,Unemployment rate - aged 16+,7.8
+Oct 2012-Sep 2013,North East,Economic activity rate - aged 16-64,73.7
+Oct 2012-Sep 2013,North East,Employment rate - aged 16-64,66.1
+Oct 2012-Sep 2013,North East,Unemployment rate - aged 16+,10.2
+Oct 2012-Sep 2013,North West,Economic activity rate - aged 16-64,75.3
+Oct 2012-Sep 2013,North West,Employment rate - aged 16-64,69.2
+Oct 2012-Sep 2013,North West,Unemployment rate - aged 16+,7.9
+Oct 2012-Sep 2013,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.6
+Oct 2012-Sep 2013,Yorkshire and The Humber,Employment rate - aged 16-64,69.5
+Oct 2012-Sep 2013,Yorkshire and The Humber,Unemployment rate - aged 16+,9.1
+Oct 2012-Sep 2013,East Midlands,Economic activity rate - aged 16-64,77.4
+Oct 2012-Sep 2013,East Midlands,Employment rate - aged 16-64,71.2
+Oct 2012-Sep 2013,East Midlands,Unemployment rate - aged 16+,7.7
+Oct 2012-Sep 2013,West Midlands,Economic activity rate - aged 16-64,75.9
+Oct 2012-Sep 2013,West Midlands,Employment rate - aged 16-64,68.8
+Oct 2012-Sep 2013,West Midlands,Unemployment rate - aged 16+,9.2
+Oct 2012-Sep 2013,East,Economic activity rate - aged 16-64,80.1
+Oct 2012-Sep 2013,East,Employment rate - aged 16-64,75.0
+Oct 2012-Sep 2013,East,Unemployment rate - aged 16+,6.3
+Oct 2012-Sep 2013,London,Economic activity rate - aged 16-64,76.1
+Oct 2012-Sep 2013,London,Employment rate - aged 16-64,69.2
+Oct 2012-Sep 2013,London,Unemployment rate - aged 16+,8.9
+Oct 2012-Sep 2013,South East,Economic activity rate - aged 16-64,79.9
+Oct 2012-Sep 2013,South East,Employment rate - aged 16-64,74.8
+Oct 2012-Sep 2013,South East,Unemployment rate - aged 16+,6.2
+Oct 2012-Sep 2013,South West,Economic activity rate - aged 16-64,79.4
+Oct 2012-Sep 2013,South West,Employment rate - aged 16-64,74.6
+Oct 2012-Sep 2013,South West,Unemployment rate - aged 16+,5.9
+Oct 2012-Sep 2013,Wales,Economic activity rate - aged 16-64,74.5
+Oct 2012-Sep 2013,Wales,Employment rate - aged 16-64,68.3
+Oct 2012-Sep 2013,Wales,Unemployment rate - aged 16+,8.1
+Oct 2012-Sep 2013,Scotland,Economic activity rate - aged 16-64,76.6
+Oct 2012-Sep 2013,Scotland,Employment rate - aged 16-64,70.5
+Oct 2012-Sep 2013,Scotland,Unemployment rate - aged 16+,7.8
+Jan 2013-Dec 2013,North East,Economic activity rate - aged 16-64,73.8
+Jan 2013-Dec 2013,North East,Employment rate - aged 16-64,66.3
+Jan 2013-Dec 2013,North East,Unemployment rate - aged 16+,9.9
+Jan 2013-Dec 2013,North West,Economic activity rate - aged 16-64,74.9
+Jan 2013-Dec 2013,North West,Employment rate - aged 16-64,68.9
+Jan 2013-Dec 2013,North West,Unemployment rate - aged 16+,7.9
+Jan 2013-Dec 2013,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.7
+Jan 2013-Dec 2013,Yorkshire and The Humber,Employment rate - aged 16-64,69.7
+Jan 2013-Dec 2013,Yorkshire and The Humber,Unemployment rate - aged 16+,8.9
+Jan 2013-Dec 2013,East Midlands,Economic activity rate - aged 16-64,77.4
+Jan 2013-Dec 2013,East Midlands,Employment rate - aged 16-64,71.5
+Jan 2013-Dec 2013,East Midlands,Unemployment rate - aged 16+,7.4
+Jan 2013-Dec 2013,West Midlands,Economic activity rate - aged 16-64,75.7
+Jan 2013-Dec 2013,West Midlands,Employment rate - aged 16-64,69.1
+Jan 2013-Dec 2013,West Midlands,Unemployment rate - aged 16+,8.5
+Jan 2013-Dec 2013,East,Economic activity rate - aged 16-64,80.3
+Jan 2013-Dec 2013,East,Employment rate - aged 16-64,75.3
+Jan 2013-Dec 2013,East,Unemployment rate - aged 16+,6.1
+Jan 2013-Dec 2013,London,Economic activity rate - aged 16-64,76.3
+Jan 2013-Dec 2013,London,Employment rate - aged 16-64,69.5
+Jan 2013-Dec 2013,London,Unemployment rate - aged 16+,8.7
+Jan 2013-Dec 2013,South East,Economic activity rate - aged 16-64,80.0
+Jan 2013-Dec 2013,South East,Employment rate - aged 16-64,75.4
+Jan 2013-Dec 2013,South East,Unemployment rate - aged 16+,5.7
+Jan 2013-Dec 2013,South West,Economic activity rate - aged 16-64,79.4
+Jan 2013-Dec 2013,South West,Employment rate - aged 16-64,74.7
+Jan 2013-Dec 2013,South West,Unemployment rate - aged 16+,5.8
+Jan 2013-Dec 2013,Wales,Economic activity rate - aged 16-64,75.0
+Jan 2013-Dec 2013,Wales,Employment rate - aged 16-64,68.9
+Jan 2013-Dec 2013,Wales,Unemployment rate - aged 16+,7.9
+Jan 2013-Dec 2013,Scotland,Economic activity rate - aged 16-64,76.9
+Jan 2013-Dec 2013,Scotland,Employment rate - aged 16-64,70.8
+Jan 2013-Dec 2013,Scotland,Unemployment rate - aged 16+,7.7
+Apr 2013-Mar 2014,North East,Economic activity rate - aged 16-64,74.4
+Apr 2013-Mar 2014,North East,Employment rate - aged 16-64,67.1
+Apr 2013-Mar 2014,North East,Unemployment rate - aged 16+,9.7
+Apr 2013-Mar 2014,North West,Economic activity rate - aged 16-64,74.9
+Apr 2013-Mar 2014,North West,Employment rate - aged 16-64,68.9
+Apr 2013-Mar 2014,North West,Unemployment rate - aged 16+,7.8
+Apr 2013-Mar 2014,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.6
+Apr 2013-Mar 2014,Yorkshire and The Humber,Employment rate - aged 16-64,69.9
+Apr 2013-Mar 2014,Yorkshire and The Humber,Unemployment rate - aged 16+,8.5
+Apr 2013-Mar 2014,East Midlands,Economic activity rate - aged 16-64,77.6
+Apr 2013-Mar 2014,East Midlands,Employment rate - aged 16-64,72.0
+Apr 2013-Mar 2014,East Midlands,Unemployment rate - aged 16+,7.1
+Apr 2013-Mar 2014,West Midlands,Economic activity rate - aged 16-64,75.5
+Apr 2013-Mar 2014,West Midlands,Employment rate - aged 16-64,69.2
+Apr 2013-Mar 2014,West Midlands,Unemployment rate - aged 16+,8.2
+Apr 2013-Mar 2014,East,Economic activity rate - aged 16-64,80.2
+Apr 2013-Mar 2014,East,Employment rate - aged 16-64,75.4
+Apr 2013-Mar 2014,East,Unemployment rate - aged 16+,5.8
+Apr 2013-Mar 2014,London,Economic activity rate - aged 16-64,76.3
+Apr 2013-Mar 2014,London,Employment rate - aged 16-64,69.8
+Apr 2013-Mar 2014,London,Unemployment rate - aged 16+,8.4
+Apr 2013-Mar 2014,South East,Economic activity rate - aged 16-64,79.9
+Apr 2013-Mar 2014,South East,Employment rate - aged 16-64,75.5
+Apr 2013-Mar 2014,South East,Unemployment rate - aged 16+,5.4
+Apr 2013-Mar 2014,South West,Economic activity rate - aged 16-64,79.1
+Apr 2013-Mar 2014,South West,Employment rate - aged 16-64,74.8
+Apr 2013-Mar 2014,South West,Unemployment rate - aged 16+,5.3
+Apr 2013-Mar 2014,Wales,Economic activity rate - aged 16-64,75.3
+Apr 2013-Mar 2014,Wales,Employment rate - aged 16-64,69.5
+Apr 2013-Mar 2014,Wales,Unemployment rate - aged 16+,7.4
+Apr 2013-Mar 2014,Scotland,Economic activity rate - aged 16-64,77.1
+Apr 2013-Mar 2014,Scotland,Employment rate - aged 16-64,71.3
+Apr 2013-Mar 2014,Scotland,Unemployment rate - aged 16+,7.4
+Jul 2013-Jun 2014,North East,Economic activity rate - aged 16-64,74.7
+Jul 2013-Jun 2014,North East,Employment rate - aged 16-64,67.6
+Jul 2013-Jun 2014,North East,Unemployment rate - aged 16+,9.3
+Jul 2013-Jun 2014,North West,Economic activity rate - aged 16-64,74.7
+Jul 2013-Jun 2014,North West,Employment rate - aged 16-64,68.7
+Jul 2013-Jun 2014,North West,Unemployment rate - aged 16+,7.9
+Jul 2013-Jun 2014,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.5
+Jul 2013-Jun 2014,Yorkshire and The Humber,Employment rate - aged 16-64,70.0
+Jul 2013-Jun 2014,Yorkshire and The Humber,Unemployment rate - aged 16+,8.3
+Jul 2013-Jun 2014,East Midlands,Economic activity rate - aged 16-64,78.0
+Jul 2013-Jun 2014,East Midlands,Employment rate - aged 16-64,72.9
+Jul 2013-Jun 2014,East Midlands,Unemployment rate - aged 16+,6.5
+Jul 2013-Jun 2014,West Midlands,Economic activity rate - aged 16-64,75.0
+Jul 2013-Jun 2014,West Midlands,Employment rate - aged 16-64,69.2
+Jul 2013-Jun 2014,West Midlands,Unemployment rate - aged 16+,7.5
+Jul 2013-Jun 2014,East,Economic activity rate - aged 16-64,80.2
+Jul 2013-Jun 2014,East,Employment rate - aged 16-64,75.7
+Jul 2013-Jun 2014,East,Unemployment rate - aged 16+,5.4
+Jul 2013-Jun 2014,London,Economic activity rate - aged 16-64,76.7
+Jul 2013-Jun 2014,London,Employment rate - aged 16-64,70.7
+Jul 2013-Jun 2014,London,Unemployment rate - aged 16+,7.6
+Jul 2013-Jun 2014,South East,Economic activity rate - aged 16-64,79.9
+Jul 2013-Jun 2014,South East,Employment rate - aged 16-64,75.7
+Jul 2013-Jun 2014,South East,Unemployment rate - aged 16+,5.1
+Jul 2013-Jun 2014,South West,Economic activity rate - aged 16-64,79.5
+Jul 2013-Jun 2014,South West,Employment rate - aged 16-64,75.0
+Jul 2013-Jun 2014,South West,Unemployment rate - aged 16+,5.5
+Jul 2013-Jun 2014,Wales,Economic activity rate - aged 16-64,75.0
+Jul 2013-Jun 2014,Wales,Employment rate - aged 16-64,69.5
+Jul 2013-Jun 2014,Wales,Unemployment rate - aged 16+,7.1
+Jul 2013-Jun 2014,Scotland,Economic activity rate - aged 16-64,77.4
+Jul 2013-Jun 2014,Scotland,Employment rate - aged 16-64,71.8
+Jul 2013-Jun 2014,Scotland,Unemployment rate - aged 16+,7.1
+Oct 2013-Sep 2014,North East,Economic activity rate - aged 16-64,74.7
+Oct 2013-Sep 2014,North East,Employment rate - aged 16-64,68.0
+Oct 2013-Sep 2014,North East,Unemployment rate - aged 16+,8.8
+Oct 2013-Sep 2014,North West,Economic activity rate - aged 16-64,74.6
+Oct 2013-Sep 2014,North West,Employment rate - aged 16-64,69.0
+Oct 2013-Sep 2014,North West,Unemployment rate - aged 16+,7.4
+Oct 2013-Sep 2014,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.5
+Oct 2013-Sep 2014,Yorkshire and The Humber,Employment rate - aged 16-64,70.2
+Oct 2013-Sep 2014,Yorkshire and The Humber,Unemployment rate - aged 16+,8.0
+Oct 2013-Sep 2014,East Midlands,Economic activity rate - aged 16-64,78.1
+Oct 2013-Sep 2014,East Midlands,Employment rate - aged 16-64,73.4
+Oct 2013-Sep 2014,East Midlands,Unemployment rate - aged 16+,5.9
+Oct 2013-Sep 2014,West Midlands,Economic activity rate - aged 16-64,75.2
+Oct 2013-Sep 2014,West Midlands,Employment rate - aged 16-64,69.6
+Oct 2013-Sep 2014,West Midlands,Unemployment rate - aged 16+,7.3
+Oct 2013-Sep 2014,East,Economic activity rate - aged 16-64,80.3
+Oct 2013-Sep 2014,East,Employment rate - aged 16-64,75.9
+Oct 2013-Sep 2014,East,Unemployment rate - aged 16+,5.3
+Oct 2013-Sep 2014,London,Economic activity rate - aged 16-64,76.8
+Oct 2013-Sep 2014,London,Employment rate - aged 16-64,71.2
+Oct 2013-Sep 2014,London,Unemployment rate - aged 16+,7.2
+Oct 2013-Sep 2014,South East,Economic activity rate - aged 16-64,79.9
+Oct 2013-Sep 2014,South East,Employment rate - aged 16-64,75.9
+Oct 2013-Sep 2014,South East,Unemployment rate - aged 16+,4.8
+Oct 2013-Sep 2014,South West,Economic activity rate - aged 16-64,79.7
+Oct 2013-Sep 2014,South West,Employment rate - aged 16-64,75.4
+Oct 2013-Sep 2014,South West,Unemployment rate - aged 16+,5.3
+Oct 2013-Sep 2014,Wales,Economic activity rate - aged 16-64,74.8
+Oct 2013-Sep 2014,Wales,Employment rate - aged 16-64,69.5
+Oct 2013-Sep 2014,Wales,Unemployment rate - aged 16+,6.9
+Oct 2013-Sep 2014,Scotland,Economic activity rate - aged 16-64,77.4
+Oct 2013-Sep 2014,Scotland,Employment rate - aged 16-64,72.3
+Oct 2013-Sep 2014,Scotland,Unemployment rate - aged 16+,6.5
+Jan 2014-Dec 2014,North East,Economic activity rate - aged 16-64,74.9
+Jan 2014-Dec 2014,North East,Employment rate - aged 16-64,68.4
+Jan 2014-Dec 2014,North East,Unemployment rate - aged 16+,8.5
+Jan 2014-Dec 2014,North West,Economic activity rate - aged 16-64,74.7
+Jan 2014-Dec 2014,North West,Employment rate - aged 16-64,69.3
+Jan 2014-Dec 2014,North West,Unemployment rate - aged 16+,7.1
+Jan 2014-Dec 2014,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.3
+Jan 2014-Dec 2014,Yorkshire and The Humber,Employment rate - aged 16-64,70.6
+Jan 2014-Dec 2014,Yorkshire and The Humber,Unemployment rate - aged 16+,7.4
+Jan 2014-Dec 2014,East Midlands,Economic activity rate - aged 16-64,78.0
+Jan 2014-Dec 2014,East Midlands,Employment rate - aged 16-64,73.5
+Jan 2014-Dec 2014,East Midlands,Unemployment rate - aged 16+,5.6
+Jan 2014-Dec 2014,West Midlands,Economic activity rate - aged 16-64,75.2
+Jan 2014-Dec 2014,West Midlands,Employment rate - aged 16-64,70.0
+Jan 2014-Dec 2014,West Midlands,Unemployment rate - aged 16+,6.8
+Jan 2014-Dec 2014,East,Economic activity rate - aged 16-64,80.0
+Jan 2014-Dec 2014,East,Employment rate - aged 16-64,75.7
+Jan 2014-Dec 2014,East,Unemployment rate - aged 16+,5.2
+Jan 2014-Dec 2014,London,Economic activity rate - aged 16-64,76.8
+Jan 2014-Dec 2014,London,Employment rate - aged 16-64,71.3
+Jan 2014-Dec 2014,London,Unemployment rate - aged 16+,7.0
+Jan 2014-Dec 2014,South East,Economic activity rate - aged 16-64,79.7
+Jan 2014-Dec 2014,South East,Employment rate - aged 16-64,75.8
+Jan 2014-Dec 2014,South East,Unemployment rate - aged 16+,4.8
+Jan 2014-Dec 2014,South West,Economic activity rate - aged 16-64,80.2
+Jan 2014-Dec 2014,South West,Employment rate - aged 16-64,76.0
+Jan 2014-Dec 2014,South West,Unemployment rate - aged 16+,5.1
+Jan 2014-Dec 2014,Wales,Economic activity rate - aged 16-64,74.7
+Jan 2014-Dec 2014,Wales,Employment rate - aged 16-64,69.5
+Jan 2014-Dec 2014,Wales,Unemployment rate - aged 16+,6.8
+Jan 2014-Dec 2014,Scotland,Economic activity rate - aged 16-64,77.5
+Jan 2014-Dec 2014,Scotland,Employment rate - aged 16-64,72.6
+Jan 2014-Dec 2014,Scotland,Unemployment rate - aged 16+,6.2
+Apr 2014-Mar 2015,North East,Economic activity rate - aged 16-64,74.6
+Apr 2014-Mar 2015,North East,Employment rate - aged 16-64,68.6
+Apr 2014-Mar 2015,North East,Unemployment rate - aged 16+,8.0
+Apr 2014-Mar 2015,North West,Economic activity rate - aged 16-64,74.7
+Apr 2014-Mar 2015,North West,Employment rate - aged 16-64,69.8
+Apr 2014-Mar 2015,North West,Unemployment rate - aged 16+,6.4
+Apr 2014-Mar 2015,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.5
+Apr 2014-Mar 2015,Yorkshire and The Humber,Employment rate - aged 16-64,71.0
+Apr 2014-Mar 2015,Yorkshire and The Humber,Unemployment rate - aged 16+,7.2
+Apr 2014-Mar 2015,East Midlands,Economic activity rate - aged 16-64,77.6
+Apr 2014-Mar 2015,East Midlands,Employment rate - aged 16-64,73.4
+Apr 2014-Mar 2015,East Midlands,Unemployment rate - aged 16+,5.3
+Apr 2014-Mar 2015,West Midlands,Economic activity rate - aged 16-64,75.2
+Apr 2014-Mar 2015,West Midlands,Employment rate - aged 16-64,70.2
+Apr 2014-Mar 2015,West Midlands,Unemployment rate - aged 16+,6.4
+Apr 2014-Mar 2015,East,Economic activity rate - aged 16-64,80.0
+Apr 2014-Mar 2015,East,Employment rate - aged 16-64,76.0
+Apr 2014-Mar 2015,East,Unemployment rate - aged 16+,4.9
+Apr 2014-Mar 2015,London,Economic activity rate - aged 16-64,77.0
+Apr 2014-Mar 2015,London,Employment rate - aged 16-64,71.8
+Apr 2014-Mar 2015,London,Unemployment rate - aged 16+,6.7
+Apr 2014-Mar 2015,South East,Economic activity rate - aged 16-64,80.0
+Apr 2014-Mar 2015,South East,Employment rate - aged 16-64,76.2
+Apr 2014-Mar 2015,South East,Unemployment rate - aged 16+,4.6
+Apr 2014-Mar 2015,South West,Economic activity rate - aged 16-64,80.6
+Apr 2014-Mar 2015,South West,Employment rate - aged 16-64,76.6
+Apr 2014-Mar 2015,South West,Unemployment rate - aged 16+,4.8
+Apr 2014-Mar 2015,Wales,Economic activity rate - aged 16-64,74.4
+Apr 2014-Mar 2015,Wales,Employment rate - aged 16-64,69.3
+Apr 2014-Mar 2015,Wales,Unemployment rate - aged 16+,6.8
+Apr 2014-Mar 2015,Scotland,Economic activity rate - aged 16-64,77.8
+Apr 2014-Mar 2015,Scotland,Employment rate - aged 16-64,72.9
+Apr 2014-Mar 2015,Scotland,Unemployment rate - aged 16+,6.2
+Jul 2014-Jun 2015,North East,Economic activity rate - aged 16-64,74.6
+Jul 2014-Jun 2015,North East,Employment rate - aged 16-64,68.8
+Jul 2014-Jun 2015,North East,Unemployment rate - aged 16+,7.6
+Jul 2014-Jun 2015,North West,Economic activity rate - aged 16-64,74.6
+Jul 2014-Jun 2015,North West,Employment rate - aged 16-64,70.1
+Jul 2014-Jun 2015,North West,Unemployment rate - aged 16+,5.9
+Jul 2014-Jun 2015,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.9
+Jul 2014-Jun 2015,Yorkshire and The Humber,Employment rate - aged 16-64,71.7
+Jul 2014-Jun 2015,Yorkshire and The Humber,Unemployment rate - aged 16+,6.6
+Jul 2014-Jun 2015,East Midlands,Economic activity rate - aged 16-64,77.8
+Jul 2014-Jun 2015,East Midlands,Employment rate - aged 16-64,73.7
+Jul 2014-Jun 2015,East Midlands,Unemployment rate - aged 16+,5.1
+Jul 2014-Jun 2015,West Midlands,Economic activity rate - aged 16-64,75.1
+Jul 2014-Jun 2015,West Midlands,Employment rate - aged 16-64,70.2
+Jul 2014-Jun 2015,West Midlands,Unemployment rate - aged 16+,6.2
+Jul 2014-Jun 2015,East,Economic activity rate - aged 16-64,80.1
+Jul 2014-Jun 2015,East,Employment rate - aged 16-64,76.3
+Jul 2014-Jun 2015,East,Unemployment rate - aged 16+,4.6
+Jul 2014-Jun 2015,London,Economic activity rate - aged 16-64,77.4
+Jul 2014-Jun 2015,London,Employment rate - aged 16-64,72.3
+Jul 2014-Jun 2015,London,Unemployment rate - aged 16+,6.5
+Jul 2014-Jun 2015,South East,Economic activity rate - aged 16-64,80.0
+Jul 2014-Jun 2015,South East,Employment rate - aged 16-64,76.3
+Jul 2014-Jun 2015,South East,Unemployment rate - aged 16+,4.5
+Jul 2014-Jun 2015,South West,Economic activity rate - aged 16-64,80.9
+Jul 2014-Jun 2015,South West,Employment rate - aged 16-64,77.3
+Jul 2014-Jun 2015,South West,Unemployment rate - aged 16+,4.3
+Jul 2014-Jun 2015,Wales,Economic activity rate - aged 16-64,74.8
+Jul 2014-Jun 2015,Wales,Employment rate - aged 16-64,69.7
+Jul 2014-Jun 2015,Wales,Unemployment rate - aged 16+,6.6
+Jul 2014-Jun 2015,Scotland,Economic activity rate - aged 16-64,77.5
+Jul 2014-Jun 2015,Scotland,Employment rate - aged 16-64,72.9
+Jul 2014-Jun 2015,Scotland,Unemployment rate - aged 16+,5.9
+Oct 2014-Sep 2015,North East,Economic activity rate - aged 16-64,74.9
+Oct 2014-Sep 2015,North East,Employment rate - aged 16-64,69.0
+Oct 2014-Sep 2015,North East,Unemployment rate - aged 16+,7.6
+Oct 2014-Sep 2015,North West,Economic activity rate - aged 16-64,75.1
+Oct 2014-Sep 2015,North West,Employment rate - aged 16-64,70.6
+Oct 2014-Sep 2015,North West,Unemployment rate - aged 16+,5.9
+Oct 2014-Sep 2015,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.2
+Oct 2014-Sep 2015,Yorkshire and The Humber,Employment rate - aged 16-64,72.4
+Oct 2014-Sep 2015,Yorkshire and The Humber,Unemployment rate - aged 16+,6.1
+Oct 2014-Sep 2015,East Midlands,Economic activity rate - aged 16-64,77.5
+Oct 2014-Sep 2015,East Midlands,Employment rate - aged 16-64,73.5
+Oct 2014-Sep 2015,East Midlands,Unemployment rate - aged 16+,5.0
+Oct 2014-Sep 2015,West Midlands,Economic activity rate - aged 16-64,75.1
+Oct 2014-Sep 2015,West Midlands,Employment rate - aged 16-64,70.7
+Oct 2014-Sep 2015,West Midlands,Unemployment rate - aged 16+,5.8
+Oct 2014-Sep 2015,East,Economic activity rate - aged 16-64,80.3
+Oct 2014-Sep 2015,East,Employment rate - aged 16-64,76.8
+Oct 2014-Sep 2015,East,Unemployment rate - aged 16+,4.2
+Oct 2014-Sep 2015,London,Economic activity rate - aged 16-64,77.3
+Oct 2014-Sep 2015,London,Employment rate - aged 16-64,72.3
+Oct 2014-Sep 2015,London,Unemployment rate - aged 16+,6.4
+Oct 2014-Sep 2015,South East,Economic activity rate - aged 16-64,80.3
+Oct 2014-Sep 2015,South East,Employment rate - aged 16-64,76.7
+Oct 2014-Sep 2015,South East,Unemployment rate - aged 16+,4.3
+Oct 2014-Sep 2015,South West,Economic activity rate - aged 16-64,80.7
+Oct 2014-Sep 2015,South West,Employment rate - aged 16-64,77.3
+Oct 2014-Sep 2015,South West,Unemployment rate - aged 16+,4.1
+Oct 2014-Sep 2015,Wales,Economic activity rate - aged 16-64,75.1
+Oct 2014-Sep 2015,Wales,Employment rate - aged 16-64,70.3
+Oct 2014-Sep 2015,Wales,Unemployment rate - aged 16+,6.2
+Oct 2014-Sep 2015,Scotland,Economic activity rate - aged 16-64,77.8
+Oct 2014-Sep 2015,Scotland,Employment rate - aged 16-64,73.1
+Oct 2014-Sep 2015,Scotland,Unemployment rate - aged 16+,6.0
+Jan 2015-Dec 2015,North East,Economic activity rate - aged 16-64,75.2
+Jan 2015-Dec 2015,North East,Employment rate - aged 16-64,69.3
+Jan 2015-Dec 2015,North East,Unemployment rate - aged 16+,7.7
+Jan 2015-Dec 2015,North West,Economic activity rate - aged 16-64,75.3
+Jan 2015-Dec 2015,North West,Employment rate - aged 16-64,71.2
+Jan 2015-Dec 2015,North West,Unemployment rate - aged 16+,5.3
+Jan 2015-Dec 2015,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.2
+Jan 2015-Dec 2015,Yorkshire and The Humber,Employment rate - aged 16-64,72.5
+Jan 2015-Dec 2015,Yorkshire and The Humber,Unemployment rate - aged 16+,6.0
+Jan 2015-Dec 2015,East Midlands,Economic activity rate - aged 16-64,77.5
+Jan 2015-Dec 2015,East Midlands,Employment rate - aged 16-64,73.8
+Jan 2015-Dec 2015,East Midlands,Unemployment rate - aged 16+,4.7
+Jan 2015-Dec 2015,West Midlands,Economic activity rate - aged 16-64,75.1
+Jan 2015-Dec 2015,West Midlands,Employment rate - aged 16-64,70.6
+Jan 2015-Dec 2015,West Midlands,Unemployment rate - aged 16+,5.8
+Jan 2015-Dec 2015,East,Economic activity rate - aged 16-64,80.6
+Jan 2015-Dec 2015,East,Employment rate - aged 16-64,77.4
+Jan 2015-Dec 2015,East,Unemployment rate - aged 16+,3.9
+Jan 2015-Dec 2015,London,Economic activity rate - aged 16-64,77.7
+Jan 2015-Dec 2015,London,Employment rate - aged 16-64,72.9
+Jan 2015-Dec 2015,London,Unemployment rate - aged 16+,6.1
+Jan 2015-Dec 2015,South East,Economic activity rate - aged 16-64,80.3
+Jan 2015-Dec 2015,South East,Employment rate - aged 16-64,76.8
+Jan 2015-Dec 2015,South East,Unemployment rate - aged 16+,4.2
+Jan 2015-Dec 2015,South West,Economic activity rate - aged 16-64,80.6
+Jan 2015-Dec 2015,South West,Employment rate - aged 16-64,77.3
+Jan 2015-Dec 2015,South West,Unemployment rate - aged 16+,3.9
+Jan 2015-Dec 2015,Wales,Economic activity rate - aged 16-64,74.9
+Jan 2015-Dec 2015,Wales,Employment rate - aged 16-64,70.3
+Jan 2015-Dec 2015,Wales,Unemployment rate - aged 16+,5.9
+Jan 2015-Dec 2015,Scotland,Economic activity rate - aged 16-64,77.7
+Jan 2015-Dec 2015,Scotland,Employment rate - aged 16-64,73.1
+Jan 2015-Dec 2015,Scotland,Unemployment rate - aged 16+,5.8
+Apr 2015-Mar 2016,North East,Economic activity rate - aged 16-64,75.3
+Apr 2015-Mar 2016,North East,Employment rate - aged 16-64,69.5
+Apr 2015-Mar 2016,North East,Unemployment rate - aged 16+,7.5
+Apr 2015-Mar 2016,North West,Economic activity rate - aged 16-64,75.5
+Apr 2015-Mar 2016,North West,Employment rate - aged 16-64,71.4
+Apr 2015-Mar 2016,North West,Unemployment rate - aged 16+,5.3
+Apr 2015-Mar 2016,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.0
+Apr 2015-Mar 2016,Yorkshire and The Humber,Employment rate - aged 16-64,72.2
+Apr 2015-Mar 2016,Yorkshire and The Humber,Unemployment rate - aged 16+,6.1
+Apr 2015-Mar 2016,East Midlands,Economic activity rate - aged 16-64,77.7
+Apr 2015-Mar 2016,East Midlands,Employment rate - aged 16-64,74.2
+Apr 2015-Mar 2016,East Midlands,Unemployment rate - aged 16+,4.4
+Apr 2015-Mar 2016,West Midlands,Economic activity rate - aged 16-64,74.8
+Apr 2015-Mar 2016,West Midlands,Employment rate - aged 16-64,70.4
+Apr 2015-Mar 2016,West Midlands,Unemployment rate - aged 16+,5.7
+Apr 2015-Mar 2016,East,Economic activity rate - aged 16-64,80.2
+Apr 2015-Mar 2016,East,Employment rate - aged 16-64,77.0
+Apr 2015-Mar 2016,East,Unemployment rate - aged 16+,3.8
+Apr 2015-Mar 2016,London,Economic activity rate - aged 16-64,77.8
+Apr 2015-Mar 2016,London,Employment rate - aged 16-64,73.1
+Apr 2015-Mar 2016,London,Unemployment rate - aged 16+,6.0
+Apr 2015-Mar 2016,South East,Economic activity rate - aged 16-64,80.6
+Apr 2015-Mar 2016,South East,Employment rate - aged 16-64,77.2
+Apr 2015-Mar 2016,South East,Unemployment rate - aged 16+,4.1
+Apr 2015-Mar 2016,South West,Economic activity rate - aged 16-64,80.7
+Apr 2015-Mar 2016,South West,Employment rate - aged 16-64,77.4
+Apr 2015-Mar 2016,South West,Unemployment rate - aged 16+,4.0
+Apr 2015-Mar 2016,Wales,Economic activity rate - aged 16-64,75.3
+Apr 2015-Mar 2016,Wales,Employment rate - aged 16-64,71.1
+Apr 2015-Mar 2016,Wales,Unemployment rate - aged 16+,5.4
+Apr 2015-Mar 2016,Scotland,Economic activity rate - aged 16-64,77.3
+Apr 2015-Mar 2016,Scotland,Employment rate - aged 16-64,72.9
+Apr 2015-Mar 2016,Scotland,Unemployment rate - aged 16+,5.7
+Jul 2015-Jun 2016,North East,Economic activity rate - aged 16-64,75.3
+Jul 2015-Jun 2016,North East,Employment rate - aged 16-64,69.4
+Jul 2015-Jun 2016,North East,Unemployment rate - aged 16+,7.7
+Jul 2015-Jun 2016,North West,Economic activity rate - aged 16-64,75.7
+Jul 2015-Jun 2016,North West,Employment rate - aged 16-64,71.6
+Jul 2015-Jun 2016,North West,Unemployment rate - aged 16+,5.3
+Jul 2015-Jun 2016,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.8
+Jul 2015-Jun 2016,Yorkshire and The Humber,Employment rate - aged 16-64,72.2
+Jul 2015-Jun 2016,Yorkshire and The Humber,Unemployment rate - aged 16+,5.8
+Jul 2015-Jun 2016,East Midlands,Economic activity rate - aged 16-64,77.8
+Jul 2015-Jun 2016,East Midlands,Employment rate - aged 16-64,74.5
+Jul 2015-Jun 2016,East Midlands,Unemployment rate - aged 16+,4.2
+Jul 2015-Jun 2016,West Midlands,Economic activity rate - aged 16-64,75.2
+Jul 2015-Jun 2016,West Midlands,Employment rate - aged 16-64,70.6
+Jul 2015-Jun 2016,West Midlands,Unemployment rate - aged 16+,5.9
+Jul 2015-Jun 2016,East,Economic activity rate - aged 16-64,80.2
+Jul 2015-Jun 2016,East,Employment rate - aged 16-64,77.1
+Jul 2015-Jun 2016,East,Unemployment rate - aged 16+,3.7
+Jul 2015-Jun 2016,London,Economic activity rate - aged 16-64,77.9
+Jul 2015-Jun 2016,London,Employment rate - aged 16-64,73.1
+Jul 2015-Jun 2016,London,Unemployment rate - aged 16+,6.1
+Jul 2015-Jun 2016,South East,Economic activity rate - aged 16-64,80.7
+Jul 2015-Jun 2016,South East,Employment rate - aged 16-64,77.3
+Jul 2015-Jun 2016,South East,Unemployment rate - aged 16+,4.1
+Jul 2015-Jun 2016,South West,Economic activity rate - aged 16-64,80.6
+Jul 2015-Jun 2016,South West,Employment rate - aged 16-64,77.3
+Jul 2015-Jun 2016,South West,Unemployment rate - aged 16+,4.1
+Jul 2015-Jun 2016,Wales,Economic activity rate - aged 16-64,75.2
+Jul 2015-Jun 2016,Wales,Employment rate - aged 16-64,71.3
+Jul 2015-Jun 2016,Wales,Unemployment rate - aged 16+,4.9
+Jul 2015-Jun 2016,Scotland,Economic activity rate - aged 16-64,77.1
+Jul 2015-Jun 2016,Scotland,Employment rate - aged 16-64,72.9
+Jul 2015-Jun 2016,Scotland,Unemployment rate - aged 16+,5.4
+Oct 2015-Sep 2016,North East,Economic activity rate - aged 16-64,75.1
+Oct 2015-Sep 2016,North East,Employment rate - aged 16-64,69.9
+Oct 2015-Sep 2016,North East,Unemployment rate - aged 16+,6.8
+Oct 2015-Sep 2016,North West,Economic activity rate - aged 16-64,75.6
+Oct 2015-Sep 2016,North West,Employment rate - aged 16-64,71.6
+Oct 2015-Sep 2016,North West,Unemployment rate - aged 16+,5.1
+Oct 2015-Sep 2016,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.8
+Oct 2015-Sep 2016,Yorkshire and The Humber,Employment rate - aged 16-64,72.4
+Oct 2015-Sep 2016,Yorkshire and The Humber,Unemployment rate - aged 16+,5.6
+Oct 2015-Sep 2016,East Midlands,Economic activity rate - aged 16-64,77.7
+Oct 2015-Sep 2016,East Midlands,Employment rate - aged 16-64,74.3
+Oct 2015-Sep 2016,East Midlands,Unemployment rate - aged 16+,4.2
+Oct 2015-Sep 2016,West Midlands,Economic activity rate - aged 16-64,75.4
+Oct 2015-Sep 2016,West Midlands,Employment rate - aged 16-64,71.0
+Oct 2015-Sep 2016,West Midlands,Unemployment rate - aged 16+,5.7
+Oct 2015-Sep 2016,East,Economic activity rate - aged 16-64,80.0
+Oct 2015-Sep 2016,East,Employment rate - aged 16-64,76.8
+Oct 2015-Sep 2016,East,Unemployment rate - aged 16+,3.8
+Oct 2015-Sep 2016,London,Economic activity rate - aged 16-64,78.2
+Oct 2015-Sep 2016,London,Employment rate - aged 16-64,73.5
+Oct 2015-Sep 2016,London,Unemployment rate - aged 16+,6.0
+Oct 2015-Sep 2016,South East,Economic activity rate - aged 16-64,80.6
+Oct 2015-Sep 2016,South East,Employment rate - aged 16-64,77.2
+Oct 2015-Sep 2016,South East,Unemployment rate - aged 16+,4.2
+Oct 2015-Sep 2016,South West,Economic activity rate - aged 16-64,80.8
+Oct 2015-Sep 2016,South West,Employment rate - aged 16-64,77.3
+Oct 2015-Sep 2016,South West,Unemployment rate - aged 16+,4.1
+Oct 2015-Sep 2016,Wales,Economic activity rate - aged 16-64,74.8
+Oct 2015-Sep 2016,Wales,Employment rate - aged 16-64,71.1
+Oct 2015-Sep 2016,Wales,Unemployment rate - aged 16+,4.7
+Oct 2015-Sep 2016,Scotland,Economic activity rate - aged 16-64,76.7
+Oct 2015-Sep 2016,Scotland,Employment rate - aged 16-64,72.8
+Oct 2015-Sep 2016,Scotland,Unemployment rate - aged 16+,4.9
+Jan 2016-Dec 2016,North East,Economic activity rate - aged 16-64,75.5
+Jan 2016-Dec 2016,North East,Employment rate - aged 16-64,70.5
+Jan 2016-Dec 2016,North East,Unemployment rate - aged 16+,6.6
+Jan 2016-Dec 2016,North West,Economic activity rate - aged 16-64,75.5
+Jan 2016-Dec 2016,North West,Employment rate - aged 16-64,71.5
+Jan 2016-Dec 2016,North West,Unemployment rate - aged 16+,5.2
+Jan 2016-Dec 2016,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.5
+Jan 2016-Dec 2016,Yorkshire and The Humber,Employment rate - aged 16-64,72.5
+Jan 2016-Dec 2016,Yorkshire and The Humber,Unemployment rate - aged 16+,5.2
+Jan 2016-Dec 2016,East Midlands,Economic activity rate - aged 16-64,78.1
+Jan 2016-Dec 2016,East Midlands,Employment rate - aged 16-64,74.7
+Jan 2016-Dec 2016,East Midlands,Unemployment rate - aged 16+,4.3
+Jan 2016-Dec 2016,West Midlands,Economic activity rate - aged 16-64,75.4
+Jan 2016-Dec 2016,West Midlands,Employment rate - aged 16-64,71.1
+Jan 2016-Dec 2016,West Midlands,Unemployment rate - aged 16+,5.5
+Jan 2016-Dec 2016,East,Economic activity rate - aged 16-64,79.9
+Jan 2016-Dec 2016,East,Employment rate - aged 16-64,76.8
+Jan 2016-Dec 2016,East,Unemployment rate - aged 16+,3.9
+Jan 2016-Dec 2016,London,Economic activity rate - aged 16-64,78.2
+Jan 2016-Dec 2016,London,Employment rate - aged 16-64,73.7
+Jan 2016-Dec 2016,London,Unemployment rate - aged 16+,5.6
+Jan 2016-Dec 2016,South East,Economic activity rate - aged 16-64,81.0
+Jan 2016-Dec 2016,South East,Employment rate - aged 16-64,77.6
+Jan 2016-Dec 2016,South East,Unemployment rate - aged 16+,4.0
+Jan 2016-Dec 2016,South West,Economic activity rate - aged 16-64,80.3
+Jan 2016-Dec 2016,South West,Employment rate - aged 16-64,76.9
+Jan 2016-Dec 2016,South West,Unemployment rate - aged 16+,4.1
+Jan 2016-Dec 2016,Wales,Economic activity rate - aged 16-64,74.8
+Jan 2016-Dec 2016,Wales,Employment rate - aged 16-64,71.2
+Jan 2016-Dec 2016,Wales,Unemployment rate - aged 16+,4.6
+Jan 2016-Dec 2016,Scotland,Economic activity rate - aged 16-64,76.7
+Jan 2016-Dec 2016,Scotland,Employment rate - aged 16-64,73.0
+Jan 2016-Dec 2016,Scotland,Unemployment rate - aged 16+,4.8
+Apr 2016-Mar 2017,North East,Economic activity rate - aged 16-64,75.4
+Apr 2016-Mar 2017,North East,Employment rate - aged 16-64,69.9
+Apr 2016-Mar 2017,North East,Unemployment rate - aged 16+,7.1
+Apr 2016-Mar 2017,North West,Economic activity rate - aged 16-64,75.7
+Apr 2016-Mar 2017,North West,Employment rate - aged 16-64,71.7
+Apr 2016-Mar 2017,North West,Unemployment rate - aged 16+,5.1
+Apr 2016-Mar 2017,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.7
+Apr 2016-Mar 2017,Yorkshire and The Humber,Employment rate - aged 16-64,72.8
+Apr 2016-Mar 2017,Yorkshire and The Humber,Unemployment rate - aged 16+,4.9
+Apr 2016-Mar 2017,East Midlands,Economic activity rate - aged 16-64,78.1
+Apr 2016-Mar 2017,East Midlands,Employment rate - aged 16-64,74.7
+Apr 2016-Mar 2017,East Midlands,Unemployment rate - aged 16+,4.3
+Apr 2016-Mar 2017,West Midlands,Economic activity rate - aged 16-64,75.6
+Apr 2016-Mar 2017,West Midlands,Employment rate - aged 16-64,71.4
+Apr 2016-Mar 2017,West Midlands,Unemployment rate - aged 16+,5.4
+Apr 2016-Mar 2017,East,Economic activity rate - aged 16-64,80.3
+Apr 2016-Mar 2017,East,Employment rate - aged 16-64,77.2
+Apr 2016-Mar 2017,East,Unemployment rate - aged 16+,3.8
+Apr 2016-Mar 2017,London,Economic activity rate - aged 16-64,78.3
+Apr 2016-Mar 2017,London,Employment rate - aged 16-64,73.8
+Apr 2016-Mar 2017,London,Unemployment rate - aged 16+,5.7
+Apr 2016-Mar 2017,South East,Economic activity rate - aged 16-64,80.8
+Apr 2016-Mar 2017,South East,Employment rate - aged 16-64,77.6
+Apr 2016-Mar 2017,South East,Unemployment rate - aged 16+,3.8
+Apr 2016-Mar 2017,South West,Economic activity rate - aged 16-64,80.8
+Apr 2016-Mar 2017,South West,Employment rate - aged 16-64,77.6
+Apr 2016-Mar 2017,South West,Unemployment rate - aged 16+,3.8
+Apr 2016-Mar 2017,Wales,Economic activity rate - aged 16-64,74.9
+Apr 2016-Mar 2017,Wales,Employment rate - aged 16-64,71.5
+Apr 2016-Mar 2017,Wales,Unemployment rate - aged 16+,4.4
+Apr 2016-Mar 2017,Scotland,Economic activity rate - aged 16-64,76.9
+Apr 2016-Mar 2017,Scotland,Employment rate - aged 16-64,73.4
+Apr 2016-Mar 2017,Scotland,Unemployment rate - aged 16+,4.4
+Jul 2016-Jun 2017,North East,Economic activity rate - aged 16-64,75.2
+Jul 2016-Jun 2017,North East,Employment rate - aged 16-64,70.2
+Jul 2016-Jun 2017,North East,Unemployment rate - aged 16+,6.5
+Jul 2016-Jun 2017,North West,Economic activity rate - aged 16-64,76.0
+Jul 2016-Jun 2017,North West,Employment rate - aged 16-64,72.3
+Jul 2016-Jun 2017,North West,Unemployment rate - aged 16+,4.7
+Jul 2016-Jun 2017,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.9
+Jul 2016-Jun 2017,Yorkshire and The Humber,Employment rate - aged 16-64,73.0
+Jul 2016-Jun 2017,Yorkshire and The Humber,Unemployment rate - aged 16+,5.0
+Jul 2016-Jun 2017,East Midlands,Economic activity rate - aged 16-64,77.4
+Jul 2016-Jun 2017,East Midlands,Employment rate - aged 16-64,73.9
+Jul 2016-Jun 2017,East Midlands,Unemployment rate - aged 16+,4.4
+Jul 2016-Jun 2017,West Midlands,Economic activity rate - aged 16-64,76.0
+Jul 2016-Jun 2017,West Midlands,Employment rate - aged 16-64,72.0
+Jul 2016-Jun 2017,West Midlands,Unemployment rate - aged 16+,5.1
+Jul 2016-Jun 2017,East,Economic activity rate - aged 16-64,80.2
+Jul 2016-Jun 2017,East,Employment rate - aged 16-64,77.0
+Jul 2016-Jun 2017,East,Unemployment rate - aged 16+,3.9
+Jul 2016-Jun 2017,London,Economic activity rate - aged 16-64,78.0
+Jul 2016-Jun 2017,London,Employment rate - aged 16-64,73.7
+Jul 2016-Jun 2017,London,Unemployment rate - aged 16+,5.5
+Jul 2016-Jun 2017,South East,Economic activity rate - aged 16-64,81.0
+Jul 2016-Jun 2017,South East,Employment rate - aged 16-64,78.1
+Jul 2016-Jun 2017,South East,Unemployment rate - aged 16+,3.5
+Jul 2016-Jun 2017,South West,Economic activity rate - aged 16-64,81.0
+Jul 2016-Jun 2017,South West,Employment rate - aged 16-64,77.9
+Jul 2016-Jun 2017,South West,Unemployment rate - aged 16+,3.7
+Jul 2016-Jun 2017,Wales,Economic activity rate - aged 16-64,75.2
+Jul 2016-Jun 2017,Wales,Employment rate - aged 16-64,71.6
+Jul 2016-Jun 2017,Wales,Unemployment rate - aged 16+,4.7
+Jul 2016-Jun 2017,Scotland,Economic activity rate - aged 16-64,76.9
+Jul 2016-Jun 2017,Scotland,Employment rate - aged 16-64,73.4
+Jul 2016-Jun 2017,Scotland,Unemployment rate - aged 16+,4.5
+Oct 2016-Sep 2017,North East,Economic activity rate - aged 16-64,75.4
+Oct 2016-Sep 2017,North East,Employment rate - aged 16-64,70.4
+Oct 2016-Sep 2017,North East,Unemployment rate - aged 16+,6.4
+Oct 2016-Sep 2017,North West,Economic activity rate - aged 16-64,76.2
+Oct 2016-Sep 2017,North West,Employment rate - aged 16-64,72.6
+Oct 2016-Sep 2017,North West,Unemployment rate - aged 16+,4.7
+Oct 2016-Sep 2017,Yorkshire and The Humber,Economic activity rate - aged 16-64,76.8
+Oct 2016-Sep 2017,Yorkshire and The Humber,Employment rate - aged 16-64,73.0
+Oct 2016-Sep 2017,Yorkshire and The Humber,Unemployment rate - aged 16+,4.9
+Oct 2016-Sep 2017,East Midlands,Economic activity rate - aged 16-64,77.3
+Oct 2016-Sep 2017,East Midlands,Employment rate - aged 16-64,74.0
+Oct 2016-Sep 2017,East Midlands,Unemployment rate - aged 16+,4.2
+Oct 2016-Sep 2017,West Midlands,Economic activity rate - aged 16-64,76.2
+Oct 2016-Sep 2017,West Midlands,Employment rate - aged 16-64,72.0
+Oct 2016-Sep 2017,West Midlands,Unemployment rate - aged 16+,5.4
+Oct 2016-Sep 2017,East,Economic activity rate - aged 16-64,80.2
+Oct 2016-Sep 2017,East,Employment rate - aged 16-64,77.3
+Oct 2016-Sep 2017,East,Unemployment rate - aged 16+,3.5
+Oct 2016-Sep 2017,London,Economic activity rate - aged 16-64,78.0
+Oct 2016-Sep 2017,London,Employment rate - aged 16-64,73.7
+Oct 2016-Sep 2017,London,Unemployment rate - aged 16+,5.4
+Oct 2016-Sep 2017,South East,Economic activity rate - aged 16-64,81.1
+Oct 2016-Sep 2017,South East,Employment rate - aged 16-64,78.4
+Oct 2016-Sep 2017,South East,Unemployment rate - aged 16+,3.4
+Oct 2016-Sep 2017,South West,Economic activity rate - aged 16-64,81.0
+Oct 2016-Sep 2017,South West,Employment rate - aged 16-64,78.1
+Oct 2016-Sep 2017,South West,Unemployment rate - aged 16+,3.5
+Oct 2016-Sep 2017,Wales,Economic activity rate - aged 16-64,75.7
+Oct 2016-Sep 2017,Wales,Employment rate - aged 16-64,72.0
+Oct 2016-Sep 2017,Wales,Unemployment rate - aged 16+,4.8
+Oct 2016-Sep 2017,Scotland,Economic activity rate - aged 16-64,77.2
+Oct 2016-Sep 2017,Scotland,Employment rate - aged 16-64,73.8
+Oct 2016-Sep 2017,Scotland,Unemployment rate - aged 16+,4.3
+Jan 2017-Dec 2017,North East,Economic activity rate - aged 16-64,75.4
+Jan 2017-Dec 2017,North East,Employment rate - aged 16-64,70.6
+Jan 2017-Dec 2017,North East,Unemployment rate - aged 16+,6.2
+Jan 2017-Dec 2017,North West,Economic activity rate - aged 16-64,76.5
+Jan 2017-Dec 2017,North West,Employment rate - aged 16-64,73.0
+Jan 2017-Dec 2017,North West,Unemployment rate - aged 16+,4.5
+Jan 2017-Dec 2017,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.4
+Jan 2017-Dec 2017,Yorkshire and The Humber,Employment rate - aged 16-64,73.4
+Jan 2017-Dec 2017,Yorkshire and The Humber,Unemployment rate - aged 16+,5.0
+Jan 2017-Dec 2017,East Midlands,Economic activity rate - aged 16-64,77.6
+Jan 2017-Dec 2017,East Midlands,Employment rate - aged 16-64,74.1
+Jan 2017-Dec 2017,East Midlands,Unemployment rate - aged 16+,4.4
+Jan 2017-Dec 2017,West Midlands,Economic activity rate - aged 16-64,76.4
+Jan 2017-Dec 2017,West Midlands,Employment rate - aged 16-64,72.3
+Jan 2017-Dec 2017,West Midlands,Unemployment rate - aged 16+,5.3
+Jan 2017-Dec 2017,East,Economic activity rate - aged 16-64,80.8
+Jan 2017-Dec 2017,East,Employment rate - aged 16-64,77.8
+Jan 2017-Dec 2017,East,Unemployment rate - aged 16+,3.6
+Jan 2017-Dec 2017,London,Economic activity rate - aged 16-64,78.1
+Jan 2017-Dec 2017,London,Employment rate - aged 16-64,73.9
+Jan 2017-Dec 2017,London,Unemployment rate - aged 16+,5.3
+Jan 2017-Dec 2017,South East,Economic activity rate - aged 16-64,81.4
+Jan 2017-Dec 2017,South East,Employment rate - aged 16-64,78.8
+Jan 2017-Dec 2017,South East,Unemployment rate - aged 16+,3.2
+Jan 2017-Dec 2017,South West,Economic activity rate - aged 16-64,81.4
+Jan 2017-Dec 2017,South West,Employment rate - aged 16-64,78.7
+Jan 2017-Dec 2017,South West,Unemployment rate - aged 16+,3.3
+Jan 2017-Dec 2017,Wales,Economic activity rate - aged 16-64,76.1
+Jan 2017-Dec 2017,Wales,Employment rate - aged 16-64,72.4
+Jan 2017-Dec 2017,Wales,Unemployment rate - aged 16+,4.7
+Jan 2017-Dec 2017,Scotland,Economic activity rate - aged 16-64,77.4
+Jan 2017-Dec 2017,Scotland,Employment rate - aged 16-64,74.2
+Jan 2017-Dec 2017,Scotland,Unemployment rate - aged 16+,4.1
+Apr 2017-Mar 2018,North East,Economic activity rate - aged 16-64,75.2
+Apr 2017-Mar 2018,North East,Employment rate - aged 16-64,71.1
+Apr 2017-Mar 2018,North East,Unemployment rate - aged 16+,5.5
+Apr 2017-Mar 2018,North West,Economic activity rate - aged 16-64,76.8
+Apr 2017-Mar 2018,North West,Employment rate - aged 16-64,73.4
+Apr 2017-Mar 2018,North West,Unemployment rate - aged 16+,4.4
+Apr 2017-Mar 2018,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.3
+Apr 2017-Mar 2018,Yorkshire and The Humber,Employment rate - aged 16-64,73.5
+Apr 2017-Mar 2018,Yorkshire and The Humber,Unemployment rate - aged 16+,4.8
+Apr 2017-Mar 2018,East Midlands,Economic activity rate - aged 16-64,77.9
+Apr 2017-Mar 2018,East Midlands,Employment rate - aged 16-64,74.7
+Apr 2017-Mar 2018,East Midlands,Unemployment rate - aged 16+,4.1
+Apr 2017-Mar 2018,West Midlands,Economic activity rate - aged 16-64,76.6
+Apr 2017-Mar 2018,West Midlands,Employment rate - aged 16-64,72.7
+Apr 2017-Mar 2018,West Midlands,Unemployment rate - aged 16+,5.0
+Apr 2017-Mar 2018,East,Economic activity rate - aged 16-64,80.7
+Apr 2017-Mar 2018,East,Employment rate - aged 16-64,77.6
+Apr 2017-Mar 2018,East,Unemployment rate - aged 16+,3.7
+Apr 2017-Mar 2018,London,Economic activity rate - aged 16-64,78.1
+Apr 2017-Mar 2018,London,Employment rate - aged 16-64,74.1
+Apr 2017-Mar 2018,London,Unemployment rate - aged 16+,5.0
+Apr 2017-Mar 2018,South East,Economic activity rate - aged 16-64,81.2
+Apr 2017-Mar 2018,South East,Employment rate - aged 16-64,78.5
+Apr 2017-Mar 2018,South East,Unemployment rate - aged 16+,3.4
+Apr 2017-Mar 2018,South West,Economic activity rate - aged 16-64,80.9
+Apr 2017-Mar 2018,South West,Employment rate - aged 16-64,78.2
+Apr 2017-Mar 2018,South West,Unemployment rate - aged 16+,3.3
+Apr 2017-Mar 2018,Wales,Economic activity rate - aged 16-64,76.5
+Apr 2017-Mar 2018,Wales,Employment rate - aged 16-64,72.8
+Apr 2017-Mar 2018,Wales,Unemployment rate - aged 16+,4.8
+Apr 2017-Mar 2018,Scotland,Economic activity rate - aged 16-64,77.6
+Apr 2017-Mar 2018,Scotland,Employment rate - aged 16-64,74.3
+Apr 2017-Mar 2018,Scotland,Unemployment rate - aged 16+,4.2
+Jul 2017-Jun 2018,North East,Economic activity rate - aged 16-64,74.7
+Jul 2017-Jun 2018,North East,Employment rate - aged 16-64,70.6
+Jul 2017-Jun 2018,North East,Unemployment rate - aged 16+,5.4
+Jul 2017-Jun 2018,North West,Economic activity rate - aged 16-64,76.7
+Jul 2017-Jun 2018,North West,Employment rate - aged 16-64,73.4
+Jul 2017-Jun 2018,North West,Unemployment rate - aged 16+,4.2
+Jul 2017-Jun 2018,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.2
+Jul 2017-Jun 2018,Yorkshire and The Humber,Employment rate - aged 16-64,73.5
+Jul 2017-Jun 2018,Yorkshire and The Humber,Unemployment rate - aged 16+,4.7
+Jul 2017-Jun 2018,East Midlands,Economic activity rate - aged 16-64,77.6
+Jul 2017-Jun 2018,East Midlands,Employment rate - aged 16-64,74.5
+Jul 2017-Jun 2018,East Midlands,Unemployment rate - aged 16+,3.9
+Jul 2017-Jun 2018,West Midlands,Economic activity rate - aged 16-64,76.6
+Jul 2017-Jun 2018,West Midlands,Employment rate - aged 16-64,72.8
+Jul 2017-Jun 2018,West Midlands,Unemployment rate - aged 16+,4.8
+Jul 2017-Jun 2018,East,Economic activity rate - aged 16-64,81.1
+Jul 2017-Jun 2018,East,Employment rate - aged 16-64,78.1
+Jul 2017-Jun 2018,East,Unemployment rate - aged 16+,3.6
+Jul 2017-Jun 2018,London,Economic activity rate - aged 16-64,78.2
+Jul 2017-Jun 2018,London,Employment rate - aged 16-64,74.2
+Jul 2017-Jun 2018,London,Unemployment rate - aged 16+,5.1
+Jul 2017-Jun 2018,South East,Economic activity rate - aged 16-64,81.1
+Jul 2017-Jun 2018,South East,Employment rate - aged 16-64,78.2
+Jul 2017-Jun 2018,South East,Unemployment rate - aged 16+,3.5
+Jul 2017-Jun 2018,South West,Economic activity rate - aged 16-64,80.9
+Jul 2017-Jun 2018,South West,Employment rate - aged 16-64,78.3
+Jul 2017-Jun 2018,South West,Unemployment rate - aged 16+,3.2
+Jul 2017-Jun 2018,Wales,Economic activity rate - aged 16-64,76.3
+Jul 2017-Jun 2018,Wales,Employment rate - aged 16-64,72.6
+Jul 2017-Jun 2018,Wales,Unemployment rate - aged 16+,4.8
+Jul 2017-Jun 2018,Scotland,Economic activity rate - aged 16-64,77.7
+Jul 2017-Jun 2018,Scotland,Employment rate - aged 16-64,74.5
+Jul 2017-Jun 2018,Scotland,Unemployment rate - aged 16+,4.1
+Oct 2017-Sep 2018,North East,Economic activity rate - aged 16-64,74.8
+Oct 2017-Sep 2018,North East,Employment rate - aged 16-64,70.8
+Oct 2017-Sep 2018,North East,Unemployment rate - aged 16+,5.2
+Oct 2017-Sep 2018,North West,Economic activity rate - aged 16-64,77.0
+Oct 2017-Sep 2018,North West,Employment rate - aged 16-64,73.7
+Oct 2017-Sep 2018,North West,Unemployment rate - aged 16+,4.1
+Oct 2017-Sep 2018,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.1
+Oct 2017-Sep 2018,Yorkshire and The Humber,Employment rate - aged 16-64,73.4
+Oct 2017-Sep 2018,Yorkshire and The Humber,Unemployment rate - aged 16+,4.7
+Oct 2017-Sep 2018,East Midlands,Economic activity rate - aged 16-64,78.2
+Oct 2017-Sep 2018,East Midlands,Employment rate - aged 16-64,74.8
+Oct 2017-Sep 2018,East Midlands,Unemployment rate - aged 16+,4.3
+Oct 2017-Sep 2018,West Midlands,Economic activity rate - aged 16-64,76.9
+Oct 2017-Sep 2018,West Midlands,Employment rate - aged 16-64,73.4
+Oct 2017-Sep 2018,West Midlands,Unemployment rate - aged 16+,4.5
+Oct 2017-Sep 2018,East,Economic activity rate - aged 16-64,80.9
+Oct 2017-Sep 2018,East,Employment rate - aged 16-64,77.7
+Oct 2017-Sep 2018,East,Unemployment rate - aged 16+,3.8
+Oct 2017-Sep 2018,London,Economic activity rate - aged 16-64,78.4
+Oct 2017-Sep 2018,London,Employment rate - aged 16-64,74.4
+Oct 2017-Sep 2018,London,Unemployment rate - aged 16+,5.1
+Oct 2017-Sep 2018,South East,Economic activity rate - aged 16-64,80.9
+Oct 2017-Sep 2018,South East,Employment rate - aged 16-64,78.0
+Oct 2017-Sep 2018,South East,Unemployment rate - aged 16+,3.4
+Oct 2017-Sep 2018,South West,Economic activity rate - aged 16-64,81.1
+Oct 2017-Sep 2018,South West,Employment rate - aged 16-64,78.7
+Oct 2017-Sep 2018,South West,Unemployment rate - aged 16+,2.9
+Oct 2017-Sep 2018,Wales,Economic activity rate - aged 16-64,76.2
+Oct 2017-Sep 2018,Wales,Employment rate - aged 16-64,72.6
+Oct 2017-Sep 2018,Wales,Unemployment rate - aged 16+,4.6
+Oct 2017-Sep 2018,Scotland,Economic activity rate - aged 16-64,77.6
+Oct 2017-Sep 2018,Scotland,Employment rate - aged 16-64,74.3
+Oct 2017-Sep 2018,Scotland,Unemployment rate - aged 16+,4.2
+Jan 2018-Dec 2018,North East,Economic activity rate - aged 16-64,75.3
+Jan 2018-Dec 2018,North East,Employment rate - aged 16-64,71.1
+Jan 2018-Dec 2018,North East,Unemployment rate - aged 16+,5.3
+Jan 2018-Dec 2018,North West,Economic activity rate - aged 16-64,76.9
+Jan 2018-Dec 2018,North West,Employment rate - aged 16-64,73.8
+Jan 2018-Dec 2018,North West,Unemployment rate - aged 16+,4.0
+Jan 2018-Dec 2018,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.1
+Jan 2018-Dec 2018,Yorkshire and The Humber,Employment rate - aged 16-64,73.6
+Jan 2018-Dec 2018,Yorkshire and The Humber,Unemployment rate - aged 16+,4.5
+Jan 2018-Dec 2018,East Midlands,Economic activity rate - aged 16-64,78.3
+Jan 2018-Dec 2018,East Midlands,Employment rate - aged 16-64,74.7
+Jan 2018-Dec 2018,East Midlands,Unemployment rate - aged 16+,4.5
+Jan 2018-Dec 2018,West Midlands,Economic activity rate - aged 16-64,77.0
+Jan 2018-Dec 2018,West Midlands,Employment rate - aged 16-64,73.3
+Jan 2018-Dec 2018,West Midlands,Unemployment rate - aged 16+,4.7
+Jan 2018-Dec 2018,East,Economic activity rate - aged 16-64,80.8
+Jan 2018-Dec 2018,East,Employment rate - aged 16-64,78.0
+Jan 2018-Dec 2018,East,Unemployment rate - aged 16+,3.5
+Jan 2018-Dec 2018,London,Economic activity rate - aged 16-64,78.2
+Jan 2018-Dec 2018,London,Employment rate - aged 16-64,74.3
+Jan 2018-Dec 2018,London,Unemployment rate - aged 16+,5.0
+Jan 2018-Dec 2018,South East,Economic activity rate - aged 16-64,80.8
+Jan 2018-Dec 2018,South East,Employment rate - aged 16-64,78.0
+Jan 2018-Dec 2018,South East,Unemployment rate - aged 16+,3.4
+Jan 2018-Dec 2018,South West,Economic activity rate - aged 16-64,81.3
+Jan 2018-Dec 2018,South West,Employment rate - aged 16-64,78.7
+Jan 2018-Dec 2018,South West,Unemployment rate - aged 16+,3.1
+Jan 2018-Dec 2018,Wales,Economic activity rate - aged 16-64,76.7
+Jan 2018-Dec 2018,Wales,Employment rate - aged 16-64,73.1
+Jan 2018-Dec 2018,Wales,Unemployment rate - aged 16+,4.5
+Jan 2018-Dec 2018,Scotland,Economic activity rate - aged 16-64,77.4
+Jan 2018-Dec 2018,Scotland,Employment rate - aged 16-64,74.1
+Jan 2018-Dec 2018,Scotland,Unemployment rate - aged 16+,4.3
+Apr 2018-Mar 2019,North East,Economic activity rate - aged 16-64,75.5
+Apr 2018-Mar 2019,North East,Employment rate - aged 16-64,71.1
+Apr 2018-Mar 2019,North East,Unemployment rate - aged 16+,5.7
+Apr 2018-Mar 2019,North West,Economic activity rate - aged 16-64,76.9
+Apr 2018-Mar 2019,North West,Employment rate - aged 16-64,73.8
+Apr 2018-Mar 2019,North West,Unemployment rate - aged 16+,3.9
+Apr 2018-Mar 2019,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.3
+Apr 2018-Mar 2019,Yorkshire and The Humber,Employment rate - aged 16-64,73.7
+Apr 2018-Mar 2019,Yorkshire and The Humber,Unemployment rate - aged 16+,4.5
+Apr 2018-Mar 2019,East Midlands,Economic activity rate - aged 16-64,79.0
+Apr 2018-Mar 2019,East Midlands,Employment rate - aged 16-64,75.2
+Apr 2018-Mar 2019,East Midlands,Unemployment rate - aged 16+,4.6
+Apr 2018-Mar 2019,West Midlands,Economic activity rate - aged 16-64,77.5
+Apr 2018-Mar 2019,West Midlands,Employment rate - aged 16-64,73.8
+Apr 2018-Mar 2019,West Midlands,Unemployment rate - aged 16+,4.6
+Apr 2018-Mar 2019,East,Economic activity rate - aged 16-64,81.2
+Apr 2018-Mar 2019,East,Employment rate - aged 16-64,78.4
+Apr 2018-Mar 2019,East,Unemployment rate - aged 16+,3.4
+Apr 2018-Mar 2019,London,Economic activity rate - aged 16-64,78.1
+Apr 2018-Mar 2019,London,Employment rate - aged 16-64,74.2
+Apr 2018-Mar 2019,London,Unemployment rate - aged 16+,4.9
+Apr 2018-Mar 2019,South East,Economic activity rate - aged 16-64,81.1
+Apr 2018-Mar 2019,South East,Employment rate - aged 16-64,78.4
+Apr 2018-Mar 2019,South East,Unemployment rate - aged 16+,3.3
+Apr 2018-Mar 2019,South West,Economic activity rate - aged 16-64,81.4
+Apr 2018-Mar 2019,South West,Employment rate - aged 16-64,78.9
+Apr 2018-Mar 2019,South West,Unemployment rate - aged 16+,3.0
+Apr 2018-Mar 2019,Wales,Economic activity rate - aged 16-64,76.7
+Apr 2018-Mar 2019,Wales,Employment rate - aged 16-64,73.1
+Apr 2018-Mar 2019,Wales,Unemployment rate - aged 16+,4.5
+Apr 2018-Mar 2019,Scotland,Economic activity rate - aged 16-64,77.8
+Apr 2018-Mar 2019,Scotland,Employment rate - aged 16-64,74.5
+Apr 2018-Mar 2019,Scotland,Unemployment rate - aged 16+,4.1
+Jul 2018-Jun 2019,North East,Economic activity rate - aged 16-64,75.8
+Jul 2018-Jun 2019,North East,Employment rate - aged 16-64,71.4
+Jul 2018-Jun 2019,North East,Unemployment rate - aged 16+,5.7
+Jul 2018-Jun 2019,North West,Economic activity rate - aged 16-64,77.1
+Jul 2018-Jun 2019,North West,Employment rate - aged 16-64,73.9
+Jul 2018-Jun 2019,North West,Unemployment rate - aged 16+,4.0
+Jul 2018-Jun 2019,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.4
+Jul 2018-Jun 2019,Yorkshire and The Humber,Employment rate - aged 16-64,73.8
+Jul 2018-Jun 2019,Yorkshire and The Humber,Unemployment rate - aged 16+,4.5
+Jul 2018-Jun 2019,East Midlands,Economic activity rate - aged 16-64,79.7
+Jul 2018-Jun 2019,East Midlands,Employment rate - aged 16-64,76.0
+Jul 2018-Jun 2019,East Midlands,Unemployment rate - aged 16+,4.6
+Jul 2018-Jun 2019,West Midlands,Economic activity rate - aged 16-64,77.3
+Jul 2018-Jun 2019,West Midlands,Employment rate - aged 16-64,73.5
+Jul 2018-Jun 2019,West Midlands,Unemployment rate - aged 16+,4.7
+Jul 2018-Jun 2019,East,Economic activity rate - aged 16-64,80.9
+Jul 2018-Jun 2019,East,Employment rate - aged 16-64,78.3
+Jul 2018-Jun 2019,East,Unemployment rate - aged 16+,3.2
+Jul 2018-Jun 2019,London,Economic activity rate - aged 16-64,78.2
+Jul 2018-Jun 2019,London,Employment rate - aged 16-64,74.5
+Jul 2018-Jun 2019,London,Unemployment rate - aged 16+,4.7
+Jul 2018-Jun 2019,South East,Economic activity rate - aged 16-64,81.6
+Jul 2018-Jun 2019,South East,Employment rate - aged 16-64,79.0
+Jul 2018-Jun 2019,South East,Unemployment rate - aged 16+,3.1
+Jul 2018-Jun 2019,South West,Economic activity rate - aged 16-64,81.9
+Jul 2018-Jun 2019,South West,Employment rate - aged 16-64,79.3
+Jul 2018-Jun 2019,South West,Unemployment rate - aged 16+,3.1
+Jul 2018-Jun 2019,Wales,Economic activity rate - aged 16-64,76.5
+Jul 2018-Jun 2019,Wales,Employment rate - aged 16-64,73.2
+Jul 2018-Jun 2019,Wales,Unemployment rate - aged 16+,4.2
+Jul 2018-Jun 2019,Scotland,Economic activity rate - aged 16-64,77.9
+Jul 2018-Jun 2019,Scotland,Employment rate - aged 16-64,74.7
+Jul 2018-Jun 2019,Scotland,Unemployment rate - aged 16+,4.1
+Oct 2018-Sep 2019,North East,Economic activity rate - aged 16-64,75.7
+Oct 2018-Sep 2019,North East,Employment rate - aged 16-64,71.2
+Oct 2018-Sep 2019,North East,Unemployment rate - aged 16+,5.7
+Oct 2018-Sep 2019,North West,Economic activity rate - aged 16-64,77.4
+Oct 2018-Sep 2019,North West,Employment rate - aged 16-64,74.3
+Oct 2018-Sep 2019,North West,Unemployment rate - aged 16+,3.9
+Oct 2018-Sep 2019,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.3
+Oct 2018-Sep 2019,Yorkshire and The Humber,Employment rate - aged 16-64,73.8
+Oct 2018-Sep 2019,Yorkshire and The Humber,Unemployment rate - aged 16+,4.3
+Oct 2018-Sep 2019,East Midlands,Economic activity rate - aged 16-64,79.4
+Oct 2018-Sep 2019,East Midlands,Employment rate - aged 16-64,76.0
+Oct 2018-Sep 2019,East Midlands,Unemployment rate - aged 16+,4.2
+Oct 2018-Sep 2019,West Midlands,Economic activity rate - aged 16-64,77.4
+Oct 2018-Sep 2019,West Midlands,Employment rate - aged 16-64,73.8
+Oct 2018-Sep 2019,West Midlands,Unemployment rate - aged 16+,4.5
+Oct 2018-Sep 2019,East,Economic activity rate - aged 16-64,80.5
+Oct 2018-Sep 2019,East,Employment rate - aged 16-64,78.1
+Oct 2018-Sep 2019,East,Unemployment rate - aged 16+,3.0
+Oct 2018-Sep 2019,London,Economic activity rate - aged 16-64,78.1
+Oct 2018-Sep 2019,London,Employment rate - aged 16-64,74.4
+Oct 2018-Sep 2019,London,Unemployment rate - aged 16+,4.6
+Oct 2018-Sep 2019,South East,Economic activity rate - aged 16-64,81.9
+Oct 2018-Sep 2019,South East,Employment rate - aged 16-64,79.3
+Oct 2018-Sep 2019,South East,Unemployment rate - aged 16+,3.1
+Oct 2018-Sep 2019,South West,Economic activity rate - aged 16-64,82.0
+Oct 2018-Sep 2019,South West,Employment rate - aged 16-64,79.2
+Oct 2018-Sep 2019,South West,Unemployment rate - aged 16+,3.3
+Oct 2018-Sep 2019,Wales,Economic activity rate - aged 16-64,76.8
+Oct 2018-Sep 2019,Wales,Employment rate - aged 16-64,73.5
+Oct 2018-Sep 2019,Wales,Unemployment rate - aged 16+,4.1
+Oct 2018-Sep 2019,Scotland,Economic activity rate - aged 16-64,77.8
+Oct 2018-Sep 2019,Scotland,Employment rate - aged 16-64,74.8
+Oct 2018-Sep 2019,Scotland,Unemployment rate - aged 16+,3.9
+Jan 2019-Dec 2019,North East,Economic activity rate - aged 16-64,75.0
+Jan 2019-Dec 2019,North East,Employment rate - aged 16-64,70.5
+Jan 2019-Dec 2019,North East,Unemployment rate - aged 16+,5.8
+Jan 2019-Dec 2019,North West,Economic activity rate - aged 16-64,77.7
+Jan 2019-Dec 2019,North West,Employment rate - aged 16-64,74.5
+Jan 2019-Dec 2019,North West,Unemployment rate - aged 16+,4.1
+Jan 2019-Dec 2019,Yorkshire and The Humber,Economic activity rate - aged 16-64,77.2
+Jan 2019-Dec 2019,Yorkshire and The Humber,Employment rate - aged 16-64,73.7
+Jan 2019-Dec 2019,Yorkshire and The Humber,Unemployment rate - aged 16+,4.4
+Jan 2019-Dec 2019,East Midlands,Economic activity rate - aged 16-64,80.0
+Jan 2019-Dec 2019,East Midlands,Employment rate - aged 16-64,76.9
+Jan 2019-Dec 2019,East Midlands,Unemployment rate - aged 16+,3.7
+Jan 2019-Dec 2019,West Midlands,Economic activity rate - aged 16-64,77.7
+Jan 2019-Dec 2019,West Midlands,Employment rate - aged 16-64,73.9
+Jan 2019-Dec 2019,West Midlands,Unemployment rate - aged 16+,4.8
+Jan 2019-Dec 2019,East,Economic activity rate - aged 16-64,80.6
+Jan 2019-Dec 2019,East,Employment rate - aged 16-64,77.9
+Jan 2019-Dec 2019,East,Unemployment rate - aged 16+,3.2
+Jan 2019-Dec 2019,London,Economic activity rate - aged 16-64,78.1
+Jan 2019-Dec 2019,London,Employment rate - aged 16-64,74.5
+Jan 2019-Dec 2019,London,Unemployment rate - aged 16+,4.6
+Jan 2019-Dec 2019,South East,Economic activity rate - aged 16-64,82.0
+Jan 2019-Dec 2019,South East,Employment rate - aged 16-64,79.5
+Jan 2019-Dec 2019,South East,Unemployment rate - aged 16+,3.0
+Jan 2019-Dec 2019,South West,Economic activity rate - aged 16-64,81.8
+Jan 2019-Dec 2019,South West,Employment rate - aged 16-64,79.2
+Jan 2019-Dec 2019,South West,Unemployment rate - aged 16+,3.1
+Jan 2019-Dec 2019,Wales,Economic activity rate - aged 16-64,76.4
+Jan 2019-Dec 2019,Wales,Employment rate - aged 16-64,73.2
+Jan 2019-Dec 2019,Wales,Unemployment rate - aged 16+,4.1
+Jan 2019-Dec 2019,Scotland,Economic activity rate - aged 16-64,77.5
+Jan 2019-Dec 2019,Scotland,Employment rate - aged 16-64,74.8
+Jan 2019-Dec 2019,Scotland,Unemployment rate - aged 16+,3.5

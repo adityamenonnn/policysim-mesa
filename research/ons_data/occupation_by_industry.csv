@@ -1,0 +1,190 @@
+occupation,industry,workers
+"1 Managers, directors and senior officials","A Agriculture, forestry and fishing",21737
+"1 Managers, directors and senior officials",B Mining and quarrying,5378
+"1 Managers, directors and senior officials",C Manufacturing,280987
+"1 Managers, directors and senior officials","D Electricity, gas, steam and air conditioning supply",13831
+"1 Managers, directors and senior officials","E Water supply; sewerage, waste management and remediation activities",21041
+"1 Managers, directors and senior officials",F Construction,197644
+"1 Managers, directors and senior officials",G Wholesale and retail trade; repair of motor vehicles and motorcycles,727356
+"1 Managers, directors and senior officials",H Transportation and storage,104473
+"1 Managers, directors and senior officials",I Accommodation and food service activities,236168
+"1 Managers, directors and senior officials",J Information and communication,123964
+"1 Managers, directors and senior officials",K Financial and insurance activities,202280
+"1 Managers, directors and senior officials",L Real estate activities,96277
+"1 Managers, directors and senior officials","M Professional, scientific and technical activities",191394
+"1 Managers, directors and senior officials",N Administrative and support service activities,127093
+"1 Managers, directors and senior officials",O Public administration and defence; compulsory social security,128539
+"1 Managers, directors and senior officials",P Education,64299
+"1 Managers, directors and senior officials",Q Human health and social work activities,199063
+"1 Managers, directors and senior officials","R Arts, entertainment and recreation",82490
+"1 Managers, directors and senior officials",S Other service activities,55448
+"1 Managers, directors and senior officials",T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,543
+"1 Managers, directors and senior officials",U Activities of extraterritorial organisations and bodies,3585
+2 Professional occupations,"A Agriculture, forestry and fishing",4100
+2 Professional occupations,B Mining and quarrying,8541
+2 Professional occupations,C Manufacturing,237223
+2 Professional occupations,"D Electricity, gas, steam and air conditioning supply",27696
+2 Professional occupations,"E Water supply; sewerage, waste management and remediation activities",14909
+2 Professional occupations,F Construction,163365
+2 Professional occupations,G Wholesale and retail trade; repair of motor vehicles and motorcycles,149769
+2 Professional occupations,H Transportation and storage,41275
+2 Professional occupations,I Accommodation and food service activities,16529
+2 Professional occupations,J Information and communication,430247
+2 Professional occupations,K Financial and insurance activities,160919
+2 Professional occupations,L Real estate activities,41247
+2 Professional occupations,"M Professional, scientific and technical activities",679339
+2 Professional occupations,N Administrative and support service activities,56389
+2 Professional occupations,O Public administration and defence; compulsory social security,195038
+2 Professional occupations,P Education,1233738
+2 Professional occupations,Q Human health and social work activities,1055244
+2 Professional occupations,"R Arts, entertainment and recreation",51898
+2 Professional occupations,S Other service activities,67098
+2 Professional occupations,T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,440
+2 Professional occupations,U Activities of extraterritorial organisations and bodies,3062
+3 Associate professional and technical occupations,"A Agriculture, forestry and fishing",4074
+3 Associate professional and technical occupations,B Mining and quarrying,6003
+3 Associate professional and technical occupations,C Manufacturing,271143
+3 Associate professional and technical occupations,"D Electricity, gas, steam and air conditioning supply",22679
+3 Associate professional and technical occupations,"E Water supply; sewerage, waste management and remediation activities",17515
+3 Associate professional and technical occupations,F Construction,86893
+3 Associate professional and technical occupations,G Wholesale and retail trade; repair of motor vehicles and motorcycles,300265
+3 Associate professional and technical occupations,H Transportation and storage,75748
+3 Associate professional and technical occupations,I Accommodation and food service activities,39069
+3 Associate professional and technical occupations,J Information and communication,245373
+3 Associate professional and technical occupations,K Financial and insurance activities,335426
+3 Associate professional and technical occupations,L Real estate activities,103253
+3 Associate professional and technical occupations,"M Professional, scientific and technical activities",379567
+3 Associate professional and technical occupations,N Administrative and support service activities,151078
+3 Associate professional and technical occupations,O Public administration and defence; compulsory social security,543739
+3 Associate professional and technical occupations,P Education,254189
+3 Associate professional and technical occupations,Q Human health and social work activities,285399
+3 Associate professional and technical occupations,"R Arts, entertainment and recreation",191734
+3 Associate professional and technical occupations,S Other service activities,58775
+3 Associate professional and technical occupations,T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,364
+3 Associate professional and technical occupations,U Activities of extraterritorial organisations and bodies,6898
+4 Administrative and secretarial occupations,"A Agriculture, forestry and fishing",10334
+4 Administrative and secretarial occupations,B Mining and quarrying,3390
+4 Administrative and secretarial occupations,C Manufacturing,186199
+4 Administrative and secretarial occupations,"D Electricity, gas, steam and air conditioning supply",14817
+4 Administrative and secretarial occupations,"E Water supply; sewerage, waste management and remediation activities",17788
+4 Administrative and secretarial occupations,F Construction,138720
+4 Administrative and secretarial occupations,G Wholesale and retail trade; repair of motor vehicles and motorcycles,330506
+4 Administrative and secretarial occupations,H Transportation and storage,122894
+4 Administrative and secretarial occupations,I Accommodation and food service activities,63392
+4 Administrative and secretarial occupations,J Information and communication,82507
+4 Administrative and secretarial occupations,K Financial and insurance activities,331936
+4 Administrative and secretarial occupations,L Real estate activities,66873
+4 Administrative and secretarial occupations,"M Professional, scientific and technical activities",312765
+4 Administrative and secretarial occupations,N Administrative and support service activities,125652
+4 Administrative and secretarial occupations,O Public administration and defence; compulsory social security,501717
+4 Administrative and secretarial occupations,P Education,206664
+4 Administrative and secretarial occupations,Q Human health and social work activities,382869
+4 Administrative and secretarial occupations,"R Arts, entertainment and recreation",88536
+4 Administrative and secretarial occupations,S Other service activities,59103
+4 Administrative and secretarial occupations,T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,1499
+4 Administrative and secretarial occupations,U Activities of extraterritorial organisations and bodies,4327
+5 Skilled trades occupations,"A Agriculture, forestry and fishing",122787
+5 Skilled trades occupations,B Mining and quarrying,6374
+5 Skilled trades occupations,C Manufacturing,538170
+5 Skilled trades occupations,"D Electricity, gas, steam and air conditioning supply",28968
+5 Skilled trades occupations,"E Water supply; sewerage, waste management and remediation activities",12385
+5 Skilled trades occupations,F Construction,1081911
+5 Skilled trades occupations,G Wholesale and retail trade; repair of motor vehicles and motorcycles,376785
+5 Skilled trades occupations,H Transportation and storage,50912
+5 Skilled trades occupations,I Accommodation and food service activities,311768
+5 Skilled trades occupations,J Information and communication,75196
+5 Skilled trades occupations,K Financial and insurance activities,11100
+5 Skilled trades occupations,L Real estate activities,20195
+5 Skilled trades occupations,"M Professional, scientific and technical activities",48733
+5 Skilled trades occupations,N Administrative and support service activities,144453
+5 Skilled trades occupations,O Public administration and defence; compulsory social security,42164
+5 Skilled trades occupations,P Education,47681
+5 Skilled trades occupations,Q Human health and social work activities,62182
+5 Skilled trades occupations,"R Arts, entertainment and recreation",40319
+5 Skilled trades occupations,S Other service activities,43010
+5 Skilled trades occupations,T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,2905
+5 Skilled trades occupations,U Activities of extraterritorial organisations and bodies,1049
+"6 Caring, leisure and other service occupations","A Agriculture, forestry and fishing",6289
+"6 Caring, leisure and other service occupations",B Mining and quarrying,314
+"6 Caring, leisure and other service occupations",C Manufacturing,14867
+"6 Caring, leisure and other service occupations","D Electricity, gas, steam and air conditioning supply",787
+"6 Caring, leisure and other service occupations","E Water supply; sewerage, waste management and remediation activities",1088
+"6 Caring, leisure and other service occupations",F Construction,14159
+"6 Caring, leisure and other service occupations",G Wholesale and retail trade; repair of motor vehicles and motorcycles,37886
+"6 Caring, leisure and other service occupations",H Transportation and storage,68294
+"6 Caring, leisure and other service occupations",I Accommodation and food service activities,59007
+"6 Caring, leisure and other service occupations",J Information and communication,6757
+"6 Caring, leisure and other service occupations",K Financial and insurance activities,8758
+"6 Caring, leisure and other service occupations",L Real estate activities,22865
+"6 Caring, leisure and other service occupations","M Professional, scientific and technical activities",30300
+"6 Caring, leisure and other service occupations",N Administrative and support service activities,115610
+"6 Caring, leisure and other service occupations",O Public administration and defence; compulsory social security,37814
+"6 Caring, leisure and other service occupations",P Education,576190
+"6 Caring, leisure and other service occupations",Q Human health and social work activities,1133781
+"6 Caring, leisure and other service occupations","R Arts, entertainment and recreation",72596
+"6 Caring, leisure and other service occupations",S Other service activities,275842
+"6 Caring, leisure and other service occupations",T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,18499
+"6 Caring, leisure and other service occupations",U Activities of extraterritorial organisations and bodies,553
+7 Sales and customer service occupations,"A Agriculture, forestry and fishing",2277
+7 Sales and customer service occupations,B Mining and quarrying,447
+7 Sales and customer service occupations,C Manufacturing,52164
+7 Sales and customer service occupations,"D Electricity, gas, steam and air conditioning supply",25731
+7 Sales and customer service occupations,"E Water supply; sewerage, waste management and remediation activities",7686
+7 Sales and customer service occupations,F Construction,22766
+7 Sales and customer service occupations,G Wholesale and retail trade; repair of motor vehicles and motorcycles,1624138
+7 Sales and customer service occupations,H Transportation and storage,48510
+7 Sales and customer service occupations,I Accommodation and food service activities,74817
+7 Sales and customer service occupations,J Information and communication,49987
+7 Sales and customer service occupations,K Financial and insurance activities,72258
+7 Sales and customer service occupations,L Real estate activities,14172
+7 Sales and customer service occupations,"M Professional, scientific and technical activities",47441
+7 Sales and customer service occupations,N Administrative and support service activities,67634
+7 Sales and customer service occupations,O Public administration and defence; compulsory social security,50918
+7 Sales and customer service occupations,P Education,14696
+7 Sales and customer service occupations,Q Human health and social work activities,33811
+7 Sales and customer service occupations,"R Arts, entertainment and recreation",25738
+7 Sales and customer service occupations,S Other service activities,14595
+7 Sales and customer service occupations,T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,189
+7 Sales and customer service occupations,U Activities of extraterritorial organisations and bodies,286
+"8 Process, plant and machine operatives","A Agriculture, forestry and fishing",11506
+"8 Process, plant and machine operatives",B Mining and quarrying,14989
+"8 Process, plant and machine operatives",C Manufacturing,577439
+"8 Process, plant and machine operatives","D Electricity, gas, steam and air conditioning supply",11325
+"8 Process, plant and machine operatives","E Water supply; sewerage, waste management and remediation activities",52716
+"8 Process, plant and machine operatives",F Construction,194238
+"8 Process, plant and machine operatives",G Wholesale and retail trade; repair of motor vehicles and motorcycles,245701
+"8 Process, plant and machine operatives",H Transportation and storage,527504
+"8 Process, plant and machine operatives",I Accommodation and food service activities,36244
+"8 Process, plant and machine operatives",J Information and communication,15476
+"8 Process, plant and machine operatives",K Financial and insurance activities,7022
+"8 Process, plant and machine operatives",L Real estate activities,6611
+"8 Process, plant and machine operatives","M Professional, scientific and technical activities",34276
+"8 Process, plant and machine operatives",N Administrative and support service activities,67579
+"8 Process, plant and machine operatives",O Public administration and defence; compulsory social security,26506
+"8 Process, plant and machine operatives",P Education,46242
+"8 Process, plant and machine operatives",Q Human health and social work activities,30175
+"8 Process, plant and machine operatives","R Arts, entertainment and recreation",9860
+"8 Process, plant and machine operatives",S Other service activities,14721
+"8 Process, plant and machine operatives",T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,515
+"8 Process, plant and machine operatives",U Activities of extraterritorial organisations and bodies,664
+9 Elementary occupations,"A Agriculture, forestry and fishing",54701
+9 Elementary occupations,B Mining and quarrying,1571
+9 Elementary occupations,C Manufacturing,228675
+9 Elementary occupations,"D Electricity, gas, steam and air conditioning supply",5899
+9 Elementary occupations,"E Water supply; sewerage, waste management and remediation activities",43149
+9 Elementary occupations,F Construction,153981
+9 Elementary occupations,G Wholesale and retail trade; repair of motor vehicles and motorcycles,452999
+9 Elementary occupations,H Transportation and storage,280768
+9 Elementary occupations,I Accommodation and food service activities,655287
+9 Elementary occupations,J Information and communication,29525
+9 Elementary occupations,K Financial and insurance activities,19419
+9 Elementary occupations,L Real estate activities,16437
+9 Elementary occupations,"M Professional, scientific and technical activities",32988
+9 Elementary occupations,N Administrative and support service activities,445217
+9 Elementary occupations,O Public administration and defence; compulsory social security,71978
+9 Elementary occupations,P Education,197463
+9 Elementary occupations,Q Human health and social work activities,152663
+9 Elementary occupations,"R Arts, entertainment and recreation",69953
+9 Elementary occupations,S Other service activities,55402
+9 Elementary occupations,T Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use,6323
+9 Elementary occupations,U Activities of extraterritorial organisations and bodies,969

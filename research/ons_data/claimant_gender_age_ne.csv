@@ -1,0 +1,481 @@
+month,geography,gender,age_band,claimants
+January 2014,North East,Male,Age unknown (clerical claims),50
+January 2014,North East,Male,Aged 16-24,14060
+January 2014,North East,Male,Aged 25-49,27785
+January 2014,North East,Male,Aged 50+,8405
+January 2014,North East,Female,Age unknown (clerical claims),20
+January 2014,North East,Female,Aged 16-24,6865
+January 2014,North East,Female,Aged 25-49,13540
+January 2014,North East,Female,Aged 50+,4585
+February 2014,North East,Male,Age unknown (clerical claims),50
+February 2014,North East,Male,Aged 16-24,13900
+February 2014,North East,Male,Aged 25-49,26935
+February 2014,North East,Male,Aged 50+,8185
+February 2014,North East,Female,Age unknown (clerical claims),20
+February 2014,North East,Female,Aged 16-24,6775
+February 2014,North East,Female,Aged 25-49,13365
+February 2014,North East,Female,Aged 50+,4575
+March 2014,North East,Male,Age unknown (clerical claims),60
+March 2014,North East,Male,Aged 16-24,13175
+March 2014,North East,Male,Aged 25-49,25850
+March 2014,North East,Male,Aged 50+,7815
+March 2014,North East,Female,Age unknown (clerical claims),25
+March 2014,North East,Female,Aged 16-24,6350
+March 2014,North East,Female,Aged 25-49,12835
+March 2014,North East,Female,Aged 50+,4395
+April 2014,North East,Male,Age unknown (clerical claims),55
+April 2014,North East,Male,Aged 16-24,12420
+April 2014,North East,Male,Aged 25-49,24845
+April 2014,North East,Male,Aged 50+,7715
+April 2014,North East,Female,Age unknown (clerical claims),20
+April 2014,North East,Female,Aged 16-24,5980
+April 2014,North East,Female,Aged 25-49,12560
+April 2014,North East,Female,Aged 50+,4395
+May 2014,North East,Male,Age unknown (clerical claims),50
+May 2014,North East,Male,Aged 16-24,11600
+May 2014,North East,Male,Aged 25-49,23755
+May 2014,North East,Male,Aged 50+,7455
+May 2014,North East,Female,Age unknown (clerical claims),20
+May 2014,North East,Female,Aged 16-24,5515
+May 2014,North East,Female,Aged 25-49,12120
+May 2014,North East,Female,Aged 50+,4195
+June 2014,North East,Male,Age unknown (clerical claims),45
+June 2014,North East,Male,Aged 16-24,10460
+June 2014,North East,Male,Aged 25-49,22180
+June 2014,North East,Male,Aged 50+,7060
+June 2014,North East,Female,Age unknown (clerical claims),20
+June 2014,North East,Female,Aged 16-24,5125
+June 2014,North East,Female,Aged 25-49,11415
+June 2014,North East,Female,Aged 50+,4010
+July 2014,North East,Male,Age unknown (clerical claims),40
+July 2014,North East,Male,Aged 16-24,10295
+July 2014,North East,Male,Aged 25-49,21405
+July 2014,North East,Male,Aged 50+,6875
+July 2014,North East,Female,Age unknown (clerical claims),20
+July 2014,North East,Female,Aged 16-24,5215
+July 2014,North East,Female,Aged 25-49,11115
+July 2014,North East,Female,Aged 50+,3915
+August 2014,North East,Male,Age unknown (clerical claims),35
+August 2014,North East,Male,Aged 16-24,10010
+August 2014,North East,Male,Aged 25-49,20510
+August 2014,North East,Male,Aged 50+,6655
+August 2014,North East,Female,Age unknown (clerical claims),25
+August 2014,North East,Female,Aged 16-24,5170
+August 2014,North East,Female,Aged 25-49,10900
+August 2014,North East,Female,Aged 50+,3960
+September 2014,North East,Male,Age unknown (clerical claims),30
+September 2014,North East,Male,Aged 16-24,10310
+September 2014,North East,Male,Aged 25-49,19885
+September 2014,North East,Male,Aged 50+,6480
+September 2014,North East,Female,Age unknown (clerical claims),15
+September 2014,North East,Female,Aged 16-24,5455
+September 2014,North East,Female,Aged 25-49,10520
+September 2014,North East,Female,Aged 50+,3795
+October 2014,North East,Male,Age unknown (clerical claims),35
+October 2014,North East,Male,Aged 16-24,10050
+October 2014,North East,Male,Aged 25-49,19285
+October 2014,North East,Male,Aged 50+,6480
+October 2014,North East,Female,Age unknown (clerical claims),20
+October 2014,North East,Female,Aged 16-24,5200
+October 2014,North East,Female,Aged 25-49,9900
+October 2014,North East,Female,Aged 50+,3640
+November 2014,North East,Male,Age unknown (clerical claims),45
+November 2014,North East,Male,Aged 16-24,9470
+November 2014,North East,Male,Aged 25-49,18970
+November 2014,North East,Male,Aged 50+,6415
+November 2014,North East,Female,Age unknown (clerical claims),25
+November 2014,North East,Female,Aged 16-24,4695
+November 2014,North East,Female,Aged 25-49,9335
+November 2014,North East,Female,Aged 50+,3490
+December 2014,North East,Male,Age unknown (clerical claims),45
+December 2014,North East,Male,Aged 16-24,8945
+December 2014,North East,Male,Aged 25-49,18820
+December 2014,North East,Male,Aged 50+,6380
+December 2014,North East,Female,Age unknown (clerical claims),20
+December 2014,North East,Female,Aged 16-24,4315
+December 2014,North East,Female,Aged 25-49,8905
+December 2014,North East,Female,Aged 50+,3375
+January 2015,North East,Male,Age unknown (clerical claims),45
+January 2015,North East,Male,Aged 16-24,9160
+January 2015,North East,Male,Aged 25-49,19670
+January 2015,North East,Male,Aged 50+,6720
+January 2015,North East,Female,Age unknown (clerical claims),20
+January 2015,North East,Female,Aged 16-24,4430
+January 2015,North East,Female,Aged 25-49,9040
+January 2015,North East,Female,Aged 50+,3420
+February 2015,North East,Male,Age unknown (clerical claims),50
+February 2015,North East,Male,Aged 16-24,9135
+February 2015,North East,Male,Aged 25-49,19105
+February 2015,North East,Male,Aged 50+,6530
+February 2015,North East,Female,Age unknown (clerical claims),30
+February 2015,North East,Female,Aged 16-24,4425
+February 2015,North East,Female,Aged 25-49,8975
+February 2015,North East,Female,Aged 50+,3345
+March 2015,North East,Male,Age unknown (clerical claims),40
+March 2015,North East,Male,Aged 16-24,8700
+March 2015,North East,Male,Aged 25-49,18640
+March 2015,North East,Male,Aged 50+,6490
+March 2015,North East,Female,Age unknown (clerical claims),20
+March 2015,North East,Female,Aged 16-24,4185
+March 2015,North East,Female,Aged 25-49,8765
+March 2015,North East,Female,Aged 50+,3340
+April 2015,North East,Male,Age unknown (clerical claims),35
+April 2015,North East,Male,Aged 16-24,8310
+April 2015,North East,Male,Aged 25-49,18135
+April 2015,North East,Male,Aged 50+,6475
+April 2015,North East,Female,Age unknown (clerical claims),15
+April 2015,North East,Female,Aged 16-24,3960
+April 2015,North East,Female,Aged 25-49,8525
+April 2015,North East,Female,Aged 50+,3335
+May 2015,North East,Male,Age unknown (clerical claims),45
+May 2015,North East,Male,Aged 16-24,7860
+May 2015,North East,Male,Aged 25-49,17425
+May 2015,North East,Male,Aged 50+,6390
+May 2015,North East,Female,Age unknown (clerical claims),15
+May 2015,North East,Female,Aged 16-24,3690
+May 2015,North East,Female,Aged 25-49,8355
+May 2015,North East,Female,Aged 50+,3300
+June 2015,North East,Male,Age unknown (clerical claims),55
+June 2015,North East,Male,Aged 16-24,7475
+June 2015,North East,Male,Aged 25-49,16975
+June 2015,North East,Male,Aged 50+,6295
+June 2015,North East,Female,Age unknown (clerical claims),15
+June 2015,North East,Female,Aged 16-24,3595
+June 2015,North East,Female,Aged 25-49,8160
+June 2015,North East,Female,Aged 50+,3245
+July 2015,North East,Male,Age unknown (clerical claims),35
+July 2015,North East,Male,Aged 16-24,7430
+July 2015,North East,Male,Aged 25-49,16710
+July 2015,North East,Male,Aged 50+,6220
+July 2015,North East,Female,Age unknown (clerical claims),15
+July 2015,North East,Female,Aged 16-24,3800
+July 2015,North East,Female,Aged 25-49,8175
+July 2015,North East,Female,Aged 50+,3235
+August 2015,North East,Male,Age unknown (clerical claims),35
+August 2015,North East,Male,Aged 16-24,7495
+August 2015,North East,Male,Aged 25-49,16525
+August 2015,North East,Male,Aged 50+,6245
+August 2015,North East,Female,Age unknown (clerical claims),10
+August 2015,North East,Female,Aged 16-24,3905
+August 2015,North East,Female,Aged 25-49,8270
+August 2015,North East,Female,Aged 50+,3365
+September 2015,North East,Male,Age unknown (clerical claims),35
+September 2015,North East,Male,Aged 16-24,7680
+September 2015,North East,Male,Aged 25-49,16235
+September 2015,North East,Male,Aged 50+,6065
+September 2015,North East,Female,Age unknown (clerical claims),15
+September 2015,North East,Female,Aged 16-24,4000
+September 2015,North East,Female,Aged 25-49,8025
+September 2015,North East,Female,Aged 50+,3305
+October 2015,North East,Male,Age unknown (clerical claims),35
+October 2015,North East,Male,Aged 16-24,7590
+October 2015,North East,Male,Aged 25-49,16680
+October 2015,North East,Male,Aged 50+,6565
+October 2015,North East,Female,Age unknown (clerical claims),15
+October 2015,North East,Female,Aged 16-24,3855
+October 2015,North East,Female,Aged 25-49,7995
+October 2015,North East,Female,Aged 50+,3355
+November 2015,North East,Male,Age unknown (clerical claims),35
+November 2015,North East,Male,Aged 16-24,7445
+November 2015,North East,Male,Aged 25-49,17035
+November 2015,North East,Male,Aged 50+,6985
+November 2015,North East,Female,Age unknown (clerical claims),10
+November 2015,North East,Female,Aged 16-24,3645
+November 2015,North East,Female,Aged 25-49,7855
+November 2015,North East,Female,Aged 50+,3375
+December 2015,North East,Male,Age unknown (clerical claims),35
+December 2015,North East,Male,Aged 16-24,7320
+December 2015,North East,Male,Aged 25-49,17390
+December 2015,North East,Male,Aged 50+,7255
+December 2015,North East,Female,Age unknown (clerical claims),10
+December 2015,North East,Female,Aged 16-24,3395
+December 2015,North East,Female,Aged 25-49,7905
+December 2015,North East,Female,Aged 50+,3415
+January 2016,North East,Male,Age unknown (clerical claims),45
+January 2016,North East,Male,Aged 16-24,7575
+January 2016,North East,Male,Aged 25-49,18580
+January 2016,North East,Male,Aged 50+,7820
+January 2016,North East,Female,Age unknown (clerical claims),15
+January 2016,North East,Female,Aged 16-24,3600
+January 2016,North East,Female,Aged 25-49,8405
+January 2016,North East,Female,Aged 50+,3640
+February 2016,North East,Male,Age unknown (clerical claims),50
+February 2016,North East,Male,Aged 16-24,8050
+February 2016,North East,Male,Aged 25-49,18975
+February 2016,North East,Male,Aged 50+,8075
+February 2016,North East,Female,Age unknown (clerical claims),15
+February 2016,North East,Female,Aged 16-24,3760
+February 2016,North East,Female,Aged 25-49,8720
+February 2016,North East,Female,Aged 50+,3835
+March 2016,North East,Male,Age unknown (clerical claims),30
+March 2016,North East,Male,Aged 16-24,8100
+March 2016,North East,Male,Aged 25-49,18960
+March 2016,North East,Male,Aged 50+,8210
+March 2016,North East,Female,Age unknown (clerical claims),10
+March 2016,North East,Female,Aged 16-24,3825
+March 2016,North East,Female,Aged 25-49,8920
+March 2016,North East,Female,Aged 50+,3925
+April 2016,North East,Male,Age unknown (clerical claims),40
+April 2016,North East,Male,Aged 16-24,7865
+April 2016,North East,Male,Aged 25-49,18300
+April 2016,North East,Male,Aged 50+,7985
+April 2016,North East,Female,Age unknown (clerical claims),10
+April 2016,North East,Female,Aged 16-24,3685
+April 2016,North East,Female,Aged 25-49,8760
+April 2016,North East,Female,Aged 50+,3925
+May 2016,North East,Male,Age unknown (clerical claims),35
+May 2016,North East,Male,Aged 16-24,7705
+May 2016,North East,Male,Aged 25-49,17800
+May 2016,North East,Male,Aged 50+,7785
+May 2016,North East,Female,Age unknown (clerical claims),10
+May 2016,North East,Female,Aged 16-24,3610
+May 2016,North East,Female,Aged 25-49,8795
+May 2016,North East,Female,Aged 50+,3985
+June 2016,North East,Male,Age unknown (clerical claims),35
+June 2016,North East,Male,Aged 16-24,7520
+June 2016,North East,Male,Aged 25-49,17425
+June 2016,North East,Male,Aged 50+,7685
+June 2016,North East,Female,Age unknown (clerical claims),5
+June 2016,North East,Female,Aged 16-24,3605
+June 2016,North East,Female,Aged 25-49,8700
+June 2016,North East,Female,Aged 50+,4060
+July 2016,North East,Male,Age unknown (clerical claims),30
+July 2016,North East,Male,Aged 16-24,7490
+July 2016,North East,Male,Aged 25-49,17040
+July 2016,North East,Male,Aged 50+,7520
+July 2016,North East,Female,Age unknown (clerical claims),5
+July 2016,North East,Female,Aged 16-24,3760
+July 2016,North East,Female,Aged 25-49,8765
+July 2016,North East,Female,Aged 50+,4195
+August 2016,North East,Male,Age unknown (clerical claims),45
+August 2016,North East,Male,Aged 16-24,7635
+August 2016,North East,Male,Aged 25-49,16920
+August 2016,North East,Male,Aged 50+,7535
+August 2016,North East,Female,Age unknown (clerical claims),15
+August 2016,North East,Female,Aged 16-24,3935
+August 2016,North East,Female,Aged 25-49,8915
+August 2016,North East,Female,Aged 50+,4330
+September 2016,North East,Male,Age unknown (clerical claims),40
+September 2016,North East,Male,Aged 16-24,7765
+September 2016,North East,Male,Aged 25-49,16770
+September 2016,North East,Male,Aged 50+,7515
+September 2016,North East,Female,Age unknown (clerical claims),15
+September 2016,North East,Female,Aged 16-24,4020
+September 2016,North East,Female,Aged 25-49,8935
+September 2016,North East,Female,Aged 50+,4345
+October 2016,North East,Male,Age unknown (clerical claims),45
+October 2016,North East,Male,Aged 16-24,8115
+October 2016,North East,Male,Aged 25-49,16925
+October 2016,North East,Male,Aged 50+,7655
+October 2016,North East,Female,Age unknown (clerical claims),15
+October 2016,North East,Female,Aged 16-24,4220
+October 2016,North East,Female,Aged 25-49,8780
+October 2016,North East,Female,Aged 50+,4385
+November 2016,North East,Male,Age unknown (clerical claims),20
+November 2016,North East,Male,Aged 16-24,8085
+November 2016,North East,Male,Aged 25-49,17235
+November 2016,North East,Male,Aged 50+,7805
+November 2016,North East,Female,Age unknown (clerical claims),5
+November 2016,North East,Female,Aged 16-24,4105
+November 2016,North East,Female,Aged 25-49,8730
+November 2016,North East,Female,Aged 50+,4435
+December 2016,North East,Male,Age unknown (clerical claims),25
+December 2016,North East,Male,Aged 16-24,7890
+December 2016,North East,Male,Aged 25-49,17465
+December 2016,North East,Male,Aged 50+,8090
+December 2016,North East,Female,Age unknown (clerical claims),5
+December 2016,North East,Female,Aged 16-24,3960
+December 2016,North East,Female,Aged 25-49,8730
+December 2016,North East,Female,Aged 50+,4450
+January 2017,North East,Male,Age unknown (clerical claims),25
+January 2017,North East,Male,Aged 16-24,7725
+January 2017,North East,Male,Aged 25-49,18295
+January 2017,North East,Male,Aged 50+,8505
+January 2017,North East,Female,Age unknown (clerical claims),10
+January 2017,North East,Female,Aged 16-24,3865
+January 2017,North East,Female,Aged 25-49,9080
+January 2017,North East,Female,Aged 50+,4630
+February 2017,North East,Male,Age unknown (clerical claims),20
+February 2017,North East,Male,Aged 16-24,7870
+February 2017,North East,Male,Aged 25-49,18785
+February 2017,North East,Male,Aged 50+,8555
+February 2017,North East,Female,Age unknown (clerical claims),10
+February 2017,North East,Female,Aged 16-24,3975
+February 2017,North East,Female,Aged 25-49,9295
+February 2017,North East,Female,Aged 50+,4765
+March 2017,North East,Male,Age unknown (clerical claims),20
+March 2017,North East,Male,Aged 16-24,8235
+March 2017,North East,Male,Aged 25-49,18690
+March 2017,North East,Male,Aged 50+,8515
+March 2017,North East,Female,Age unknown (clerical claims),5
+March 2017,North East,Female,Aged 16-24,4050
+March 2017,North East,Female,Aged 25-49,9415
+March 2017,North East,Female,Aged 50+,4680
+April 2017,North East,Male,Age unknown (clerical claims),20
+April 2017,North East,Male,Aged 16-24,8210
+April 2017,North East,Male,Aged 25-49,18525
+April 2017,North East,Male,Aged 50+,8445
+April 2017,North East,Female,Age unknown (clerical claims),5
+April 2017,North East,Female,Aged 16-24,4110
+April 2017,North East,Female,Aged 25-49,9360
+April 2017,North East,Female,Aged 50+,4730
+May 2017,North East,Male,Age unknown (clerical claims),20
+May 2017,North East,Male,Aged 16-24,7930
+May 2017,North East,Male,Aged 25-49,18360
+May 2017,North East,Male,Aged 50+,8365
+May 2017,North East,Female,Age unknown (clerical claims),5
+May 2017,North East,Female,Aged 16-24,3940
+May 2017,North East,Female,Aged 25-49,9410
+May 2017,North East,Female,Aged 50+,4740
+June 2017,North East,Male,Age unknown (clerical claims),20
+June 2017,North East,Male,Aged 16-24,7815
+June 2017,North East,Male,Aged 25-49,18125
+June 2017,North East,Male,Aged 50+,8240
+June 2017,North East,Female,Age unknown (clerical claims),5
+June 2017,North East,Female,Aged 16-24,3895
+June 2017,North East,Female,Aged 25-49,9375
+June 2017,North East,Female,Aged 50+,4785
+July 2017,North East,Male,Age unknown (clerical claims),20
+July 2017,North East,Male,Aged 16-24,7710
+July 2017,North East,Male,Aged 25-49,17790
+July 2017,North East,Male,Aged 50+,8125
+July 2017,North East,Female,Age unknown (clerical claims),5
+July 2017,North East,Female,Aged 16-24,3945
+July 2017,North East,Female,Aged 25-49,9400
+July 2017,North East,Female,Aged 50+,4855
+August 2017,North East,Male,Age unknown (clerical claims),20
+August 2017,North East,Male,Aged 16-24,7820
+August 2017,North East,Male,Aged 25-49,17835
+August 2017,North East,Male,Aged 50+,8140
+August 2017,North East,Female,Age unknown (clerical claims),5
+August 2017,North East,Female,Aged 16-24,4075
+August 2017,North East,Female,Aged 25-49,9715
+August 2017,North East,Female,Aged 50+,4975
+September 2017,North East,Male,Age unknown (clerical claims),15
+September 2017,North East,Male,Aged 16-24,7875
+September 2017,North East,Male,Aged 25-49,17640
+September 2017,North East,Male,Aged 50+,8090
+September 2017,North East,Female,Age unknown (clerical claims),0
+September 2017,North East,Female,Aged 16-24,4205
+September 2017,North East,Female,Aged 25-49,9800
+September 2017,North East,Female,Aged 50+,4990
+October 2017,North East,Male,Age unknown (clerical claims),20
+October 2017,North East,Male,Aged 16-24,7820
+October 2017,North East,Male,Aged 25-49,17540
+October 2017,North East,Male,Aged 50+,8220
+October 2017,North East,Female,Age unknown (clerical claims),0
+October 2017,North East,Female,Aged 16-24,4225
+October 2017,North East,Female,Aged 25-49,9715
+October 2017,North East,Female,Aged 50+,5010
+November 2017,North East,Male,Age unknown (clerical claims),20
+November 2017,North East,Male,Aged 16-24,7780
+November 2017,North East,Male,Aged 25-49,17775
+November 2017,North East,Male,Aged 50+,8385
+November 2017,North East,Female,Age unknown (clerical claims),5
+November 2017,North East,Female,Aged 16-24,4180
+November 2017,North East,Female,Aged 25-49,9725
+November 2017,North East,Female,Aged 50+,5100
+December 2017,North East,Male,Age unknown (clerical claims),20
+December 2017,North East,Male,Aged 16-24,7695
+December 2017,North East,Male,Aged 25-49,18255
+December 2017,North East,Male,Aged 50+,8640
+December 2017,North East,Female,Age unknown (clerical claims),5
+December 2017,North East,Female,Aged 16-24,4080
+December 2017,North East,Female,Aged 25-49,9925
+December 2017,North East,Female,Aged 50+,5300
+January 2018,North East,Male,Age unknown (clerical claims),20
+January 2018,North East,Male,Aged 16-24,7785
+January 2018,North East,Male,Aged 25-49,19110
+January 2018,North East,Male,Aged 50+,8985
+January 2018,North East,Female,Age unknown (clerical claims),5
+January 2018,North East,Female,Aged 16-24,4090
+January 2018,North East,Female,Aged 25-49,10340
+January 2018,North East,Female,Aged 50+,5465
+February 2018,North East,Male,Age unknown (clerical claims),15
+February 2018,North East,Male,Aged 16-24,8260
+February 2018,North East,Male,Aged 25-49,19855
+February 2018,North East,Male,Aged 50+,9220
+February 2018,North East,Female,Age unknown (clerical claims),5
+February 2018,North East,Female,Aged 16-24,4360
+February 2018,North East,Female,Aged 25-49,10755
+February 2018,North East,Female,Aged 50+,5650
+March 2018,North East,Male,Age unknown (clerical claims),15
+March 2018,North East,Male,Aged 16-24,8555
+March 2018,North East,Male,Aged 25-49,20350
+March 2018,North East,Male,Aged 50+,9315
+March 2018,North East,Female,Age unknown (clerical claims),5
+March 2018,North East,Female,Aged 16-24,4475
+March 2018,North East,Female,Aged 25-49,11030
+March 2018,North East,Female,Aged 50+,5700
+April 2018,North East,Male,Age unknown (clerical claims),15
+April 2018,North East,Male,Aged 16-24,8565
+April 2018,North East,Male,Aged 25-49,20695
+April 2018,North East,Male,Aged 50+,9440
+April 2018,North East,Female,Age unknown (clerical claims),5
+April 2018,North East,Female,Aged 16-24,4575
+April 2018,North East,Female,Aged 25-49,11595
+April 2018,North East,Female,Aged 50+,5930
+May 2018,North East,Male,Age unknown (clerical claims),20
+May 2018,North East,Male,Aged 16-24,8320
+May 2018,North East,Male,Aged 25-49,20225
+May 2018,North East,Male,Aged 50+,9270
+May 2018,North East,Female,Age unknown (clerical claims),5
+May 2018,North East,Female,Aged 16-24,4400
+May 2018,North East,Female,Aged 25-49,11240
+May 2018,North East,Female,Aged 50+,5840
+June 2018,North East,Male,Age unknown (clerical claims),20
+June 2018,North East,Male,Aged 16-24,7950
+June 2018,North East,Male,Aged 25-49,19705
+June 2018,North East,Male,Aged 50+,9080
+June 2018,North East,Female,Age unknown (clerical claims),5
+June 2018,North East,Female,Aged 16-24,4315
+June 2018,North East,Female,Aged 25-49,11240
+June 2018,North East,Female,Aged 50+,5755
+July 2018,North East,Male,Age unknown (clerical claims),15
+July 2018,North East,Male,Aged 16-24,7790
+July 2018,North East,Male,Aged 25-49,19435
+July 2018,North East,Male,Aged 50+,9010
+July 2018,North East,Female,Age unknown (clerical claims),5
+July 2018,North East,Female,Aged 16-24,4350
+July 2018,North East,Female,Aged 25-49,11360
+July 2018,North East,Female,Aged 50+,5760
+August 2018,North East,Male,Age unknown (clerical claims),20
+August 2018,North East,Male,Aged 16-24,7845
+August 2018,North East,Male,Aged 25-49,19570
+August 2018,North East,Male,Aged 50+,9105
+August 2018,North East,Female,Age unknown (clerical claims),5
+August 2018,North East,Female,Aged 16-24,4465
+August 2018,North East,Female,Aged 25-49,11715
+August 2018,North East,Female,Aged 50+,5915
+September 2018,North East,Male,Age unknown (clerical claims),15
+September 2018,North East,Male,Aged 16-24,8110
+September 2018,North East,Male,Aged 25-49,19800
+September 2018,North East,Male,Aged 50+,9290
+September 2018,North East,Female,Age unknown (clerical claims),5
+September 2018,North East,Female,Aged 16-24,4740
+September 2018,North East,Female,Aged 25-49,12190
+September 2018,North East,Female,Aged 50+,6095
+October 2018,North East,Male,Age unknown (clerical claims),15
+October 2018,North East,Male,Aged 16-24,8460
+October 2018,North East,Male,Aged 25-49,20150
+October 2018,North East,Male,Aged 50+,9480
+October 2018,North East,Female,Age unknown (clerical claims),5
+October 2018,North East,Female,Aged 16-24,4920
+October 2018,North East,Female,Aged 25-49,12525
+October 2018,North East,Female,Aged 50+,6205
+November 2018,North East,Male,Age unknown (clerical claims),15
+November 2018,North East,Male,Aged 16-24,8600
+November 2018,North East,Male,Aged 25-49,20495
+November 2018,North East,Male,Aged 50+,9635
+November 2018,North East,Female,Age unknown (clerical claims),5
+November 2018,North East,Female,Aged 16-24,5005
+November 2018,North East,Female,Aged 25-49,12790
+November 2018,North East,Female,Aged 50+,6310
+December 2018,North East,Male,Age unknown (clerical claims),15
+December 2018,North East,Male,Aged 16-24,8740
+December 2018,North East,Male,Aged 25-49,21305
+December 2018,North East,Male,Aged 50+,9955
+December 2018,North East,Female,Age unknown (clerical claims),5
+December 2018,North East,Female,Aged 16-24,5065
+December 2018,North East,Female,Aged 25-49,13145
+December 2018,North East,Female,Aged 50+,6520

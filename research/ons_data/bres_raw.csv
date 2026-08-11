@@ -1,0 +1,2179 @@
+"DATE_NAME","GEOGRAPHY_NAME","INDUSTRY_NAME","OBS_VALUE"
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2015","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2015","North East","2 : Mining, quarrying & utilities (B,D and E)",13000
+"2015","North East","3 : Manufacturing (C)",118000
+"2015","North East","4 : Construction (F)",52000
+"2015","North East","5 : Motor trades (Part G)",18000
+"2015","North East","6 : Wholesale (Part G)",27000
+"2015","North East","7 : Retail (Part G)",105000
+"2015","North East","8 : Transport & storage (inc postal) (H)",44000
+"2015","North East","9 : Accommodation & food services (I)",80000
+"2015","North East","10 : Information & communication (J)",33000
+"2015","North East","11 : Financial & insurance (K)",23000
+"2015","North East","12 : Property (L)",16000
+"2015","North East","13 : Professional, scientific & technical (M)",70000
+"2015","North East","14 : Business administration & support services (N)",81000
+"2015","North East","15 : Public administration & defence (O)",67000
+"2015","North East","16 : Education (P)",100000
+"2015","North East","17 : Health (Q)",168000
+"2015","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",45000
+"2015","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2015","North West","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","North West","3 : Manufacturing (C)",305000
+"2015","North West","4 : Construction (F)",139000
+"2015","North West","5 : Motor trades (Part G)",45000
+"2015","North West","6 : Wholesale (Part G)",133000
+"2015","North West","7 : Retail (Part G)",336000
+"2015","North West","8 : Transport & storage (inc postal) (H)",147000
+"2015","North West","9 : Accommodation & food services (I)",234000
+"2015","North West","10 : Information & communication (J)",104000
+"2015","North West","11 : Financial & insurance (K)",83000
+"2015","North West","12 : Property (L)",50000
+"2015","North West","13 : Professional, scientific & technical (M)",229000
+"2015","North West","14 : Business administration & support services (N)",282000
+"2015","North West","15 : Public administration & defence (O)",146000
+"2015","North West","16 : Education (P)",278000
+"2015","North West","17 : Health (Q)",457000
+"2015","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2015","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",12000
+"2015","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","Yorkshire and The Humber","3 : Manufacturing (C)",266000
+"2015","Yorkshire and The Humber","4 : Construction (F)",106000
+"2015","Yorkshire and The Humber","5 : Motor trades (Part G)",42000
+"2015","Yorkshire and The Humber","6 : Wholesale (Part G)",102000
+"2015","Yorkshire and The Humber","7 : Retail (Part G)",215000
+"2015","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",115000
+"2015","Yorkshire and The Humber","9 : Accommodation & food services (I)",154000
+"2015","Yorkshire and The Humber","10 : Information & communication (J)",51000
+"2015","Yorkshire and The Humber","11 : Financial & insurance (K)",79000
+"2015","Yorkshire and The Humber","12 : Property (L)",30000
+"2015","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",151000
+"2015","Yorkshire and The Humber","14 : Business administration & support services (N)",219000
+"2015","Yorkshire and The Humber","15 : Public administration & defence (O)",106000
+"2015","Yorkshire and The Humber","16 : Education (P)",236000
+"2015","Yorkshire and The Humber","17 : Health (Q)",325000
+"2015","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",93000
+"2015","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2015","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2015","East Midlands","3 : Manufacturing (C)",268000
+"2015","East Midlands","4 : Construction (F)",101000
+"2015","East Midlands","5 : Motor trades (Part G)",40000
+"2015","East Midlands","6 : Wholesale (Part G)",90000
+"2015","East Midlands","7 : Retail (Part G)",210000
+"2015","East Midlands","8 : Transport & storage (inc postal) (H)",101000
+"2015","East Midlands","9 : Accommodation & food services (I)",115000
+"2015","East Midlands","10 : Information & communication (J)",44000
+"2015","East Midlands","11 : Financial & insurance (K)",35000
+"2015","East Midlands","12 : Property (L)",25000
+"2015","East Midlands","13 : Professional, scientific & technical (M)",123000
+"2015","East Midlands","14 : Business administration & support services (N)",209000
+"2015","East Midlands","15 : Public administration & defence (O)",75000
+"2015","East Midlands","16 : Education (P)",188000
+"2015","East Midlands","17 : Health (Q)",252000
+"2015","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2015","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2015","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2015","West Midlands","3 : Manufacturing (C)",296000
+"2015","West Midlands","4 : Construction (F)",127000
+"2015","West Midlands","5 : Motor trades (Part G)",55000
+"2015","West Midlands","6 : Wholesale (Part G)",130000
+"2015","West Midlands","7 : Retail (Part G)",226000
+"2015","West Midlands","8 : Transport & storage (inc postal) (H)",145000
+"2015","West Midlands","9 : Accommodation & food services (I)",154000
+"2015","West Midlands","10 : Information & communication (J)",63000
+"2015","West Midlands","11 : Financial & insurance (K)",63000
+"2015","West Midlands","12 : Property (L)",36000
+"2015","West Midlands","13 : Professional, scientific & technical (M)",162000
+"2015","West Midlands","14 : Business administration & support services (N)",207000
+"2015","West Midlands","15 : Public administration & defence (O)",97000
+"2015","West Midlands","16 : Education (P)",230000
+"2015","West Midlands","17 : Health (Q)",305000
+"2015","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2015","East","1 : Agriculture, forestry & fishing (A)",25000
+"2015","East","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2015","East","3 : Manufacturing (C)",203000
+"2015","East","4 : Construction (F)",156000
+"2015","East","5 : Motor trades (Part G)",67000
+"2015","East","6 : Wholesale (Part G)",119000
+"2015","East","7 : Retail (Part G)",280000
+"2015","East","8 : Transport & storage (inc postal) (H)",120000
+"2015","East","9 : Accommodation & food services (I)",170000
+"2015","East","10 : Information & communication (J)",102000
+"2015","East","11 : Financial & insurance (K)",61000
+"2015","East","12 : Property (L)",36000
+"2015","East","13 : Professional, scientific & technical (M)",223000
+"2015","East","14 : Business administration & support services (N)",273000
+"2015","East","15 : Public administration & defence (O)",87000
+"2015","East","16 : Education (P)",236000
+"2015","East","17 : Health (Q)",315000
+"2015","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2015","London","1 : Agriculture, forestry & fishing (A)",1500
+"2015","London","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2015","London","3 : Manufacturing (C)",114000
+"2015","London","4 : Construction (F)",141000
+"2015","London","5 : Motor trades (Part G)",42000
+"2015","London","6 : Wholesale (Part G)",150000
+"2015","London","7 : Retail (Part G)",430000
+"2015","London","8 : Transport & storage (inc postal) (H)",227000
+"2015","London","9 : Accommodation & food services (I)",374000
+"2015","London","10 : Information & communication (J)",383000
+"2015","London","11 : Financial & insurance (K)",354000
+"2015","London","12 : Property (L)",132000
+"2015","London","13 : Professional, scientific & technical (M)",665000
+"2015","London","14 : Business administration & support services (N)",528000
+"2015","London","15 : Public administration & defence (O)",217000
+"2015","London","16 : Education (P)",389000
+"2015","London","17 : Health (Q)",506000
+"2015","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",245000
+"2015","South East","1 : Agriculture, forestry & fishing (A)",36000
+"2015","South East","2 : Mining, quarrying & utilities (B,D and E)",45000
+"2015","South East","3 : Manufacturing (C)",251000
+"2015","South East","4 : Construction (F)",183000
+"2015","South East","5 : Motor trades (Part G)",78000
+"2015","South East","6 : Wholesale (Part G)",195000
+"2015","South East","7 : Retail (Part G)",403000
+"2015","South East","8 : Transport & storage (inc postal) (H)",179000
+"2015","South East","9 : Accommodation & food services (I)",299000
+"2015","South East","10 : Information & communication (J)",256000
+"2015","South East","11 : Financial & insurance (K)",120000
+"2015","South East","12 : Property (L)",72000
+"2015","South East","13 : Professional, scientific & technical (M)",367000
+"2015","South East","14 : Business administration & support services (N)",323000
+"2015","South East","15 : Public administration & defence (O)",132000
+"2015","South East","16 : Education (P)",424000
+"2015","South East","17 : Health (Q)",512000
+"2015","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2015","South West","1 : Agriculture, forestry & fishing (A)",27000
+"2015","South West","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2015","South West","3 : Manufacturing (C)",209000
+"2015","South West","4 : Construction (F)",118000
+"2015","South West","5 : Motor trades (Part G)",60000
+"2015","South West","6 : Wholesale (Part G)",90000
+"2015","South West","7 : Retail (Part G)",253000
+"2015","South West","8 : Transport & storage (inc postal) (H)",103000
+"2015","South West","9 : Accommodation & food services (I)",196000
+"2015","South West","10 : Information & communication (J)",70000
+"2015","South West","11 : Financial & insurance (K)",80000
+"2015","South West","12 : Property (L)",38000
+"2015","South West","13 : Professional, scientific & technical (M)",187000
+"2015","South West","14 : Business administration & support services (N)",169000
+"2015","South West","15 : Public administration & defence (O)",103000
+"2015","South West","16 : Education (P)",210000
+"2015","South West","17 : Health (Q)",347000
+"2015","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",98000
+"2015","Wales","1 : Agriculture, forestry & fishing (A)",18000
+"2015","Wales","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2015","Wales","3 : Manufacturing (C)",145000
+"2015","Wales","4 : Construction (F)",52000
+"2015","Wales","5 : Motor trades (Part G)",26000
+"2015","Wales","6 : Wholesale (Part G)",32000
+"2015","Wales","7 : Retail (Part G)",133000
+"2015","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2015","Wales","9 : Accommodation & food services (I)",93000
+"2015","Wales","10 : Information & communication (J)",20000
+"2015","Wales","11 : Financial & insurance (K)",28000
+"2015","Wales","12 : Property (L)",16000
+"2015","Wales","13 : Professional, scientific & technical (M)",63000
+"2015","Wales","14 : Business administration & support services (N)",78000
+"2015","Wales","15 : Public administration & defence (O)",86000
+"2015","Wales","16 : Education (P)",125000
+"2015","Wales","17 : Health (Q)",197000
+"2015","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",54000
+"2015","Scotland","1 : Agriculture, forestry & fishing (A)",35000
+"2015","Scotland","2 : Mining, quarrying & utilities (B,D and E)",69000
+"2015","Scotland","3 : Manufacturing (C)",179000
+"2015","Scotland","4 : Construction (F)",131000
+"2015","Scotland","5 : Motor trades (Part G)",44000
+"2015","Scotland","6 : Wholesale (Part G)",77000
+"2015","Scotland","7 : Retail (Part G)",237000
+"2015","Scotland","8 : Transport & storage (inc postal) (H)",102000
+"2015","Scotland","9 : Accommodation & food services (I)",203000
+"2015","Scotland","10 : Information & communication (J)",62000
+"2015","Scotland","11 : Financial & insurance (K)",85000
+"2015","Scotland","12 : Property (L)",31000
+"2015","Scotland","13 : Professional, scientific & technical (M)",163000
+"2015","Scotland","14 : Business administration & support services (N)",183000
+"2015","Scotland","15 : Public administration & defence (O)",147000
+"2015","Scotland","16 : Education (P)",193000
+"2015","Scotland","17 : Health (Q)",413000
+"2015","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",108000
+"2016","North East","1 : Agriculture, forestry & fishing (A)",4500
+"2016","North East","2 : Mining, quarrying & utilities (B,D and E)",12000
+"2016","North East","3 : Manufacturing (C)",112000
+"2016","North East","4 : Construction (F)",41000
+"2016","North East","5 : Motor trades (Part G)",20000
+"2016","North East","6 : Wholesale (Part G)",28000
+"2016","North East","7 : Retail (Part G)",104000
+"2016","North East","8 : Transport & storage (inc postal) (H)",44000
+"2016","North East","9 : Accommodation & food services (I)",80000
+"2016","North East","10 : Information & communication (J)",28000
+"2016","North East","11 : Financial & insurance (K)",22000
+"2016","North East","12 : Property (L)",17000
+"2016","North East","13 : Professional, scientific & technical (M)",59000
+"2016","North East","14 : Business administration & support services (N)",81000
+"2016","North East","15 : Public administration & defence (O)",67000
+"2016","North East","16 : Education (P)",101000
+"2016","North East","17 : Health (Q)",169000
+"2016","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",48000
+"2016","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2016","North West","2 : Mining, quarrying & utilities (B,D and E)",42000
+"2016","North West","3 : Manufacturing (C)",320000
+"2016","North West","4 : Construction (F)",130000
+"2016","North West","5 : Motor trades (Part G)",43000
+"2016","North West","6 : Wholesale (Part G)",114000
+"2016","North West","7 : Retail (Part G)",336000
+"2016","North West","8 : Transport & storage (inc postal) (H)",178000
+"2016","North West","9 : Accommodation & food services (I)",254000
+"2016","North West","10 : Information & communication (J)",88000
+"2016","North West","11 : Financial & insurance (K)",98000
+"2016","North West","12 : Property (L)",53000
+"2016","North West","13 : Professional, scientific & technical (M)",285000
+"2016","North West","14 : Business administration & support services (N)",275000
+"2016","North West","15 : Public administration & defence (O)",143000
+"2016","North West","16 : Education (P)",291000
+"2016","North West","17 : Health (Q)",459000
+"2016","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",122000
+"2016","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",19000
+"2016","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",29000
+"2016","Yorkshire and The Humber","3 : Manufacturing (C)",240000
+"2016","Yorkshire and The Humber","4 : Construction (F)",113000
+"2016","Yorkshire and The Humber","5 : Motor trades (Part G)",53000
+"2016","Yorkshire and The Humber","6 : Wholesale (Part G)",111000
+"2016","Yorkshire and The Humber","7 : Retail (Part G)",214000
+"2016","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",126000
+"2016","Yorkshire and The Humber","9 : Accommodation & food services (I)",145000
+"2016","Yorkshire and The Humber","10 : Information & communication (J)",62000
+"2016","Yorkshire and The Humber","11 : Financial & insurance (K)",68000
+"2016","Yorkshire and The Humber","12 : Property (L)",31000
+"2016","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",154000
+"2016","Yorkshire and The Humber","14 : Business administration & support services (N)",208000
+"2016","Yorkshire and The Humber","15 : Public administration & defence (O)",100000
+"2016","Yorkshire and The Humber","16 : Education (P)",233000
+"2016","Yorkshire and The Humber","17 : Health (Q)",337000
+"2016","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",97000
+"2016","East Midlands","1 : Agriculture, forestry & fishing (A)",17000
+"2016","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",33000
+"2016","East Midlands","3 : Manufacturing (C)",267000
+"2016","East Midlands","4 : Construction (F)",103000
+"2016","East Midlands","5 : Motor trades (Part G)",42000
+"2016","East Midlands","6 : Wholesale (Part G)",109000
+"2016","East Midlands","7 : Retail (Part G)",201000
+"2016","East Midlands","8 : Transport & storage (inc postal) (H)",109000
+"2016","East Midlands","9 : Accommodation & food services (I)",153000
+"2016","East Midlands","10 : Information & communication (J)",45000
+"2016","East Midlands","11 : Financial & insurance (K)",31000
+"2016","East Midlands","12 : Property (L)",19000
+"2016","East Midlands","13 : Professional, scientific & technical (M)",133000
+"2016","East Midlands","14 : Business administration & support services (N)",195000
+"2016","East Midlands","15 : Public administration & defence (O)",79000
+"2016","East Midlands","16 : Education (P)",178000
+"2016","East Midlands","17 : Health (Q)",267000
+"2016","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",80000
+"2016","West Midlands","1 : Agriculture, forestry & fishing (A)",21000
+"2016","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",29000
+"2016","West Midlands","3 : Manufacturing (C)",293000
+"2016","West Midlands","4 : Construction (F)",96000
+"2016","West Midlands","5 : Motor trades (Part G)",56000
+"2016","West Midlands","6 : Wholesale (Part G)",132000
+"2016","West Midlands","7 : Retail (Part G)",241000
+"2016","West Midlands","8 : Transport & storage (inc postal) (H)",152000
+"2016","West Midlands","9 : Accommodation & food services (I)",163000
+"2016","West Midlands","10 : Information & communication (J)",66000
+"2016","West Midlands","11 : Financial & insurance (K)",60000
+"2016","West Midlands","12 : Property (L)",33000
+"2016","West Midlands","13 : Professional, scientific & technical (M)",168000
+"2016","West Midlands","14 : Business administration & support services (N)",203000
+"2016","West Midlands","15 : Public administration & defence (O)",93000
+"2016","West Midlands","16 : Education (P)",226000
+"2016","West Midlands","17 : Health (Q)",352000
+"2016","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",121000
+"2016","East","1 : Agriculture, forestry & fishing (A)",26000
+"2016","East","2 : Mining, quarrying & utilities (B,D and E)",27000
+"2016","East","3 : Manufacturing (C)",214000
+"2016","East","4 : Construction (F)",148000
+"2016","East","5 : Motor trades (Part G)",73000
+"2016","East","6 : Wholesale (Part G)",108000
+"2016","East","7 : Retail (Part G)",272000
+"2016","East","8 : Transport & storage (inc postal) (H)",140000
+"2016","East","9 : Accommodation & food services (I)",177000
+"2016","East","10 : Information & communication (J)",104000
+"2016","East","11 : Financial & insurance (K)",64000
+"2016","East","12 : Property (L)",37000
+"2016","East","13 : Professional, scientific & technical (M)",233000
+"2016","East","14 : Business administration & support services (N)",297000
+"2016","East","15 : Public administration & defence (O)",93000
+"2016","East","16 : Education (P)",244000
+"2016","East","17 : Health (Q)",318000
+"2016","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",127000
+"2016","London","1 : Agriculture, forestry & fishing (A)",1000
+"2016","London","2 : Mining, quarrying & utilities (B,D and E)",30000
+"2016","London","3 : Manufacturing (C)",110000
+"2016","London","4 : Construction (F)",179000
+"2016","London","5 : Motor trades (Part G)",34000
+"2016","London","6 : Wholesale (Part G)",151000
+"2016","London","7 : Retail (Part G)",390000
+"2016","London","8 : Transport & storage (inc postal) (H)",232000
+"2016","London","9 : Accommodation & food services (I)",399000
+"2016","London","10 : Information & communication (J)",397000
+"2016","London","11 : Financial & insurance (K)",378000
+"2016","London","12 : Property (L)",112000
+"2016","London","13 : Professional, scientific & technical (M)",740000
+"2016","London","14 : Business administration & support services (N)",537000
+"2016","London","15 : Public administration & defence (O)",212000
+"2016","London","16 : Education (P)",365000
+"2016","London","17 : Health (Q)",491000
+"2016","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",261000
+"2016","South East","1 : Agriculture, forestry & fishing (A)",28000
+"2016","South East","2 : Mining, quarrying & utilities (B,D and E)",50000
+"2016","South East","3 : Manufacturing (C)",260000
+"2016","South East","4 : Construction (F)",205000
+"2016","South East","5 : Motor trades (Part G)",77000
+"2016","South East","6 : Wholesale (Part G)",210000
+"2016","South East","7 : Retail (Part G)",388000
+"2016","South East","8 : Transport & storage (inc postal) (H)",208000
+"2016","South East","9 : Accommodation & food services (I)",282000
+"2016","South East","10 : Information & communication (J)",253000
+"2016","South East","11 : Financial & insurance (K)",118000
+"2016","South East","12 : Property (L)",78000
+"2016","South East","13 : Professional, scientific & technical (M)",366000
+"2016","South East","14 : Business administration & support services (N)",378000
+"2016","South East","15 : Public administration & defence (O)",130000
+"2016","South East","16 : Education (P)",421000
+"2016","South East","17 : Health (Q)",497000
+"2016","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",198000
+"2016","South West","1 : Agriculture, forestry & fishing (A)",24000
+"2016","South West","2 : Mining, quarrying & utilities (B,D and E)",34000
+"2016","South West","3 : Manufacturing (C)",223000
+"2016","South West","4 : Construction (F)",126000
+"2016","South West","5 : Motor trades (Part G)",57000
+"2016","South West","6 : Wholesale (Part G)",89000
+"2016","South West","7 : Retail (Part G)",257000
+"2016","South West","8 : Transport & storage (inc postal) (H)",84000
+"2016","South West","9 : Accommodation & food services (I)",216000
+"2016","South West","10 : Information & communication (J)",79000
+"2016","South West","11 : Financial & insurance (K)",86000
+"2016","South West","12 : Property (L)",40000
+"2016","South West","13 : Professional, scientific & technical (M)",159000
+"2016","South West","14 : Business administration & support services (N)",169000
+"2016","South West","15 : Public administration & defence (O)",97000
+"2016","South West","16 : Education (P)",225000
+"2016","South West","17 : Health (Q)",354000
+"2016","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",102000
+"2016","Wales","1 : Agriculture, forestry & fishing (A)",19000
+"2016","Wales","2 : Mining, quarrying & utilities (B,D and E)",20000
+"2016","Wales","3 : Manufacturing (C)",141000
+"2016","Wales","4 : Construction (F)",67000
+"2016","Wales","5 : Motor trades (Part G)",23000
+"2016","Wales","6 : Wholesale (Part G)",38000
+"2016","Wales","7 : Retail (Part G)",126000
+"2016","Wales","8 : Transport & storage (inc postal) (H)",37000
+"2016","Wales","9 : Accommodation & food services (I)",113000
+"2016","Wales","10 : Information & communication (J)",29000
+"2016","Wales","11 : Financial & insurance (K)",28000
+"2016","Wales","12 : Property (L)",19000
+"2016","Wales","13 : Professional, scientific & technical (M)",54000
+"2016","Wales","14 : Business administration & support services (N)",81000
+"2016","Wales","15 : Public administration & defence (O)",85000
+"2016","Wales","16 : Education (P)",126000
+"2016","Wales","17 : Health (Q)",199000
+"2016","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",50000
+"2016","Scotland","1 : Agriculture, forestry & fishing (A)",36000
+"2016","Scotland","2 : Mining, quarrying & utilities (B,D and E)",66000
+"2016","Scotland","3 : Manufacturing (C)",176000
+"2016","Scotland","4 : Construction (F)",134000
+"2016","Scotland","5 : Motor trades (Part G)",47000
+"2016","Scotland","6 : Wholesale (Part G)",76000
+"2016","Scotland","7 : Retail (Part G)",234000
+"2016","Scotland","8 : Transport & storage (inc postal) (H)",107000
+"2016","Scotland","9 : Accommodation & food services (I)",183000
+"2016","Scotland","10 : Information & communication (J)",73000
+"2016","Scotland","11 : Financial & insurance (K)",82000
+"2016","Scotland","12 : Property (L)",35000
+"2016","Scotland","13 : Professional, scientific & technical (M)",170000
+"2016","Scotland","14 : Business administration & support services (N)",183000
+"2016","Scotland","15 : Public administration & defence (O)",155000
+"2016","Scotland","16 : Education (P)",190000
+"2016","Scotland","17 : Health (Q)",405000
+"2016","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",128000
+"2017","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2017","North East","2 : Mining, quarrying & utilities (B,D and E)",18000
+"2017","North East","3 : Manufacturing (C)",118000
+"2017","North East","4 : Construction (F)",48000
+"2017","North East","5 : Motor trades (Part G)",16000
+"2017","North East","6 : Wholesale (Part G)",29000
+"2017","North East","7 : Retail (Part G)",109000
+"2017","North East","8 : Transport & storage (inc postal) (H)",43000
+"2017","North East","9 : Accommodation & food services (I)",91000
+"2017","North East","10 : Information & communication (J)",31000
+"2017","North East","11 : Financial & insurance (K)",24000
+"2017","North East","12 : Property (L)",14000
+"2017","North East","13 : Professional, scientific & technical (M)",54000
+"2017","North East","14 : Business administration & support services (N)",90000
+"2017","North East","15 : Public administration & defence (O)",65000
+"2017","North East","16 : Education (P)",96000
+"2017","North East","17 : Health (Q)",168000
+"2017","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",44000
+"2017","North West","1 : Agriculture, forestry & fishing (A)",14000
+"2017","North West","2 : Mining, quarrying & utilities (B,D and E)",41000
+"2017","North West","3 : Manufacturing (C)",325000
+"2017","North West","4 : Construction (F)",157000
+"2017","North West","5 : Motor trades (Part G)",59000
+"2017","North West","6 : Wholesale (Part G)",133000
+"2017","North West","7 : Retail (Part G)",337000
+"2017","North West","8 : Transport & storage (inc postal) (H)",167000
+"2017","North West","9 : Accommodation & food services (I)",216000
+"2017","North West","10 : Information & communication (J)",99000
+"2017","North West","11 : Financial & insurance (K)",92000
+"2017","North West","12 : Property (L)",59000
+"2017","North West","13 : Professional, scientific & technical (M)",271000
+"2017","North West","14 : Business administration & support services (N)",289000
+"2017","North West","15 : Public administration & defence (O)",144000
+"2017","North West","16 : Education (P)",289000
+"2017","North West","17 : Health (Q)",464000
+"2017","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",144000
+"2017","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",14000
+"2017","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",25000
+"2017","Yorkshire and The Humber","3 : Manufacturing (C)",272000
+"2017","Yorkshire and The Humber","4 : Construction (F)",114000
+"2017","Yorkshire and The Humber","5 : Motor trades (Part G)",48000
+"2017","Yorkshire and The Humber","6 : Wholesale (Part G)",95000
+"2017","Yorkshire and The Humber","7 : Retail (Part G)",227000
+"2017","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",132000
+"2017","Yorkshire and The Humber","9 : Accommodation & food services (I)",172000
+"2017","Yorkshire and The Humber","10 : Information & communication (J)",60000
+"2017","Yorkshire and The Humber","11 : Financial & insurance (K)",72000
+"2017","Yorkshire and The Humber","12 : Property (L)",31000
+"2017","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",173000
+"2017","Yorkshire and The Humber","14 : Business administration & support services (N)",214000
+"2017","Yorkshire and The Humber","15 : Public administration & defence (O)",104000
+"2017","Yorkshire and The Humber","16 : Education (P)",226000
+"2017","Yorkshire and The Humber","17 : Health (Q)",318000
+"2017","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",84000
+"2017","East Midlands","1 : Agriculture, forestry & fishing (A)",21000
+"2017","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",37000
+"2017","East Midlands","3 : Manufacturing (C)",285000
+"2017","East Midlands","4 : Construction (F)",90000
+"2017","East Midlands","5 : Motor trades (Part G)",42000
+"2017","East Midlands","6 : Wholesale (Part G)",95000
+"2017","East Midlands","7 : Retail (Part G)",193000
+"2017","East Midlands","8 : Transport & storage (inc postal) (H)",114000
+"2017","East Midlands","9 : Accommodation & food services (I)",143000
+"2017","East Midlands","10 : Information & communication (J)",58000
+"2017","East Midlands","11 : Financial & insurance (K)",36000
+"2017","East Midlands","12 : Property (L)",24000
+"2017","East Midlands","13 : Professional, scientific & technical (M)",132000
+"2017","East Midlands","14 : Business administration & support services (N)",180000
+"2017","East Midlands","15 : Public administration & defence (O)",75000
+"2017","East Midlands","16 : Education (P)",180000
+"2017","East Midlands","17 : Health (Q)",281000
+"2017","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",74000
+"2017","West Midlands","1 : Agriculture, forestry & fishing (A)",21000
+"2017","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2017","West Midlands","3 : Manufacturing (C)",297000
+"2017","West Midlands","4 : Construction (F)",111000
+"2017","West Midlands","5 : Motor trades (Part G)",65000
+"2017","West Midlands","6 : Wholesale (Part G)",131000
+"2017","West Midlands","7 : Retail (Part G)",229000
+"2017","West Midlands","8 : Transport & storage (inc postal) (H)",143000
+"2017","West Midlands","9 : Accommodation & food services (I)",175000
+"2017","West Midlands","10 : Information & communication (J)",68000
+"2017","West Midlands","11 : Financial & insurance (K)",57000
+"2017","West Midlands","12 : Property (L)",49000
+"2017","West Midlands","13 : Professional, scientific & technical (M)",182000
+"2017","West Midlands","14 : Business administration & support services (N)",224000
+"2017","West Midlands","15 : Public administration & defence (O)",96000
+"2017","West Midlands","16 : Education (P)",227000
+"2017","West Midlands","17 : Health (Q)",348000
+"2017","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",119000
+"2017","East","1 : Agriculture, forestry & fishing (A)",27000
+"2017","East","2 : Mining, quarrying & utilities (B,D and E)",26000
+"2017","East","3 : Manufacturing (C)",220000
+"2017","East","4 : Construction (F)",151000
+"2017","East","5 : Motor trades (Part G)",59000
+"2017","East","6 : Wholesale (Part G)",124000
+"2017","East","7 : Retail (Part G)",273000
+"2017","East","8 : Transport & storage (inc postal) (H)",136000
+"2017","East","9 : Accommodation & food services (I)",188000
+"2017","East","10 : Information & communication (J)",99000
+"2017","East","11 : Financial & insurance (K)",65000
+"2017","East","12 : Property (L)",41000
+"2017","East","13 : Professional, scientific & technical (M)",267000
+"2017","East","14 : Business administration & support services (N)",292000
+"2017","East","15 : Public administration & defence (O)",83000
+"2017","East","16 : Education (P)",242000
+"2017","East","17 : Health (Q)",345000
+"2017","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",125000
+"2017","London","1 : Agriculture, forestry & fishing (A)",1250
+"2017","London","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2017","London","3 : Manufacturing (C)",103000
+"2017","London","4 : Construction (F)",204000
+"2017","London","5 : Motor trades (Part G)",39000
+"2017","London","6 : Wholesale (Part G)",155000
+"2017","London","7 : Retail (Part G)",416000
+"2017","London","8 : Transport & storage (inc postal) (H)",239000
+"2017","London","9 : Accommodation & food services (I)",386000
+"2017","London","10 : Information & communication (J)",417000
+"2017","London","11 : Financial & insurance (K)",366000
+"2017","London","12 : Property (L)",117000
+"2017","London","13 : Professional, scientific & technical (M)",675000
+"2017","London","14 : Business administration & support services (N)",576000
+"2017","London","15 : Public administration & defence (O)",215000
+"2017","London","16 : Education (P)",399000
+"2017","London","17 : Health (Q)",546000
+"2017","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",256000
+"2017","South East","1 : Agriculture, forestry & fishing (A)",34000
+"2017","South East","2 : Mining, quarrying & utilities (B,D and E)",56000
+"2017","South East","3 : Manufacturing (C)",251000
+"2017","South East","4 : Construction (F)",224000
+"2017","South East","5 : Motor trades (Part G)",79000
+"2017","South East","6 : Wholesale (Part G)",187000
+"2017","South East","7 : Retail (Part G)",401000
+"2017","South East","8 : Transport & storage (inc postal) (H)",188000
+"2017","South East","9 : Accommodation & food services (I)",298000
+"2017","South East","10 : Information & communication (J)",239000
+"2017","South East","11 : Financial & insurance (K)",116000
+"2017","South East","12 : Property (L)",67000
+"2017","South East","13 : Professional, scientific & technical (M)",326000
+"2017","South East","14 : Business administration & support services (N)",357000
+"2017","South East","15 : Public administration & defence (O)",130000
+"2017","South East","16 : Education (P)",422000
+"2017","South East","17 : Health (Q)",518000
+"2017","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",215000
+"2017","South West","1 : Agriculture, forestry & fishing (A)",25000
+"2017","South West","2 : Mining, quarrying & utilities (B,D and E)",33000
+"2017","South West","3 : Manufacturing (C)",207000
+"2017","South West","4 : Construction (F)",128000
+"2017","South West","5 : Motor trades (Part G)",43000
+"2017","South West","6 : Wholesale (Part G)",87000
+"2017","South West","7 : Retail (Part G)",256000
+"2017","South West","8 : Transport & storage (inc postal) (H)",88000
+"2017","South West","9 : Accommodation & food services (I)",237000
+"2017","South West","10 : Information & communication (J)",88000
+"2017","South West","11 : Financial & insurance (K)",85000
+"2017","South West","12 : Property (L)",36000
+"2017","South West","13 : Professional, scientific & technical (M)",179000
+"2017","South West","14 : Business administration & support services (N)",182000
+"2017","South West","15 : Public administration & defence (O)",100000
+"2017","South West","16 : Education (P)",227000
+"2017","South West","17 : Health (Q)",330000
+"2017","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",106000
+"2017","Wales","1 : Agriculture, forestry & fishing (A)",14000
+"2017","Wales","2 : Mining, quarrying & utilities (B,D and E)",21000
+"2017","Wales","3 : Manufacturing (C)",138000
+"2017","Wales","4 : Construction (F)",52000
+"2017","Wales","5 : Motor trades (Part G)",18000
+"2017","Wales","6 : Wholesale (Part G)",29000
+"2017","Wales","7 : Retail (Part G)",125000
+"2017","Wales","8 : Transport & storage (inc postal) (H)",40000
+"2017","Wales","9 : Accommodation & food services (I)",95000
+"2017","Wales","10 : Information & communication (J)",52000
+"2017","Wales","11 : Financial & insurance (K)",30000
+"2017","Wales","12 : Property (L)",15000
+"2017","Wales","13 : Professional, scientific & technical (M)",65000
+"2017","Wales","14 : Business administration & support services (N)",85000
+"2017","Wales","15 : Public administration & defence (O)",87000
+"2017","Wales","16 : Education (P)",122000
+"2017","Wales","17 : Health (Q)",199000
+"2017","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",57000
+"2017","Scotland","1 : Agriculture, forestry & fishing (A)",40000
+"2017","Scotland","2 : Mining, quarrying & utilities (B,D and E)",66000
+"2017","Scotland","3 : Manufacturing (C)",183000
+"2017","Scotland","4 : Construction (F)",140000
+"2017","Scotland","5 : Motor trades (Part G)",42000
+"2017","Scotland","6 : Wholesale (Part G)",73000
+"2017","Scotland","7 : Retail (Part G)",236000
+"2017","Scotland","8 : Transport & storage (inc postal) (H)",107000
+"2017","Scotland","9 : Accommodation & food services (I)",190000
+"2017","Scotland","10 : Information & communication (J)",69000
+"2017","Scotland","11 : Financial & insurance (K)",83000
+"2017","Scotland","12 : Property (L)",32000
+"2017","Scotland","13 : Professional, scientific & technical (M)",167000
+"2017","Scotland","14 : Business administration & support services (N)",194000
+"2017","Scotland","15 : Public administration & defence (O)",157000
+"2017","Scotland","16 : Education (P)",194000
+"2017","Scotland","17 : Health (Q)",383000
+"2017","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",115000
+"2018","North East","1 : Agriculture, forestry & fishing (A)",3500
+"2018","North East","2 : Mining, quarrying & utilities (B,D and E)",16000
+"2018","North East","3 : Manufacturing (C)",115000
+"2018","North East","4 : Construction (F)",54000
+"2018","North East","5 : Motor trades (Part G)",18000
+"2018","North East","6 : Wholesale (Part G)",27000
+"2018","North East","7 : Retail (Part G)",105000
+"2018","North East","8 : Transport & storage (inc postal) (H)",49000
+"2018","North East","9 : Accommodation & food services (I)",74000
+"2018","North East","10 : Information & communication (J)",32000
+"2018","North East","11 : Financial & insurance (K)",26000
+"2018","North East","12 : Property (L)",18000
+"2018","North East","13 : Professional, scientific & technical (M)",48000
+"2018","North East","14 : Business administration & support services (N)",86000
+"2018","North East","15 : Public administration & defence (O)",67000
+"2018","North East","16 : Education (P)",99000
+"2018","North East","17 : Health (Q)",168000
+"2018","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",46000
+"2018","North West","1 : Agriculture, forestry & fishing (A)",15000
+"2018","North West","2 : Mining, quarrying & utilities (B,D and E)",42000
+"2018","North West","3 : Manufacturing (C)",322000
+"2018","North West","4 : Construction (F)",156000
+"2018","North West","5 : Motor trades (Part G)",59000
+"2018","North West","6 : Wholesale (Part G)",151000
+"2018","North West","7 : Retail (Part G)",351000
+"2018","North West","8 : Transport & storage (inc postal) (H)",181000
+"2018","North West","9 : Accommodation & food services (I)",236000
+"2018","North West","10 : Information & communication (J)",90000
+"2018","North West","11 : Financial & insurance (K)",88000
+"2018","North West","12 : Property (L)",49000
+"2018","North West","13 : Professional, scientific & technical (M)",272000
+"2018","North West","14 : Business administration & support services (N)",298000
+"2018","North West","15 : Public administration & defence (O)",149000
+"2018","North West","16 : Education (P)",282000
+"2018","North West","17 : Health (Q)",446000
+"2018","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",143000
+"2018","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",15000
+"2018","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",31000
+"2018","Yorkshire and The Humber","3 : Manufacturing (C)",284000
+"2018","Yorkshire and The Humber","4 : Construction (F)",98000
+"2018","Yorkshire and The Humber","5 : Motor trades (Part G)",39000
+"2018","Yorkshire and The Humber","6 : Wholesale (Part G)",98000
+"2018","Yorkshire and The Humber","7 : Retail (Part G)",221000
+"2018","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",132000
+"2018","Yorkshire and The Humber","9 : Accommodation & food services (I)",173000
+"2018","Yorkshire and The Humber","10 : Information & communication (J)",75000
+"2018","Yorkshire and The Humber","11 : Financial & insurance (K)",73000
+"2018","Yorkshire and The Humber","12 : Property (L)",31000
+"2018","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",165000
+"2018","Yorkshire and The Humber","14 : Business administration & support services (N)",208000
+"2018","Yorkshire and The Humber","15 : Public administration & defence (O)",103000
+"2018","Yorkshire and The Humber","16 : Education (P)",234000
+"2018","Yorkshire and The Humber","17 : Health (Q)",325000
+"2018","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",87000
+"2018","East Midlands","1 : Agriculture, forestry & fishing (A)",18000
+"2018","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",35000
+"2018","East Midlands","3 : Manufacturing (C)",267000
+"2018","East Midlands","4 : Construction (F)",91000
+"2018","East Midlands","5 : Motor trades (Part G)",49000
+"2018","East Midlands","6 : Wholesale (Part G)",104000
+"2018","East Midlands","7 : Retail (Part G)",191000
+"2018","East Midlands","8 : Transport & storage (inc postal) (H)",114000
+"2018","East Midlands","9 : Accommodation & food services (I)",143000
+"2018","East Midlands","10 : Information & communication (J)",59000
+"2018","East Midlands","11 : Financial & insurance (K)",35000
+"2018","East Midlands","12 : Property (L)",27000
+"2018","East Midlands","13 : Professional, scientific & technical (M)",131000
+"2018","East Midlands","14 : Business administration & support services (N)",176000
+"2018","East Midlands","15 : Public administration & defence (O)",76000
+"2018","East Midlands","16 : Education (P)",189000
+"2018","East Midlands","17 : Health (Q)",269000
+"2018","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",95000
+"2018","West Midlands","1 : Agriculture, forestry & fishing (A)",23000
+"2018","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",32000
+"2018","West Midlands","3 : Manufacturing (C)",302000
+"2018","West Midlands","4 : Construction (F)",122000
+"2018","West Midlands","5 : Motor trades (Part G)",60000
+"2018","West Midlands","6 : Wholesale (Part G)",130000
+"2018","West Midlands","7 : Retail (Part G)",234000
+"2018","West Midlands","8 : Transport & storage (inc postal) (H)",142000
+"2018","West Midlands","9 : Accommodation & food services (I)",146000
+"2018","West Midlands","10 : Information & communication (J)",70000
+"2018","West Midlands","11 : Financial & insurance (K)",62000
+"2018","West Midlands","12 : Property (L)",46000
+"2018","West Midlands","13 : Professional, scientific & technical (M)",178000
+"2018","West Midlands","14 : Business administration & support services (N)",239000
+"2018","West Midlands","15 : Public administration & defence (O)",93000
+"2018","West Midlands","16 : Education (P)",240000
+"2018","West Midlands","17 : Health (Q)",346000
+"2018","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",111000
+"2018","East","1 : Agriculture, forestry & fishing (A)",25000
+"2018","East","2 : Mining, quarrying & utilities (B,D and E)",37000
+"2018","East","3 : Manufacturing (C)",211000
+"2018","East","4 : Construction (F)",152000
+"2018","East","5 : Motor trades (Part G)",68000
+"2018","East","6 : Wholesale (Part G)",124000
+"2018","East","7 : Retail (Part G)",268000
+"2018","East","8 : Transport & storage (inc postal) (H)",158000
+"2018","East","9 : Accommodation & food services (I)",185000
+"2018","East","10 : Information & communication (J)",96000
+"2018","East","11 : Financial & insurance (K)",66000
+"2018","East","12 : Property (L)",43000
+"2018","East","13 : Professional, scientific & technical (M)",265000
+"2018","East","14 : Business administration & support services (N)",282000
+"2018","East","15 : Public administration & defence (O)",85000
+"2018","East","16 : Education (P)",255000
+"2018","East","17 : Health (Q)",330000
+"2018","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",114000
+"2018","London","1 : Agriculture, forestry & fishing (A)",1000
+"2018","London","2 : Mining, quarrying & utilities (B,D and E)",36000
+"2018","London","3 : Manufacturing (C)",112000
+"2018","London","4 : Construction (F)",185000
+"2018","London","5 : Motor trades (Part G)",39000
+"2018","London","6 : Wholesale (Part G)",158000
+"2018","London","7 : Retail (Part G)",420000
+"2018","London","8 : Transport & storage (inc postal) (H)",212000
+"2018","London","9 : Accommodation & food services (I)",436000
+"2018","London","10 : Information & communication (J)",408000
+"2018","London","11 : Financial & insurance (K)",362000
+"2018","London","12 : Property (L)",137000
+"2018","London","13 : Professional, scientific & technical (M)",705000
+"2018","London","14 : Business administration & support services (N)",550000
+"2018","London","15 : Public administration & defence (O)",225000
+"2018","London","16 : Education (P)",383000
+"2018","London","17 : Health (Q)",530000
+"2018","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",248000
+"2018","South East","1 : Agriculture, forestry & fishing (A)",33000
+"2018","South East","2 : Mining, quarrying & utilities (B,D and E)",50000
+"2018","South East","3 : Manufacturing (C)",262000
+"2018","South East","4 : Construction (F)",212000
+"2018","South East","5 : Motor trades (Part G)",85000
+"2018","South East","6 : Wholesale (Part G)",195000
+"2018","South East","7 : Retail (Part G)",398000
+"2018","South East","8 : Transport & storage (inc postal) (H)",194000
+"2018","South East","9 : Accommodation & food services (I)",304000
+"2018","South East","10 : Information & communication (J)",235000
+"2018","South East","11 : Financial & insurance (K)",119000
+"2018","South East","12 : Property (L)",58000
+"2018","South East","13 : Professional, scientific & technical (M)",373000
+"2018","South East","14 : Business administration & support services (N)",359000
+"2018","South East","15 : Public administration & defence (O)",131000
+"2018","South East","16 : Education (P)",413000
+"2018","South East","17 : Health (Q)",527000
+"2018","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",199000
+"2018","South West","1 : Agriculture, forestry & fishing (A)",26000
+"2018","South West","2 : Mining, quarrying & utilities (B,D and E)",37000
+"2018","South West","3 : Manufacturing (C)",211000
+"2018","South West","4 : Construction (F)",132000
+"2018","South West","5 : Motor trades (Part G)",52000
+"2018","South West","6 : Wholesale (Part G)",97000
+"2018","South West","7 : Retail (Part G)",240000
+"2018","South West","8 : Transport & storage (inc postal) (H)",97000
+"2018","South West","9 : Accommodation & food services (I)",239000
+"2018","South West","10 : Information & communication (J)",84000
+"2018","South West","11 : Financial & insurance (K)",69000
+"2018","South West","12 : Property (L)",44000
+"2018","South West","13 : Professional, scientific & technical (M)",177000
+"2018","South West","14 : Business administration & support services (N)",162000
+"2018","South West","15 : Public administration & defence (O)",109000
+"2018","South West","16 : Education (P)",216000
+"2018","South West","17 : Health (Q)",365000
+"2018","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",113000
+"2018","Wales","1 : Agriculture, forestry & fishing (A)",15000
+"2018","Wales","2 : Mining, quarrying & utilities (B,D and E)",21000
+"2018","Wales","3 : Manufacturing (C)",144000
+"2018","Wales","4 : Construction (F)",64000
+"2018","Wales","5 : Motor trades (Part G)",20000
+"2018","Wales","6 : Wholesale (Part G)",29000
+"2018","Wales","7 : Retail (Part G)",128000
+"2018","Wales","8 : Transport & storage (inc postal) (H)",42000
+"2018","Wales","9 : Accommodation & food services (I)",101000
+"2018","Wales","10 : Information & communication (J)",26000
+"2018","Wales","11 : Financial & insurance (K)",33000
+"2018","Wales","12 : Property (L)",20000
+"2018","Wales","13 : Professional, scientific & technical (M)",71000
+"2018","Wales","14 : Business administration & support services (N)",87000
+"2018","Wales","15 : Public administration & defence (O)",87000
+"2018","Wales","16 : Education (P)",115000
+"2018","Wales","17 : Health (Q)",213000
+"2018","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",52000
+"2018","Scotland","1 : Agriculture, forestry & fishing (A)",41000
+"2018","Scotland","2 : Mining, quarrying & utilities (B,D and E)",67000
+"2018","Scotland","3 : Manufacturing (C)",179000
+"2018","Scotland","4 : Construction (F)",136000
+"2018","Scotland","5 : Motor trades (Part G)",44000
+"2018","Scotland","6 : Wholesale (Part G)",75000
+"2018","Scotland","7 : Retail (Part G)",225000
+"2018","Scotland","8 : Transport & storage (inc postal) (H)",106000
+"2018","Scotland","9 : Accommodation & food services (I)",200000
+"2018","Scotland","10 : Information & communication (J)",80000
+"2018","Scotland","11 : Financial & insurance (K)",86000
+"2018","Scotland","12 : Property (L)",32000
+"2018","Scotland","13 : Professional, scientific & technical (M)",175000
+"2018","Scotland","14 : Business administration & support services (N)",203000
+"2018","Scotland","15 : Public administration & defence (O)",157000
+"2018","Scotland","16 : Education (P)",193000
+"2018","Scotland","17 : Health (Q)",389000
+"2018","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",121000
+"2019","North East","1 : Agriculture, forestry & fishing (A)",4500
+"2019","North East","2 : Mining, quarrying & utilities (B,D and E)",19000
+"2019","North East","3 : Manufacturing (C)",108000
+"2019","North East","4 : Construction (F)",48000
+"2019","North East","5 : Motor trades (Part G)",16000
+"2019","North East","6 : Wholesale (Part G)",26000
+"2019","North East","7 : Retail (Part G)",114000
+"2019","North East","8 : Transport & storage (inc postal) (H)",49000
+"2019","North East","9 : Accommodation & food services (I)",80000
+"2019","North East","10 : Information & communication (J)",33000
+"2019","North East","11 : Financial & insurance (K)",24000
+"2019","North East","12 : Property (L)",19000
+"2019","North East","13 : Professional, scientific & technical (M)",64000
+"2019","North East","14 : Business administration & support services (N)",82000
+"2019","North East","15 : Public administration & defence (O)",69000
+"2019","North East","16 : Education (P)",99000
+"2019","North East","17 : Health (Q)",171000
+"2019","North East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",46000
+"2019","North West","1 : Agriculture, forestry & fishing (A)",13000
+"2019","North West","2 : Mining, quarrying & utilities (B,D and E)",42000
+"2019","North West","3 : Manufacturing (C)",315000
+"2019","North West","4 : Construction (F)",156000
+"2019","North West","5 : Motor trades (Part G)",69000
+"2019","North West","6 : Wholesale (Part G)",142000
+"2019","North West","7 : Retail (Part G)",341000
+"2019","North West","8 : Transport & storage (inc postal) (H)",191000
+"2019","North West","9 : Accommodation & food services (I)",235000
+"2019","North West","10 : Information & communication (J)",97000
+"2019","North West","11 : Financial & insurance (K)",95000
+"2019","North West","12 : Property (L)",51000
+"2019","North West","13 : Professional, scientific & technical (M)",304000
+"2019","North West","14 : Business administration & support services (N)",293000
+"2019","North West","15 : Public administration & defence (O)",155000
+"2019","North West","16 : Education (P)",272000
+"2019","North West","17 : Health (Q)",482000
+"2019","North West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",153000
+"2019","Yorkshire and The Humber","1 : Agriculture, forestry & fishing (A)",13000
+"2019","Yorkshire and The Humber","2 : Mining, quarrying & utilities (B,D and E)",26000
+"2019","Yorkshire and The Humber","3 : Manufacturing (C)",272000
+"2019","Yorkshire and The Humber","4 : Construction (F)",129000
+"2019","Yorkshire and The Humber","5 : Motor trades (Part G)",44000
+"2019","Yorkshire and The Humber","6 : Wholesale (Part G)",90000
+"2019","Yorkshire and The Humber","7 : Retail (Part G)",234000
+"2019","Yorkshire and The Humber","8 : Transport & storage (inc postal) (H)",123000
+"2019","Yorkshire and The Humber","9 : Accommodation & food services (I)",156000
+"2019","Yorkshire and The Humber","10 : Information & communication (J)",71000
+"2019","Yorkshire and The Humber","11 : Financial & insurance (K)",68000
+"2019","Yorkshire and The Humber","12 : Property (L)",32000
+"2019","Yorkshire and The Humber","13 : Professional, scientific & technical (M)",165000
+"2019","Yorkshire and The Humber","14 : Business administration & support services (N)",200000
+"2019","Yorkshire and The Humber","15 : Public administration & defence (O)",105000
+"2019","Yorkshire and The Humber","16 : Education (P)",225000
+"2019","Yorkshire and The Humber","17 : Health (Q)",339000
+"2019","Yorkshire and The Humber","18 : Arts, entertainment, recreation & other services (R,S,T and U)",105000
+"2019","East Midlands","1 : Agriculture, forestry & fishing (A)",19000
+"2019","East Midlands","2 : Mining, quarrying & utilities (B,D and E)",33000
+"2019","East Midlands","3 : Manufacturing (C)",268000
+"2019","East Midlands","4 : Construction (F)",98000
+"2019","East Midlands","5 : Motor trades (Part G)",38000
+"2019","East Midlands","6 : Wholesale (Part G)",116000
+"2019","East Midlands","7 : Retail (Part G)",192000
+"2019","East Midlands","8 : Transport & storage (inc postal) (H)",128000
+"2019","East Midlands","9 : Accommodation & food services (I)",139000
+"2019","East Midlands","10 : Information & communication (J)",50000
+"2019","East Midlands","11 : Financial & insurance (K)",37000
+"2019","East Midlands","12 : Property (L)",28000
+"2019","East Midlands","13 : Professional, scientific & technical (M)",159000
+"2019","East Midlands","14 : Business administration & support services (N)",176000
+"2019","East Midlands","15 : Public administration & defence (O)",80000
+"2019","East Midlands","16 : Education (P)",191000
+"2019","East Midlands","17 : Health (Q)",249000
+"2019","East Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",89000
+"2019","West Midlands","1 : Agriculture, forestry & fishing (A)",21000
+"2019","West Midlands","2 : Mining, quarrying & utilities (B,D and E)",33000
+"2019","West Midlands","3 : Manufacturing (C)",302000
+"2019","West Midlands","4 : Construction (F)",115000
+"2019","West Midlands","5 : Motor trades (Part G)",65000
+"2019","West Midlands","6 : Wholesale (Part G)",128000
+"2019","West Midlands","7 : Retail (Part G)",221000
+"2019","West Midlands","8 : Transport & storage (inc postal) (H)",154000
+"2019","West Midlands","9 : Accommodation & food services (I)",190000
+"2019","West Midlands","10 : Information & communication (J)",67000
+"2019","West Midlands","11 : Financial & insurance (K)",63000
+"2019","West Midlands","12 : Property (L)",45000
+"2019","West Midlands","13 : Professional, scientific & technical (M)",165000
+"2019","West Midlands","14 : Business administration & support services (N)",243000
+"2019","West Midlands","15 : Public administration & defence (O)",96000
+"2019","West Midlands","16 : Education (P)",229000
+"2019","West Midlands","17 : Health (Q)",344000
+"2019","West Midlands","18 : Arts, entertainment, recreation & other services (R,S,T and U)",111000
+"2019","East","1 : Agriculture, forestry & fishing (A)",26000
+"2019","East","2 : Mining, quarrying & utilities (B,D and E)",28000
+"2019","East","3 : Manufacturing (C)",212000
+"2019","East","4 : Construction (F)",167000
+"2019","East","5 : Motor trades (Part G)",68000
+"2019","East","6 : Wholesale (Part G)",120000
+"2019","East","7 : Retail (Part G)",255000
+"2019","East","8 : Transport & storage (inc postal) (H)",137000
+"2019","East","9 : Accommodation & food services (I)",191000
+"2019","East","10 : Information & communication (J)",107000
+"2019","East","11 : Financial & insurance (K)",69000
+"2019","East","12 : Property (L)",47000
+"2019","East","13 : Professional, scientific & technical (M)",266000
+"2019","East","14 : Business administration & support services (N)",285000
+"2019","East","15 : Public administration & defence (O)",92000
+"2019","East","16 : Education (P)",255000
+"2019","East","17 : Health (Q)",332000
+"2019","East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",124000
+"2019","London","1 : Agriculture, forestry & fishing (A)",1500
+"2019","London","2 : Mining, quarrying & utilities (B,D and E)",30000
+"2019","London","3 : Manufacturing (C)",122000
+"2019","London","4 : Construction (F)",199000
+"2019","London","5 : Motor trades (Part G)",52000
+"2019","London","6 : Wholesale (Part G)",164000
+"2019","London","7 : Retail (Part G)",391000
+"2019","London","8 : Transport & storage (inc postal) (H)",260000
+"2019","London","9 : Accommodation & food services (I)",427000
+"2019","London","10 : Information & communication (J)",442000
+"2019","London","11 : Financial & insurance (K)",386000
+"2019","London","12 : Property (L)",140000
+"2019","London","13 : Professional, scientific & technical (M)",680000
+"2019","London","14 : Business administration & support services (N)",565000
+"2019","London","15 : Public administration & defence (O)",229000
+"2019","London","16 : Education (P)",375000
+"2019","London","17 : Health (Q)",527000
+"2019","London","18 : Arts, entertainment, recreation & other services (R,S,T and U)",262000
+"2019","South East","1 : Agriculture, forestry & fishing (A)",33000
+"2019","South East","2 : Mining, quarrying & utilities (B,D and E)",52000
+"2019","South East","3 : Manufacturing (C)",275000
+"2019","South East","4 : Construction (F)",220000
+"2019","South East","5 : Motor trades (Part G)",90000
+"2019","South East","6 : Wholesale (Part G)",187000
+"2019","South East","7 : Retail (Part G)",410000
+"2019","South East","8 : Transport & storage (inc postal) (H)",188000
+"2019","South East","9 : Accommodation & food services (I)",323000
+"2019","South East","10 : Information & communication (J)",239000
+"2019","South East","11 : Financial & insurance (K)",114000
+"2019","South East","12 : Property (L)",60000
+"2019","South East","13 : Professional, scientific & technical (M)",379000
+"2019","South East","14 : Business administration & support services (N)",351000
+"2019","South East","15 : Public administration & defence (O)",133000
+"2019","South East","16 : Education (P)",418000
+"2019","South East","17 : Health (Q)",540000
+"2019","South East","18 : Arts, entertainment, recreation & other services (R,S,T and U)",200000
+"2019","South West","1 : Agriculture, forestry & fishing (A)",26000
+"2019","South West","2 : Mining, quarrying & utilities (B,D and E)",35000
+"2019","South West","3 : Manufacturing (C)",217000
+"2019","South West","4 : Construction (F)",140000
+"2019","South West","5 : Motor trades (Part G)",50000
+"2019","South West","6 : Wholesale (Part G)",80000
+"2019","South West","7 : Retail (Part G)",268000
+"2019","South West","8 : Transport & storage (inc postal) (H)",95000
+"2019","South West","9 : Accommodation & food services (I)",235000
+"2019","South West","10 : Information & communication (J)",77000
+"2019","South West","11 : Financial & insurance (K)",78000
+"2019","South West","12 : Property (L)",43000
+"2019","South West","13 : Professional, scientific & technical (M)",208000
+"2019","South West","14 : Business administration & support services (N)",175000
+"2019","South West","15 : Public administration & defence (O)",105000
+"2019","South West","16 : Education (P)",213000
+"2019","South West","17 : Health (Q)",346000
+"2019","South West","18 : Arts, entertainment, recreation & other services (R,S,T and U)",106000
+"2019","Wales","1 : Agriculture, forestry & fishing (A)",15000
+"2019","Wales","2 : Mining, quarrying & utilities (B,D and E)",23000
+"2019","Wales","3 : Manufacturing (C)",142000
+"2019","Wales","4 : Construction (F)",59000
+"2019","Wales","5 : Motor trades (Part G)",30000
+"2019","Wales","6 : Wholesale (Part G)",43000
+"2019","Wales","7 : Retail (Part G)",120000
+"2019","Wales","8 : Transport & storage (inc postal) (H)",43000
+"2019","Wales","9 : Accommodation & food services (I)",118000
+"2019","Wales","10 : Information & communication (J)",27000
+"2019","Wales","11 : Financial & insurance (K)",32000
+"2019","Wales","12 : Property (L)",16000
+"2019","Wales","13 : Professional, scientific & technical (M)",64000
+"2019","Wales","14 : Business administration & support services (N)",82000
+"2019","Wales","15 : Public administration & defence (O)",96000
+"2019","Wales","16 : Education (P)",114000
+"2019","Wales","17 : Health (Q)",198000
+"2019","Wales","18 : Arts, entertainment, recreation & other services (R,S,T and U)",46000
+"2019","Scotland","1 : Agriculture, forestry & fishing (A)",42000
+"2019","Scotland","2 : Mining, quarrying & utilities (B,D and E)",64000
+"2019","Scotland","3 : Manufacturing (C)",167000
+"2019","Scotland","4 : Construction (F)",136000
+"2019","Scotland","5 : Motor trades (Part G)",47000
+"2019","Scotland","6 : Wholesale (Part G)",62000
+"2019","Scotland","7 : Retail (Part G)",225000
+"2019","Scotland","8 : Transport & storage (inc postal) (H)",104000
+"2019","Scotland","9 : Accommodation & food services (I)",206000
+"2019","Scotland","10 : Information & communication (J)",88000
+"2019","Scotland","11 : Financial & insurance (K)",83000
+"2019","Scotland","12 : Property (L)",38000
+"2019","Scotland","13 : Professional, scientific & technical (M)",176000
+"2019","Scotland","14 : Business administration & support services (N)",202000
+"2019","Scotland","15 : Public administration & defence (O)",155000
+"2019","Scotland","16 : Education (P)",204000
+"2019","Scotland","17 : Health (Q)",393000
+"2019","Scotland","18 : Arts, entertainment, recreation & other services (R,S,T and U)",109000

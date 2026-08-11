@@ -1,0 +1,265 @@
+"DATE_NAME","GEOGRAPHY_NAME","MEASURES_NAME","OBS_VALUE"
+"2008","North East","Value",421.7
+"2008","North East","Confidence",1.6
+"2008","North West","Value",451.3
+"2008","North West","Confidence",0.9
+"2008","Yorkshire and The Humber","Value",444.3
+"2008","Yorkshire and The Humber","Confidence",1.0
+"2008","East Midlands","Value",450.2
+"2008","East Midlands","Confidence",1.1
+"2008","West Midlands","Value",449.8
+"2008","West Midlands","Confidence",1.0
+"2008","East","Value",499.0
+"2008","East","Confidence",1.0
+"2008","London","Value",581.5
+"2008","London","Confidence",0.7
+"2008","South East","Value",524.8
+"2008","South East","Confidence",0.7
+"2008","South West","Value",451.9
+"2008","South West","Confidence",1.1
+"2008","Wales","Value",424.8
+"2008","Wales","Confidence",1.5
+"2008","Scotland","Value",462.9
+"2008","Scotland","Confidence",1.1
+"2009","North East","Value",438.5
+"2009","North East","Confidence",1.5
+"2009","North West","Value",460.0
+"2009","North West","Confidence",0.8
+"2009","Yorkshire and The Humber","Value",452.6
+"2009","Yorkshire and The Humber","Confidence",0.9
+"2009","East Midlands","Value",460.2
+"2009","East Midlands","Confidence",1.0
+"2009","West Midlands","Value",456.8
+"2009","West Midlands","Confidence",0.8
+"2009","East","Value",509.5
+"2009","East","Confidence",0.9
+"2009","London","Value",598.2
+"2009","London","Confidence",0.6
+"2009","South East","Value",536.6
+"2009","South East","Confidence",0.6
+"2009","South West","Value",460.0
+"2009","South West","Confidence",1.0
+"2009","Wales","Value",444.6
+"2009","Wales","Confidence",1.3
+"2009","Scotland","Value",471.2
+"2009","Scotland","Confidence",0.9
+"2010","North East","Value",443.4
+"2010","North East","Confidence",1.2
+"2010","North West","Value",471.0
+"2010","North West","Confidence",0.9
+"2010","Yorkshire and The Humber","Value",462.5
+"2010","Yorkshire and The Humber","Confidence",0.9
+"2010","East Midlands","Value",469.8
+"2010","East Midlands","Confidence",1.0
+"2010","West Midlands","Value",469.2
+"2010","West Midlands","Confidence",0.9
+"2010","East","Value",523.3
+"2010","East","Confidence",0.9
+"2010","London","Value",606.4
+"2010","London","Confidence",0.6
+"2010","South East","Value",547.8
+"2010","South East","Confidence",0.7
+"2010","South West","Value",468.3
+"2010","South West","Confidence",0.9
+"2010","Wales","Value",456.2
+"2010","Wales","Confidence",1.4
+"2010","Scotland","Value",486.6
+"2010","Scotland","Confidence",0.8
+"2011","North East","Value",448.5
+"2011","North East","Confidence",1.1
+"2011","North West","Value",458.7
+"2011","North West","Confidence",0.8
+"2011","Yorkshire and The Humber","Value",461.7
+"2011","Yorkshire and The Humber","Confidence",0.9
+"2011","East Midlands","Value",468.2
+"2011","East Midlands","Confidence",1.0
+"2011","West Midlands","Value",465.2
+"2011","West Midlands","Confidence",1.0
+"2011","East","Value",525.0
+"2011","East","Confidence",0.8
+"2011","London","Value",608.8
+"2011","London","Confidence",0.6
+"2011","South East","Value",554.6
+"2011","South East","Confidence",0.8
+"2011","South West","Value",471.5
+"2011","South West","Confidence",0.9
+"2011","Wales","Value",455.1
+"2011","Wales","Confidence",1.2
+"2011","Scotland","Value",487.2
+"2011","Scotland","Confidence",0.8
+"2012","North East","Value",454.9
+"2012","North East","Confidence",1.1
+"2012","North West","Value",472.1
+"2012","North West","Confidence",0.9
+"2012","Yorkshire and The Humber","Value",465.2
+"2012","Yorkshire and The Humber","Confidence",1.0
+"2012","East Midlands","Value",476.5
+"2012","East Midlands","Confidence",1.0
+"2012","West Midlands","Value",469.3
+"2012","West Midlands","Confidence",1.0
+"2012","East","Value",531.4
+"2012","East","Confidence",0.9
+"2012","London","Value",613.3
+"2012","London","Confidence",0.6
+"2012","South East","Value",555.8
+"2012","South East","Confidence",0.7
+"2012","South West","Value",477.4
+"2012","South West","Confidence",0.9
+"2012","Wales","Value",454.9
+"2012","Wales","Confidence",1.3
+"2012","Scotland","Value",498.3
+"2012","Scotland","Confidence",0.8
+"2013","North East","Value",472.2
+"2013","North East","Confidence",1.2
+"2013","North West","Value",483.3
+"2013","North West","Confidence",0.7
+"2013","Yorkshire and The Humber","Value",479.1
+"2013","Yorkshire and The Humber","Confidence",1.0
+"2013","East Midlands","Value",483.0
+"2013","East Midlands","Confidence",0.9
+"2013","West Midlands","Value",483.0
+"2013","West Midlands","Confidence",0.8
+"2013","East","Value",543.5
+"2013","East","Confidence",0.9
+"2013","London","Value",613.3
+"2013","London","Confidence",0.6
+"2013","South East","Value",557.6
+"2013","South East","Confidence",0.7
+"2013","South West","Value",485.1
+"2013","South West","Confidence",0.8
+"2013","Wales","Value",475.3
+"2013","Wales","Confidence",1.2
+"2013","Scotland","Value",507.9
+"2013","Scotland","Confidence",1.0
+"2014","North East","Value",476.7
+"2014","North East","Confidence",1.3
+"2014","North West","Value",485.3
+"2014","North West","Confidence",0.8
+"2014","Yorkshire and The Humber","Value",479.0
+"2014","Yorkshire and The Humber","Confidence",0.9
+"2014","East Midlands","Value",483.7
+"2014","East Midlands","Confidence",0.9
+"2014","West Midlands","Value",481.2
+"2014","West Midlands","Confidence",0.7
+"2014","East","Value",539.1
+"2014","East","Confidence",0.9
+"2014","London","Value",617.1
+"2014","London","Confidence",0.7
+"2014","South East","Value",567.2
+"2014","South East","Confidence",0.7
+"2014","South West","Value",495.8
+"2014","South West","Confidence",0.9
+"2014","Wales","Value",480.0
+"2014","Wales","Confidence",1.3
+"2014","Scotland","Value",518.6
+"2014","Scotland","Confidence",0.9
+"2015","North East","Value",485.6
+"2015","North East","Confidence",1.2
+"2015","North West","Value",491.5
+"2015","North West","Confidence",0.8
+"2015","Yorkshire and The Humber","Value",480.6
+"2015","Yorkshire and The Humber","Confidence",0.9
+"2015","East Midlands","Value",491.0
+"2015","East Midlands","Confidence",0.9
+"2015","West Midlands","Value",492.1
+"2015","West Midlands","Confidence",0.7
+"2015","East","Value",550.6
+"2015","East","Confidence",0.9
+"2015","London","Value",620.8
+"2015","London","Confidence",0.7
+"2015","South East","Value",574.9
+"2015","South East","Confidence",0.6
+"2015","South West","Value",498.3
+"2015","South West","Confidence",0.9
+"2015","Wales","Value",487.6
+"2015","Wales","Confidence",1.3
+"2015","Scotland","Value",527.0
+"2015","Scotland","Confidence",0.9
+"2016","North East","Value",492.4
+"2016","North East","Confidence",1.2
+"2016","North West","Value",502.5
+"2016","North West","Confidence",0.8
+"2016","Yorkshire and The Humber","Value",498.3
+"2016","Yorkshire and The Humber","Confidence",0.9
+"2016","East Midlands","Value",501.5
+"2016","East Midlands","Confidence",1.1
+"2016","West Midlands","Value",507.6
+"2016","West Midlands","Confidence",1.0
+"2016","East","Value",569.5
+"2016","East","Confidence",0.9
+"2016","London","Value",631.8
+"2016","London","Confidence",0.7
+"2016","South East","Value",581.8
+"2016","South East","Confidence",0.7
+"2016","South West","Value",513.4
+"2016","South West","Confidence",0.9
+"2016","Wales","Value",499.2
+"2016","Wales","Confidence",1.2
+"2016","Scotland","Value",536.0
+"2016","Scotland","Confidence",0.8
+"2017","North East","Value",504.1
+"2017","North East","Confidence",1.2
+"2017","North West","Value",514.5
+"2017","North West","Confidence",0.9
+"2017","Yorkshire and The Humber","Value",502.3
+"2017","Yorkshire and The Humber","Confidence",0.8
+"2017","East Midlands","Value",516.7
+"2017","East Midlands","Confidence",1.1
+"2017","West Midlands","Value",517.1
+"2017","West Midlands","Confidence",1.0
+"2017","East","Value",574.9
+"2017","East","Confidence",0.7
+"2017","London","Value",654.1
+"2017","London","Confidence",0.7
+"2017","South East","Value",595.9
+"2017","South East","Confidence",0.6
+"2017","South West","Value",527.0
+"2017","South West","Confidence",0.9
+"2017","Wales","Value",505.7
+"2017","Wales","Confidence",1.2
+"2017","Scotland","Value",547.4
+"2017","Scotland","Confidence",0.8
+"2018","North East","Value",511.1
+"2018","North East","Confidence",1.4
+"2018","North West","Value",529.8
+"2018","North West","Confidence",0.8
+"2018","Yorkshire and The Humber","Value",520.4
+"2018","Yorkshire and The Humber","Confidence",0.9
+"2018","East Midlands","Value",529.9
+"2018","East Midlands","Confidence",1.0
+"2018","West Midlands","Value",535.5
+"2018","West Midlands","Confidence",1.0
+"2018","East","Value",589.4
+"2018","East","Confidence",0.9
+"2018","London","Value",670.8
+"2018","London","Confidence",0.6
+"2018","South East","Value",614.9
+"2018","South East","Confidence",0.7
+"2018","South West","Value",537.6
+"2018","South West","Confidence",0.9
+"2018","Wales","Value",518.5
+"2018","Wales","Confidence",1.2
+"2018","Scotland","Value",562.7
+"2018","Scotland","Confidence",0.8
+"2019","North East","Value",531.4
+"2019","North East","Confidence",1.4
+"2019","North West","Value",555.8
+"2019","North West","Confidence",0.9
+"2019","Yorkshire and The Humber","Value",540.8
+"2019","Yorkshire and The Humber","Confidence",0.9
+"2019","East Midlands","Value",547.5
+"2019","East Midlands","Confidence",1.0
+"2019","West Midlands","Value",550.8
+"2019","West Midlands","Confidence",0.9
+"2019","East","Value",610.2
+"2019","East","Confidence",0.7
+"2019","London","Value",699.3
+"2019","London","Confidence",0.7
+"2019","South East","Value",636.3
+"2019","South East","Confidence",0.7
+"2019","South West","Value",560.9
+"2019","South West","Confidence",0.9
+"2019","Wales","Value",540.0
+"2019","Wales","Confidence",1.4
+"2019","Scotland","Value",578.3
+"2019","Scotland","Confidence",0.7
