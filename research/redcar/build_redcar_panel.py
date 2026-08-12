@@ -289,21 +289,21 @@ def load_ons():
 def fetch_extra():
     ga = fetch_and_cache(
         ONS/"claimant_gender_age_ne.csv",
-        (f"{NOMIS}/NM_162_1.data.csv?geography={NE_ITL1}&date=2014-01...2018-12"
+        (f"{NOMIS}/NM_162_1.data.csv?geography={NE_ITL1}&date=2014-01...2019-12"
          f"&gender=1,2&age=1,2,3,4,5,6,7,8&measure=1&measures=20100"
          f"&select=date_name,geography_name,gender_name,age_name,obs_value"),
         ["month","geography","gender","age_band","claimants"],
     )
     rc_tot = fetch_and_cache(
         ONS/"claimant_redcar_cleveland.csv",
-        (f"{NOMIS}/NM_162_1.data.csv?geography={REDCAR_LA}&date=2014-01...2018-12"
+        (f"{NOMIS}/NM_162_1.data.csv?geography={REDCAR_LA}&date=2014-01...2019-12"
          f"&gender=0&age=0&measure=1&measures=20100"
          f"&select=date_name,geography_name,geography_code,obs_value"),
         ["month","geography","geography_code","claimant_count"],
     )
     rc_age = fetch_and_cache(
         ONS/"claimant_redcar_cleveland_age.csv",
-        (f"{NOMIS}/NM_162_1.data.csv?geography={REDCAR_LA}&date=2014-01...2018-12"
+        (f"{NOMIS}/NM_162_1.data.csv?geography={REDCAR_LA}&date=2014-01...2019-12"
          f"&gender=0&age=1,2,3,4,5,6,7,8&measure=1&measures=20100"
          f"&select=date_name,geography_name,age_name,obs_value"),
         ["month","geography","age_band","claimants"],
@@ -346,11 +346,15 @@ def build_aps_lookup(ne_aps):
     quarters = [
         "2015Q4","2016Q1","2016Q2","2016Q3",
         "2016Q4","2017Q1","2017Q2","2017Q3","2017Q4",
+        "2018Q1","2018Q2","2018Q3","2018Q4",
+        "2019Q1","2019Q2","2019Q3","2019Q4",
     ]
     q_to_month = {
         "2015Q4":(2015,11),"2016Q1":(2016,2),"2016Q2":(2016,5),
         "2016Q3":(2016,8),"2016Q4":(2016,11),"2017Q1":(2017,2),
         "2017Q2":(2017,5),"2017Q3":(2017,8),"2017Q4":(2017,11),
+        "2018Q1":(2018,2),"2018Q2":(2018,5),"2018Q3":(2018,8),"2018Q4":(2018,11),
+        "2019Q1":(2019,2),"2019Q2":(2019,5),"2019Q3":(2019,8),"2019Q4":(2019,11),
     }
     result = {}
     for q, (ty, tm) in q_to_month.items():
@@ -383,7 +387,9 @@ def build_ashe_lookup(ne_ashe):
     medians["year"] = medians["year"].astype(int)
     result = {}
     for q in ["2015Q4","2016Q1","2016Q2","2016Q3",
-               "2016Q4","2017Q1","2017Q2","2017Q3","2017Q4"]:
+               "2016Q4","2017Q1","2017Q2","2017Q3","2017Q4",
+               "2018Q1","2018Q2","2018Q3","2018Q4",
+               "2019Q1","2019Q2","2019Q3","2019Q4"]:
         y = int(q[:4])
         row = medians[medians["year"]==y]
         result[q] = round(row["weekly_pay_gbp"].values[0], 1) if len(row) else None
@@ -607,10 +613,14 @@ def make_row(quarter, months_post, gender, age_band,
 # Main
 # ---------------------------------------------------------------------------
 QUARTERS = ["2015Q4","2016Q1","2016Q2","2016Q3",
-            "2016Q4","2017Q1","2017Q2","2017Q3","2017Q4"]
+            "2016Q4","2017Q1","2017Q2","2017Q3","2017Q4",
+            "2018Q1","2018Q2","2018Q3","2018Q4",
+            "2019Q1","2019Q2","2019Q3","2019Q4"]
 MONTHS_POST = {
     "2015Q4":1,"2016Q1":4,"2016Q2":7,"2016Q3":10,
     "2016Q4":13,"2017Q1":16,"2017Q2":19,"2017Q3":22,"2017Q4":25,
+    "2018Q1":28,"2018Q2":31,"2018Q3":34,"2018Q4":37,
+    "2019Q1":40,"2019Q2":43,"2019Q3":46,"2019Q4":49,
 }
 AGE_BANDS   = ["16-24","25-49","50+"]
 AGE_NOMIS   = {"16-24":"Aged 16-24","25-49":"Aged 25-49","50+":"Aged 50+"}
@@ -770,6 +780,8 @@ def main():
             "2015Q4": "2016Q1", "2016Q1": "2016Q1", "2016Q2": "2016Q1",
             "2016Q3": "2016Q4", "2016Q4": "2016Q4", "2017Q1": "2016Q4",
             "2017Q2": "2017Q4", "2017Q3": "2017Q4", "2017Q4": "2017Q4",
+            "2018Q1": "2017Q4", "2018Q2": "2017Q4", "2018Q3": "2017Q4", "2018Q4": "2017Q4",
+            "2019Q1": "2017Q4", "2019Q2": "2017Q4", "2019Q3": "2017Q4", "2019Q4": "2017Q4",
         }
         base = BASELINE_OUTCOMES[NEAREST[q]]
 
