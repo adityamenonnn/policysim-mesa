@@ -308,7 +308,20 @@ def fetch_extra():
          f"&select=date_name,geography_name,age_name,obs_value"),
         ["month","geography","age_band","claimants"],
     )
-    return ga, rc_tot, rc_age
+    # APS by age band: unemployment and employment rates per age band, NE ITL1.
+    # Variables: 1213=unemp 16-24, 1214=unemp 25-49, 89=unemp 50+,
+    #            1207=emp 16-24,   1208=emp 25-49,   50=emp 50+
+    # measures=20599 gives rolling 12-month period values (same as aps_raw.csv).
+    aps_age = fetch_and_cache(
+        ONS/"aps_by_age_ne.csv",
+        (f"{NOMIS}/NM_17_5.data.csv?geography={NE_ITL1}"
+         f"&date=2014-12...2019-12"
+         f"&variable=1213,1214,89,1207,1208,50"
+         f"&measures=20599"
+         f"&select=date_name,geography_name,variable_name,obs_value"),
+        ["period","geography","variable","value"],
+    )
+    return ga, rc_tot, rc_age, aps_age
 
 # ---------------------------------------------------------------------------
 # Aggregate monthly -> quarterly mean
@@ -379,6 +392,66 @@ def build_aps_lookup(ne_aps):
     return result
 
 # ---------------------------------------------------------------------------
+# Build APS age-band lookup: (quarter, age_band) -> {unemp_rate, emp_rate}
+# age_band keys match AGE_BANDS: "16-24", "25-49", "50+"
+# ---------------------------------------------------------------------------
+def build_aps_age_lookup(aps_age_df):
+    _M3 = {"Jan":1,"Feb":2,"Mar":3,"Apr":4,"May":5,"Jun":6,
+            "Jul":7,"Aug":8,"Sep":9,"Oct":10,"Nov":11,"Dec":12}
+
+    # Map variable name -> (metric, age_band)
+    VAR_MAP = {
+        "Unemployment rate - aged 16-24": ("unemp", "16-24"),
+        "Unemployment rate - aged 25-49": ("unemp", "25-49"),
+        "Unemployment rate - aged 50+":   ("unemp", "50+"),
+        "Employment rate - aged 16-24":   ("emp",   "16-24"),
+        "Employment rate - aged 25-49":   ("emp",   "25-49"),
+        "Employment rate - aged 50+":     ("emp",   "50+"),
+    }
+
+    def parse_start(s):
+        part = s.split("-")[0].strip()
+        bits = part.split()
+        return int(bits[1]), _M3[bits[0]]
+
+    quarters = QUARTERS
+    q_to_month = {
+        "2015Q4":(2015,11),"2016Q1":(2016,2),"2016Q2":(2016,5),
+        "2016Q3":(2016,8),"2016Q4":(2016,11),"2017Q1":(2017,2),
+        "2017Q2":(2017,5),"2017Q3":(2017,8),"2017Q4":(2017,11),
+        "2018Q1":(2018,2),"2018Q2":(2018,5),"2018Q3":(2018,8),"2018Q4":(2018,11),
+        "2019Q1":(2019,2),"2019Q2":(2019,5),"2019Q3":(2019,8),"2019Q4":(2019,11),
+    }
+
+    # For each variable, find the best-match APS period per quarter
+    result = {}
+    for q, (ty, tm) in q_to_month.items():
+        result[q] = {}
+        for age_band in ["16-24", "25-49", "50+"]:
+            result[q][age_band] = {"unemp": None, "emp": None, "aps_period": None}
+
+        periods = aps_age_df["period"].unique()
+        best_period, best_dist = None, 999
+        for p in periods:
+            sy, sm = parse_start(p)
+            cy, cm = sy + (sm+5)//12, (sm+5)%12 + 1
+            dist = abs((ty*12+tm) - (cy*12+cm))
+            if dist < best_dist:
+                best_dist = dist
+                best_period = p
+
+        for var_name, (metric, age_band) in VAR_MAP.items():
+            row = aps_age_df[
+                (aps_age_df["period"] == best_period) &
+                (aps_age_df["variable"] == var_name)
+            ]
+            if len(row):
+                result[q][age_band][metric] = round(row["value"].values[0], 1)
+                result[q][age_band]["aps_period"] = best_period
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Build ASHE lookup: quarter -> ne_median_weekly_pay_gbp
 # (ASHE is annual; use the year that covers the quarter)
 # ---------------------------------------------------------------------------
@@ -408,7 +481,8 @@ def make_row(quarter, months_post, gender, age_band,
              ne_median_weekly_pay,
              source_citation, source_url, data_quality,
              income_band="£25k-£35k est.", skill_tier="skilled_manual",
-             income_band_note=None):
+             income_band_note=None,
+             ne_age_unemp_rate=None, ne_age_emp_rate=None, ne_age_aps_period=None):
 
     a = anchors_q
 
@@ -462,11 +536,18 @@ def make_row(quarter, months_post, gender, age_band,
             f"SSI gender prior (95% male) used for ssi_est_workers_this_cell instead. "
         )
 
-    # APS
+    # APS — overall NE
     if ne_unemp_rate is not None:
         note_parts.append(
             f"NE LABOUR MARKET (APS {aps_period}): unemployment {ne_unemp_rate}%, "
             f"employment {ne_emp_rate}%, activity {ne_activity_rate}%. "
+        )
+    # APS — age-specific (only populated for disaggregated age band rows)
+    if ne_age_unemp_rate is not None:
+        note_parts.append(
+            f"NE LABOUR MARKET for {age_band} age band (APS {ne_age_aps_period}): "
+            f"unemployment {ne_age_unemp_rate}%, employment {ne_age_emp_rate}%. "
+            f"Source: Nomis NM_17_5 age-specific variables. REAL data. "
         )
 
     # ASHE wages
@@ -584,11 +665,16 @@ def make_row(quarter, months_post, gender, age_band,
         "ne_claimant_excess_vs_baseline": round(ne_cc_excess,1)if ne_cc_excess   is not None else None,
         "ne_gender_claimants":            round(ne_gender_claimants) if ne_gender_claimants is not None else None,
         "ne_gender_pct_within_age_band":  ne_gender_pct_within_age,
-        # Labour market context (APS)
+        # Labour market context (APS) — overall NE
         "ne_unemployment_rate_%":         ne_unemp_rate,
         "ne_employment_rate_%":           ne_emp_rate,
         "ne_activity_rate_%":             ne_activity_rate,
         "aps_period":                     aps_period,
+        # Labour market context (APS) — age-band specific. REAL Nomis NM_17_5 data.
+        # Only populated for rows where age_band != "all".
+        "ne_age_unemployment_rate_%":     ne_age_unemp_rate,
+        "ne_age_employment_rate_%":       ne_age_emp_rate,
+        "ne_age_aps_period":              ne_age_aps_period,
         # Wage context (ASHE)
         "ne_median_weekly_pay_gbp":       ne_median_weekly_pay,
         "ne_median_annual_pay_gbp":       round(ne_median_weekly_pay*52) if ne_median_weekly_pay else None,
@@ -638,7 +724,7 @@ def main():
     ne_aps  = aps_raw[aps_raw["region"]=="North East"]
 
     print("Fetching / loading extra Nomis data...")
-    ne_ga, rc_tot, rc_age_raw = fetch_extra()
+    ne_ga, rc_tot, rc_age_raw, aps_age_raw = fetch_extra()
 
     print("Aggregating to quarterly...")
     ne_cc_q  = to_quarterly(ne_cc,  [], "claimant_count")
@@ -659,8 +745,9 @@ def main():
     rc_age_filt = rc_age_raw[rc_age_raw["age_band"].isin(AGE_NOMIS.values())]
     rc_age_q    = to_quarterly(rc_age_filt, ["age_band"], "claimants")
 
-    aps_lookup  = build_aps_lookup(ne_aps)
-    ashe_lookup = build_ashe_lookup(ne_ashe)
+    aps_lookup     = build_aps_lookup(ne_aps)
+    aps_age_lookup = build_aps_age_lookup(aps_age_raw)
+    ashe_lookup    = build_ashe_lookup(ne_ashe)
 
     print(f"NE claimant baseline: {ne_cc_bl:.0f} | RC LA baseline: {rc_bl:.0f}")
 
@@ -722,11 +809,15 @@ def main():
             rc_ab_total = rc_age_q[rc_age_q["quarter"]==q]["claimants"].sum()
             rc_ab_pct   = round(100*rc_ab_n/rc_ab_total,1) if (rc_ab_n and rc_ab_total) else None
 
+            ab_aps = aps_age_lookup.get(q, {}).get(ab, {})
             rows.append(make_row(
                 quarter=q, months_post=mp, gender="all", age_band=ab,
                 anchors_q=anch, ssi_n_cell=est_n,
                 rc_age_claimants=rc_ab_n, rc_age_pct=rc_ab_pct,
                 ne_gender_claimants=None, ne_gender_pct_within_age=None,
+                ne_age_unemp_rate=ab_aps.get("unemp"),
+                ne_age_emp_rate=ab_aps.get("emp"),
+                ne_age_aps_period=ab_aps.get("aps_period"),
                 **common,
             ))
 
@@ -758,11 +849,15 @@ def main():
                 ne_g_n   = g_row["claimants"].values[0] if len(g_row) else None
                 ne_g_pct = round(100*ne_g_n/ab_total_ne,1) if (ne_g_n and ab_total_ne) else None
 
+                ab_aps = aps_age_lookup.get(q, {}).get(ab, {})
                 rows.append(make_row(
                     quarter=q, months_post=mp, gender=g, age_band=ab,
                     anchors_q=anch, ssi_n_cell=est_n,
                     rc_age_claimants=rc_ab_n, rc_age_pct=rc_ab_pct,
                     ne_gender_claimants=ne_g_n, ne_gender_pct_within_age=ne_g_pct,
+                    ne_age_unemp_rate=ab_aps.get("unemp"),
+                    ne_age_emp_rate=ab_aps.get("emp"),
+                    ne_age_aps_period=ab_aps.get("aps_period"),
                     **common,
                 ))
 
