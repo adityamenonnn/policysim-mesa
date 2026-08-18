@@ -281,7 +281,11 @@ def load_ons():
     aps = pd.read_csv(ONS/"aps_raw.csv")
     aps.columns = ["period","region","variable","value"]
 
-    return cc, ca, ashe, aps
+    # ASHE percentiles (p10, p25, p75, p90) — already downloaded by data.py
+    ashe_pct = pd.read_csv(ONS/"ashe_percentiles_raw.csv")
+    ashe_pct.columns = ["year","region","statistic","weekly_pay_gbp"]
+
+    return cc, ca, ashe, aps, ashe_pct
 
 # ---------------------------------------------------------------------------
 # Fetch extra Nomis data
@@ -308,20 +312,41 @@ def fetch_extra():
          f"&select=date_name,geography_name,age_name,obs_value"),
         ["month","geography","age_band","claimants"],
     )
-    # APS by age band: unemployment and employment rates per age band, NE ITL1.
-    # Variables: 1213=unemp 16-24, 1214=unemp 25-49, 89=unemp 50+,
+    # APS by age band: unemployment, employment AND activity rates per age band, NE ITL1.
+    # Variables: 1213=unemp 16-24, 1214=unemp 25-49, 89=unemp 50+
     #            1207=emp 16-24,   1208=emp 25-49,   50=emp 50+
+    #            1201=activity 16-24, 1202=activity 25-49, 23=activity 50+
     # measures=20599 gives rolling 12-month period values (same as aps_raw.csv).
     aps_age = fetch_and_cache(
         ONS/"aps_by_age_ne.csv",
         (f"{NOMIS}/NM_17_5.data.csv?geography={NE_ITL1}"
          f"&date=2014-12...2019-12"
-         f"&variable=1213,1214,89,1207,1208,50"
+         f"&variable=1213,1214,89,1207,1208,50,1201,1202,23"
          f"&measures=20599"
          f"&select=date_name,geography_name,variable_name,obs_value"),
         ["period","geography","variable","value"],
     )
-    return ga, rc_tot, rc_age, aps_age
+    # Tees Valley CA claimant count (E47000006) — between RC LA and NE ITL1 in scale.
+    # The actual policy geography for the SSI Task Force response.
+    tv_ca = fetch_and_cache(
+        ONS/"claimant_tees_valley.csv",
+        (f"{NOMIS}/NM_162_1.data.csv?geography=E47000006&date=2014-01...2019-12"
+         f"&gender=0&age=0&measure=1&measures=20100"
+         f"&select=date_name,geography_name,geography_code,obs_value"),
+        ["month","geography","geography_code","claimant_count"],
+    )
+    # BRES employment by sector for RC LA — shows what jobs existed locally.
+    # Annual data (not monthly); mapped to quarters within the same year.
+    bres_rc = fetch_and_cache(
+        ONS/"bres_rc_la.csv",
+        (f"{NOMIS}/NM_189_1.data.csv?geography=E06000003"
+         f"&date=2013,2014,2015,2016,2017,2018,2019"
+         f"&industry=163577857...163577874"
+         f"&employment_status=1&measure=1&measures=20100"
+         f"&select=date_name,geography_name,industry_name,obs_value"),
+        ["year","geography","industry","employee_jobs"],
+    )
+    return ga, rc_tot, rc_age, aps_age, tv_ca, bres_rc
 
 # ---------------------------------------------------------------------------
 # Aggregate monthly -> quarterly mean
@@ -401,12 +426,15 @@ def build_aps_age_lookup(aps_age_df):
 
     # Map variable name -> (metric, age_band)
     VAR_MAP = {
-        "Unemployment rate - aged 16-24": ("unemp", "16-24"),
-        "Unemployment rate - aged 25-49": ("unemp", "25-49"),
-        "Unemployment rate - aged 50+":   ("unemp", "50+"),
-        "Employment rate - aged 16-24":   ("emp",   "16-24"),
-        "Employment rate - aged 25-49":   ("emp",   "25-49"),
-        "Employment rate - aged 50+":     ("emp",   "50+"),
+        "Unemployment rate - aged 16-24":        ("unemp",    "16-24"),
+        "Unemployment rate - aged 25-49":        ("unemp",    "25-49"),
+        "Unemployment rate - aged 50+":          ("unemp",    "50+"),
+        "Employment rate - aged 16-24":          ("emp",      "16-24"),
+        "Employment rate - aged 25-49":          ("emp",      "25-49"),
+        "Employment rate - aged 50+":            ("emp",      "50+"),
+        "Economic activity rate - aged 16-24":   ("activity", "16-24"),
+        "Economic activity rate - aged 25-49":   ("activity", "25-49"),
+        "Economic activity rate - aged 50+":     ("activity", "50+"),
     }
 
     def parse_start(s):
@@ -428,7 +456,7 @@ def build_aps_age_lookup(aps_age_df):
     for q, (ty, tm) in q_to_month.items():
         result[q] = {}
         for age_band in ["16-24", "25-49", "50+"]:
-            result[q][age_band] = {"unemp": None, "emp": None, "aps_period": None}
+            result[q][age_band] = {"unemp": None, "emp": None, "activity": None, "aps_period": None}
 
         periods = aps_age_df["period"].unique()
         best_period, best_dist = None, 999
@@ -448,6 +476,70 @@ def build_aps_age_lookup(aps_age_df):
             if len(row):
                 result[q][age_band][metric] = round(row["value"].values[0], 1)
                 result[q][age_band]["aps_period"] = best_period
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Build ASHE percentile lookup: quarter -> {p10, p25, p75, p90}
+# ---------------------------------------------------------------------------
+def build_ashe_pct_lookup(ashe_pct_df):
+    ne = ashe_pct_df[ashe_pct_df["region"] == "North East"].copy()
+    ne["year"] = ne["year"].astype(int)
+    stat_map = {
+        "10 percentile": "p10", "25 percentile": "p25",
+        "75 percentile": "p75", "90 percentile": "p90",
+    }
+    result = {}
+    for q in QUARTERS:
+        y = int(q[:4])
+        yr_data = ne[ne["year"] == y]
+        row = {}
+        for stat_name, key in stat_map.items():
+            r = yr_data[yr_data["statistic"] == stat_name]
+            row[key] = round(r["weekly_pay_gbp"].values[0], 1) if len(r) else None
+        result[q] = row
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Build Tees Valley CA quarterly claimant lookup
+# ---------------------------------------------------------------------------
+def build_tv_ca_lookup(tv_df):
+    tv_q = to_quarterly(tv_df, [], "claimant_count")
+    bl   = baseline(tv_q, "claimant_count")
+    result = {}
+    for q in QUARTERS:
+        row = tv_q[tv_q["quarter"] == q]
+        val = row["claimant_count"].values[0] if len(row) else None
+        result[q] = dict(
+            mean    = round(val)       if val is not None else None,
+            baseline= round(bl),
+            excess  = round(val - bl, 1) if val is not None else None,
+        )
+    return result, round(bl)
+
+
+# ---------------------------------------------------------------------------
+# Build BRES RC LA lookup: year -> {manufacturing, mining_util, total, mfg_pct}
+# Maps quarters to the year's BRES value (annual data).
+# ---------------------------------------------------------------------------
+def build_bres_rc_lookup(bres_df):
+    result = {}
+    for q in QUARTERS:
+        y = int(q[:4])
+        yr = bres_df[bres_df["year"] == y]
+        if yr.empty:
+            result[q] = {}
+            continue
+        mfg   = yr[yr["industry"].str.startswith("3 :")]["employee_jobs"].sum()
+        min_u = yr[yr["industry"].str.startswith("2 :")]["employee_jobs"].sum()
+        total = yr["employee_jobs"].sum()
+        result[q] = dict(
+            rc_la_manufacturing_jobs  = int(mfg)   if mfg   else None,
+            rc_la_mining_util_jobs    = int(min_u) if min_u else None,
+            rc_la_total_jobs          = int(total) if total else None,
+            rc_la_manufacturing_pct   = round(100 * mfg / total, 1) if (mfg and total) else None,
+        )
     return result
 
 
@@ -482,7 +574,11 @@ def make_row(quarter, months_post, gender, age_band,
              source_citation, source_url, data_quality,
              income_band="£25k-£35k est.", skill_tier="skilled_manual",
              income_band_note=None,
-             ne_age_unemp_rate=None, ne_age_emp_rate=None, ne_age_aps_period=None):
+             ne_age_unemp_rate=None, ne_age_emp_rate=None,
+             ne_age_activity_rate=None, ne_age_aps_period=None,
+             ne_wage_p10=None, ne_wage_p25=None, ne_wage_p75=None, ne_wage_p90=None,
+             tv_ca_q_mean=None, tv_ca_baseline=None, tv_ca_excess=None,
+             bres=None):
 
     a = anchors_q
 
@@ -546,8 +642,34 @@ def make_row(quarter, months_post, gender, age_band,
     if ne_age_unemp_rate is not None:
         note_parts.append(
             f"NE LABOUR MARKET for {age_band} age band (APS {ne_age_aps_period}): "
-            f"unemployment {ne_age_unemp_rate}%, employment {ne_age_emp_rate}%. "
+            f"unemployment {ne_age_unemp_rate}%, employment {ne_age_emp_rate}%, "
+            f"activity {ne_age_activity_rate}%. "
             f"Source: Nomis NM_17_5 age-specific variables. REAL data. "
+        )
+    # ASHE wage percentiles
+    if ne_wage_p10 is not None:
+        note_parts.append(
+            f"NE WAGE DISTRIBUTION (ASHE {quarter[:4]}): "
+            f"p10=£{ne_wage_p10}/wk, p25=£{ne_wage_p25}/wk, "
+            f"p75=£{ne_wage_p75}/wk, p90=£{ne_wage_p90}/wk. "
+            f"SSI workers (est. £25k-£35k = ~£480-£670/wk) were above NE median. "
+            f"Source: Nomis ASHE NM_30_1. REAL data. "
+        )
+    # BRES RC LA sector employment
+    if bres and bres.get("rc_la_total_jobs"):
+        note_parts.append(
+            f"RC LA EMPLOYMENT STRUCTURE (BRES {quarter[:4]}): "
+            f"total jobs {bres['rc_la_total_jobs']:,}, "
+            f"manufacturing {bres['rc_la_manufacturing_jobs']:,} ({bres['rc_la_manufacturing_pct']}%), "
+            f"mining/utilities {bres['rc_la_mining_util_jobs']:,}. "
+            f"Source: Nomis BRES NM_189_1. REAL data. Annual — same value for all quarters in {quarter[:4]}. "
+        )
+    # Tees Valley CA
+    if tv_ca_q_mean is not None:
+        note_parts.append(
+            f"TEES VALLEY CA (E47000006) claimant count: {tv_ca_q_mean:,} quarterly avg "
+            f"(baseline {tv_ca_baseline:,}; excess vs baseline: {tv_ca_excess:+,.0f}). "
+            f"Covers Redcar, Middlesbrough, Stockton, Hartlepool, Darlington — SSI Task Force geography. "
         )
 
     # ASHE wages
@@ -674,10 +796,24 @@ def make_row(quarter, months_post, gender, age_band,
         # Only populated for rows where age_band != "all".
         "ne_age_unemployment_rate_%":     ne_age_unemp_rate,
         "ne_age_employment_rate_%":       ne_age_emp_rate,
+        "ne_age_activity_rate_%":         ne_age_activity_rate,
         "ne_age_aps_period":              ne_age_aps_period,
-        # Wage context (ASHE)
+        # Wage context (ASHE) — median + percentiles. REAL Nomis NM_30_1 data.
         "ne_median_weekly_pay_gbp":       ne_median_weekly_pay,
         "ne_median_annual_pay_gbp":       round(ne_median_weekly_pay*52) if ne_median_weekly_pay else None,
+        "ne_wage_p10_gbp":                ne_wage_p10,
+        "ne_wage_p25_gbp":                ne_wage_p25,
+        "ne_wage_p75_gbp":                ne_wage_p75,
+        "ne_wage_p90_gbp":                ne_wage_p90,
+        # Tees Valley CA claimant data — SSI Task Force policy geography. REAL Nomis.
+        "tv_ca_claimant_count_q_mean":    tv_ca_q_mean,
+        "tv_ca_claimant_baseline":        tv_ca_baseline,
+        "tv_ca_excess_vs_baseline":       tv_ca_excess,
+        # RC LA employment by sector (BRES, annual). REAL Nomis NM_189_1.
+        "rc_la_manufacturing_jobs":       (bres or {}).get("rc_la_manufacturing_jobs"),
+        "rc_la_mining_util_jobs":         (bres or {}).get("rc_la_mining_util_jobs"),
+        "rc_la_total_jobs":               (bres or {}).get("rc_la_total_jobs"),
+        "rc_la_manufacturing_pct":        (bres or {}).get("rc_la_manufacturing_pct"),
         # SSI workforce estimates for this cell
         "ssi_est_workers_this_cell":      ssi_n_cell,
         "ssi_age_share_prior":            AGE_SHARE.get(age_band),
@@ -716,15 +852,15 @@ GENDER_NOMIS= {"male":"Male","female":"Female"}
 
 def main():
     print("Loading ONS data...")
-    cc_raw, ca_raw, ashe_raw, aps_raw = load_ons()
+    cc_raw, ca_raw, ashe_raw, aps_raw, ashe_pct_raw = load_ons()
 
-    ne_cc = cc_raw[cc_raw["region"]=="North East"]
-    ne_ca = ca_raw[ca_raw["region"]=="North East"]
+    ne_cc   = cc_raw[cc_raw["region"]=="North East"]
+    ne_ca   = ca_raw[ca_raw["region"]=="North East"]
     ne_ashe = ashe_raw[ashe_raw["region"]=="North East"]
     ne_aps  = aps_raw[aps_raw["region"]=="North East"]
 
     print("Fetching / loading extra Nomis data...")
-    ne_ga, rc_tot, rc_age_raw, aps_age_raw = fetch_extra()
+    ne_ga, rc_tot, rc_age_raw, aps_age_raw, tv_ca_raw, bres_rc_raw = fetch_extra()
 
     print("Aggregating to quarterly...")
     ne_cc_q  = to_quarterly(ne_cc,  [], "claimant_count")
@@ -748,6 +884,9 @@ def main():
     aps_lookup     = build_aps_lookup(ne_aps)
     aps_age_lookup = build_aps_age_lookup(aps_age_raw)
     ashe_lookup    = build_ashe_lookup(ne_ashe)
+    ashe_pct_lookup= build_ashe_pct_lookup(ashe_pct_raw)
+    tv_ca_lookup, tv_ca_bl = build_tv_ca_lookup(tv_ca_raw)
+    bres_lookup    = build_bres_rc_lookup(bres_rc_raw)
 
     print(f"NE claimant baseline: {ne_cc_bl:.0f} | RC LA baseline: {rc_bl:.0f}")
 
@@ -758,9 +897,12 @@ def main():
 
     for q in QUARTERS:
         mp   = MONTHS_POST[q]
-        anch = ANCHORS.get(q, {})
-        aps  = aps_lookup.get(q, {})
-        wage = ashe_lookup.get(q)
+        anch  = ANCHORS.get(q, {})
+        aps   = aps_lookup.get(q, {})
+        wage  = ashe_lookup.get(q)
+        pct   = ashe_pct_lookup.get(q, {})
+        tv    = tv_ca_lookup.get(q, {})
+        bres  = bres_lookup.get(q, {})
 
         # NE and RC quarterly totals
         ne_cc_row = ne_cc_q[ne_cc_q["quarter"]==q]
@@ -781,6 +923,11 @@ def main():
             ne_unemp_rate=aps.get("ne_unemp_rate"), ne_emp_rate=aps.get("ne_emp_rate"),
             ne_activity_rate=aps.get("ne_activity_rate"), aps_period=aps.get("aps_period"),
             ne_median_weekly_pay=wage,
+            ne_wage_p10=pct.get("p10"), ne_wage_p25=pct.get("p25"),
+            ne_wage_p75=pct.get("p75"), ne_wage_p90=pct.get("p90"),
+            tv_ca_q_mean=tv.get("mean"), tv_ca_baseline=tv.get("baseline"),
+            tv_ca_excess=tv.get("excess"),
+            bres=bres,
             source_citation=src, source_url=url, data_quality=dq,
         )
 
@@ -817,6 +964,7 @@ def main():
                 ne_gender_claimants=None, ne_gender_pct_within_age=None,
                 ne_age_unemp_rate=ab_aps.get("unemp"),
                 ne_age_emp_rate=ab_aps.get("emp"),
+                ne_age_activity_rate=ab_aps.get("activity"),
                 ne_age_aps_period=ab_aps.get("aps_period"),
                 **common,
             ))
@@ -857,6 +1005,7 @@ def main():
                     ne_gender_claimants=ne_g_n, ne_gender_pct_within_age=ne_g_pct,
                     ne_age_unemp_rate=ab_aps.get("unemp"),
                     ne_age_emp_rate=ab_aps.get("emp"),
+                    ne_age_activity_rate=ab_aps.get("activity"),
                     ne_age_aps_period=ab_aps.get("aps_period"),
                     **common,
                 ))
