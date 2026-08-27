@@ -31,12 +31,24 @@ Why NE and not RC LA?
   share than NE, that confirms the SSI shock drove a distinctive age skew beyond
   the background claimant population.
 
-Why not vacancies or JSA-by-duration?
+3. North East JSA by duration stock (NM_4_1):
+  ne_jsa_under13wk_q_mean   mean monthly JSA claimants on <13 weeks, North East
+  ne_jsa_13to26wk_q_mean    13-26 weeks duration band
+  ne_jsa_26to52wk_q_mean    26-52 weeks duration band
+  ne_jsa_over52wk_q_mean    52+ weeks (long-term unemployed)
+  ne_jsa_total_q_mean       total NE JSA claimants (all duration bands)
+  ne_jsa_longterm_pct       52+ week claimants as % of NE JSA total
+  ne_jsa_data_quality       HIGH
+  ne_jsa_uc_caveat          UC migration note (rising LT% from 2016 is partly a
+                            composition effect as UC absorbs short-term claimants)
+
+Why not vacancies or JSA-by-duration at LA level?
   Nomis vacancy datasets (NM_5_1, NM_19_1-24_1, NM_89_1) do not cover 2015-2019
   at any sub-national geography: the series end by 2012.
   JSA duration stock data (NM_2_1) ends October 1998.
-  These are not bugs — Nomis retired these series when UC rolled out.
-  For vacancy data, use the ONS LFS regional tables or DWP Stat-Xplore directly.
+  NM_4_1 (JSA by age and duration) IS available at regional level for 2015-2019
+  and is fetched here for the North East. LA-level is suppressed by DWP.
+  These are not bugs — Nomis retired some series when UC rolled out.
 
 Usage:
   cd /Users/adityamenon/Documents/PolicySim/policysim-mesa
@@ -251,6 +263,76 @@ def fetch_beao() -> pd.DataFrame:
     return q
 
 
+# ── NE JSA by duration stock (NM_4_1) ─────────────────────────────────────────
+
+def fetch_ne_jsa_duration() -> pd.DataFrame:
+    """
+    Pull NM_4_1 JSA claimant stock for North East, broken into duration bands.
+    sex=7 = total (male + female). All age groups combined (age_dur codes 100-1600
+    are duration-only bands, not age bands).
+    Returns quarterly means per duration bucket.
+
+    Note: NM_4_1 is suppressed at LA level. North East regional level is available.
+    Rising long-term % from 2016 partly reflects UC migration removing short-term
+    claimants from JSA stock, not necessarily worsening outcomes.
+    """
+    print("\n[3] NE JSA by duration (NM_4_1) ...")
+    cache = CACHE_DIR / "ne_jsa_duration_raw.csv"
+    url = (f"{NOMIS}/NM_4_1.data.csv"
+           f"?geography={NE_GEO}"
+           f"&date=2015-10...2019-12"
+           f"&sex=7"
+           f"&age_dur=100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600"
+           f"&measures=20100"
+           f"&select=date_name,age_dur_name,obs_value")
+    raw = get_csv(url, cache)
+    raw.columns = ["month", "duration_band", "claimants"]
+    raw["claimants"] = pd.to_numeric(raw["claimants"], errors="coerce")
+
+    def _bucket(band: str) -> str:
+        b = band.lower()
+        if any(x in b for x in ["over 52", "over 65", "over 78", "over 104",
+                                  "over 156", "over 208", "over 260"]):
+            return "over_52wks"
+        elif any(x in b for x in ["over 26", "over 39"]):
+            return "26_to_52wks"
+        elif "over 13" in b:
+            return "13_to_26wks"
+        return "under_13wks"
+
+    raw["bucket"] = raw["duration_band"].apply(_bucket)
+
+    rows = []
+    for q, months in QUARTERS.items():
+        q_df = raw[raw["month"].isin(months)]
+        n_months = q_df["month"].nunique()
+        totals = q_df.groupby("bucket")["claimants"].sum()
+        u13 = totals.get("under_13wks", 0)
+        m13 = totals.get("13_to_26wks", 0)
+        m26 = totals.get("26_to_52wks", 0)
+        lt  = totals.get("over_52wks", 0)
+        total = u13 + m13 + m26 + lt
+        rows.append({
+            "quarter":                  q,
+            "ne_jsa_under13wk_q_mean":  round(u13   / n_months, 0) if n_months else np.nan,
+            "ne_jsa_13to26wk_q_mean":   round(m13   / n_months, 0) if n_months else np.nan,
+            "ne_jsa_26to52wk_q_mean":   round(m26   / n_months, 0) if n_months else np.nan,
+            "ne_jsa_over52wk_q_mean":   round(lt    / n_months, 0) if n_months else np.nan,
+            "ne_jsa_total_q_mean":      round(total / n_months, 0) if n_months else np.nan,
+            "ne_jsa_longterm_pct":      round(lt / total * 100, 1) if total > 0 else np.nan,
+            "ne_jsa_data_quality":      "HIGH",
+            "ne_jsa_uc_caveat":         ("UC migration progressively removes short-term claimants "
+                                         "from JSA from 2016; rising LT% reflects composition "
+                                         "shift not necessarily worsening outcomes"),
+        })
+
+    df = pd.DataFrame(rows)
+    print(f"  OK — {len(raw)} monthly rows fetched")
+    print(f"  2015Q4: total={df.loc[df.quarter=='2015Q4','ne_jsa_total_q_mean'].values[0]:,.0f}, "
+          f"LT%={df.loc[df.quarter=='2015Q4','ne_jsa_longterm_pct'].values[0]}%")
+    return df
+
+
 # ── RC vs NE comparison indices ────────────────────────────────────────────────
 
 def build_rc_vs_ne_index(panel: pd.DataFrame,
@@ -288,6 +370,7 @@ def main():
 
     ne_acc_q  = fetch_ne_acc_by_age()
     beao_q    = fetch_beao()
+    jsa_dur_q = fetch_ne_jsa_duration()
 
     # Load panel
     print(f"\nLoading panel ({PANEL_PATH.name}) ...")
@@ -295,6 +378,7 @@ def main():
     print(f"  {len(panel)} rows x {len(panel.columns)} columns")
 
     ne_acc_q = ne_acc_q.merge(beao_q, on="quarter", how="left")
+    ne_acc_q = ne_acc_q.merge(jsa_dur_q, on="quarter", how="left")
 
     # Build RC vs NE indices (needs existing acc_* columns from Stat-Xplore)
     acc_cols_present = [c for c in panel.columns if c.startswith("acc_")]
