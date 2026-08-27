@@ -25,7 +25,7 @@ Uncertainty propagated over the plausible SSI pre-wage range [£480, £673].
 
 Output columns added
 --------------------
-  stat_still_seeking_mid_%       fitted exponential mid estimate
+  stat_still_seeking_mid_%           fitted exponential mid estimate
   stat_still_seeking_lo_%        5th percentile of bootstrap distribution
   stat_still_seeking_hi_%        95th percentile of bootstrap distribution
   stat_underemployed_mid_%       log-normal P(underemployed | re-employed) mid
