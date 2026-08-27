@@ -121,18 +121,102 @@ def normalise_quarter_label(raw: str) -> str | None:
     return None
 
 
+def _parse_transposed(raw: pd.DataFrame) -> pd.DataFrame:
+    """
+    Parse Stat-Xplore ESA xlsx where Quarter spans columns and Phase of Claim
+    are sub-columns within each quarter (the format produced when Quarter is
+    placed as a Wafer and Phase of Claim as a column dimension).
+
+    Row 10: Quarter labels (e.g. 'Nov-15') — each spanning 5 sub-columns
+    Row 11: Phase labels repeating (Assessment phase, WRAG, Support group, Unknown, Total)
+    Row 12: Data values for RC LA
+    """
+    MONTH_TO_Q = {"Nov": "Q4", "Feb": "Q1", "May": "Q2", "Aug": "Q3"}
+    PHASE_LABELS = {
+        "assessment": "esa_assess",
+        "work related": "esa_wrag",
+        "wrag": "esa_wrag",
+        "support group": "esa_support",
+        "support": "esa_support",
+        "total": "esa_total",
+    }
+
+    row10 = raw.iloc[10].tolist()
+    row11 = raw.iloc[11].tolist()
+
+    records = []
+    current_q = None
+
+    for ci in range(1, len(row10)):
+        q_raw = str(row10[ci]).strip()
+        if q_raw not in ("nan", ""):
+            parts = q_raw.split("-")
+            if len(parts) == 2:
+                mon, yr_short = parts[0].strip(), parts[1].strip()
+                try:
+                    yr = int("20" + yr_short) if int(yr_short) < 50 else int("19" + yr_short)
+                except ValueError:
+                    continue
+                q_label = MONTH_TO_Q.get(mon)
+                if q_label:
+                    current_q = f"{yr}{q_label}"
+
+        if current_q is None:
+            continue
+
+        phase_raw = str(row11[ci]).strip().lower()
+        phase_key = None
+        for label, key in PHASE_LABELS.items():
+            if label in phase_raw:
+                phase_key = key
+                break
+        if phase_key is None:
+            continue
+
+        val_raw = raw.iloc[12, ci]
+        try:
+            val = float(str(val_raw).replace(",", "").strip())
+            val = val if not np.isnan(val) else np.nan
+        except (ValueError, TypeError):
+            val = np.nan
+
+        records.append({"quarter": current_q, "phase": phase_key, "value": val})
+
+    if not records:
+        raise ValueError("Transposed parser found no data rows — check sheet structure")
+
+    df = pd.DataFrame(records)
+    wide = (df.pivot_table(index="quarter", columns="phase", values="value", aggfunc="first")
+              .reset_index())
+    wide.columns.name = None
+    return wide
+
+
 def parse_esa_xlsx(xlsx_path: Path) -> pd.DataFrame:
     """
     Parse the Stat-Xplore ESA download.
-    Returns a tidy DataFrame: quarter, phase_col, value
+    Handles two layouts:
+      - Row-based: Quarter in first column, phases as column headers
+      - Transposed: Quarter spanning columns, phases as sub-column headers (row 10/11)
+    Returns a wide DataFrame: quarter + one column per ESA phase.
     """
     xl = pd.ExcelFile(xlsx_path)
     print(f"  Sheets: {xl.sheet_names}")
 
-    # Use the first sheet (usually the only data sheet)
     raw = pd.read_excel(xlsx_path, sheet_name=xl.sheet_names[0], header=None)
     print(f"  Raw shape: {raw.shape}")
 
+    # Detect layout: if row 10 col 0 == "Quarter" and row 11 col 0 contains "Phase"
+    # → transposed format (quarters as column wafers)
+    cell_r10 = str(raw.iloc[10, 0]).strip().lower()
+    cell_r11 = str(raw.iloc[11, 0]).strip().lower()
+    if cell_r10 == "quarter" and "phase" in cell_r11:
+        print("  Detected transposed layout (quarters as columns)")
+        df = _parse_transposed(raw)
+        print(f"  Parsed {len(df)} quarter rows: {sorted(df.quarter.unique())}")
+        return df
+
+    # ---- Row-based layout (original path) ----
     # Find the header row (contains "Total" or "Support Group" etc.)
     header_row = None
     for i in range(min(20, len(raw))):
@@ -147,7 +231,6 @@ def parse_esa_xlsx(xlsx_path: Path) -> pd.DataFrame:
     headers = raw.iloc[header_row].astype(str).tolist()
     print(f"  Header row {header_row}: {headers[:8]}")
 
-    # Map phase columns
     phase_cols = {}
     for phase_key, search_terms in PHASE_MAP.items():
         for ci, h in enumerate(headers):
@@ -159,7 +242,6 @@ def parse_esa_xlsx(xlsx_path: Path) -> pd.DataFrame:
     if not phase_cols:
         raise ValueError("No recognisable phase columns found. Check PHASE_MAP search terms.")
 
-    # Parse data rows (below header)
     records = []
     for row_i in range(header_row + 1, len(raw)):
         row = raw.iloc[row_i]
