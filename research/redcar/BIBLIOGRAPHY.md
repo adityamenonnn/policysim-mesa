@@ -60,6 +60,19 @@ The following files were downloaded manually from DWP Stat-Xplore (https://stat-
 
 **DWP Stat-Xplore citation:** Department for Work and Pensions. *Stat-Xplore*. Available at: https://stat-xplore.dwp.gov.uk
 
+### Nomis series investigated but not used
+
+The following Nomis datasets were queried during data collection but found to be unavailable for the 2015-2019 period at relevant geographies. They are referenced in script code comments for transparency.
+
+| Series | Description | Why not used |
+|---|---|---|
+| NM_5_1 | Annual Business Inquiry (misidentified as vacancy survey) | Not a vacancy dataset; series ends before 2012 |
+| NM_19_1 to NM_24_1 | Vacancy survey (various) | All series end before 2012; retired when UC rolled out |
+| NM_89_1 | Vacancy survey (alternative) | Ends before 2012 |
+| NM_2_1 | JSA duration stock (old series) | Ends October 1998 |
+
+For 2015-2019 vacancy data at sub-national geography, the ONS LFS regional tables or DWP Stat-Xplore are required. These were not included in the panel due to manual download requirements and time constraints.
+
 ---
 
 ## How to reproduce the panel

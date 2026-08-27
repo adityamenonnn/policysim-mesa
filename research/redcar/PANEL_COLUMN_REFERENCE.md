@@ -176,10 +176,12 @@ These columns capture aggregate/reported outcomes from DWP and Task Force source
 | self_employment_% | % who started a business | REAL (approximate) | SSI Task Force reports (172 new businesses / 2,070) |
 | self_employment_n | Count of new businesses started | REAL | SSI Task Force One Year On Report |
 | training_courses_n | Number of training courses approved for SSI workers | REAL | SSI Task Force reports (15,510 total) |
-| area_wage_change_% | Change in RC LA / Teesside area wages (pre vs post) | ESTIMATED_LOW | ONS area earnings estimates |
-| ne_wage_change_% | Change in NE median wage (year on year from ASHE) | HIGH | Nomis ASHE NM_30_1 |
-| manual_jobs_share_pre_% | Manual/blue-collar jobs as % of RC LA employment pre-closure | ESTIMATED_MED | BRES-derived |
-| manual_jobs_share_post_% | Same share post-closure | ESTIMATED_MED | BRES-derived |
+| area_wage_change_% | Change in RC LA / Teesside area wages (pre vs post) | ESTIMATED_LOW | Hardcoded in build_redcar_panel.py (-0.5% real terms, 2015-2017). Only populated for one scenario row per quarter. Source: ONS place-based earnings estimates, not fetched live. |
+| ne_wage_change_% | Change in NE median wage (year on year) | ESTIMATED_LOW | Hardcoded in build_redcar_panel.py (+1.6%). Only populated for one scenario row per quarter. |
+| manual_jobs_share_pre_% | Manual/blue-collar jobs as % of RC LA employment pre-closure | ESTIMATED_LOW | Hardcoded in build_redcar_panel.py (10.0%, Dec 2014). Only populated for one scenario row. BRES-derived estimate. |
+| manual_jobs_share_post_% | Same share post-closure | ESTIMATED_LOW | Hardcoded in build_redcar_panel.py (8.0%, Dec 2016). Only populated for one scenario row. |
+
+**Sparseness note:** `area_wage_change_%`, `ne_wage_change_%`, `manual_jobs_share_pre_%`, and `manual_jobs_share_post_%` are populated for only 15 rows (one scenario per quarter at 2017Q4). These are hardcoded point estimates in `build_redcar_panel.py`, not live-fetched series. Treat as indicative context, not time-varying data.
 
 ---
 
@@ -246,6 +248,31 @@ Ratio of RC LA age share to NE age share for each model band. Index > 1 means RC
 
 ---
 
+## NE JSA by duration — ne_jsa_* columns
+
+North East JSA claimant stock broken into duration bands, from Nomis NM_4_1 (Jobseeker's Allowance by Age and Duration). Monthly data aggregated to quarterly means. Sex=total (male+female combined). All age groups combined.
+
+Data quality: HIGH. Fetched by `fetch_redcar_extra.py`. Cache stored in `_nomis_cache/ne_jsa_duration_raw.csv`.
+
+**Important UC caveat:** From mid-2016 Universal Credit progressively absorbed short-term JSA claimants. The rising long-term % from 2016 onward reflects this composition shift — short-term claimants move to UC and disappear from JSA stock — not necessarily a worsening of outcomes. The absolute count of 52+ week claimants stays roughly flat at ~11-12k throughout the period.
+
+**Geography note:** NM_4_1 JSA duration is suppressed at local authority level by DWP. North East regional level (E12000001) is available and used here as a benchmark.
+
+| Column | Description | Real or estimated | Source |
+|---|---|---|---|
+| ne_jsa_under13wk_q_mean | Mean monthly NE JSA claimants with duration <13 weeks | HIGH | Nomis NM_4_1 |
+| ne_jsa_13to26wk_q_mean | Mean monthly NE JSA claimants with duration 13-26 weeks | HIGH | Nomis NM_4_1 |
+| ne_jsa_26to52wk_q_mean | Mean monthly NE JSA claimants with duration 26-52 weeks | HIGH | Nomis NM_4_1 |
+| ne_jsa_over52wk_q_mean | Mean monthly NE JSA claimants with duration 52+ weeks (long-term unemployed) | HIGH | Nomis NM_4_1 |
+| ne_jsa_total_q_mean | Total NE JSA claimants (all duration bands) | HIGH | Nomis NM_4_1 |
+| ne_jsa_longterm_pct | 52+ week claimants as % of NE JSA total | HIGH | Derived |
+| ne_jsa_data_quality | Always HIGH | — | — |
+| ne_jsa_uc_caveat | Explanatory note on UC composition effect | — | — |
+
+**Key pattern:** Long-term % rises from 27% (2015Q4) to 79% (2019Q4) as UC absorbs short-term claimants. Absolute long-term count stays flat at ~11-12k. SSI workers were predominantly short-to-medium term claimants (survival model: 75% resolved within 4 months).
+
+---
+
 ## BEAO redundancy notifications — beao_* columns
 
 ONS BEAO timeseries: national monthly redundancy notifications (GB, 000s). 3-month rolling average published by ONS. Provides macroeconomic context for the shock period.
@@ -294,6 +321,34 @@ Annual data (from ONS ASHE Table 6 annual releases). Same value repeated for all
 
 **Typical values (2016):** 16-24: ~£411/wk, 25-49: ~£545/wk, 50+: ~£521/wk.
 **National ratios (stable 2016-2019):** 16-24 ~0.84, 25-49 ~1.11, 50+ ~1.05.
+
+---
+
+## ESA caseload — esa_* columns
+
+DWP Employment Support Allowance caseload for Redcar and Cleveland LA. Parsed from two Stat-Xplore downloads stored in `_source_data/` (ESA data is split at the Feb 2018 UC transition boundary). Quarterly point-in-time stock figures — each value represents claimants at that quarter, not a monthly mean. Baseline = mean of 2019 quarters. Excess = actual minus baseline, clamped at zero.
+
+Data quality: HIGH (DWP administrative data). Fetched by `integrate_esa.py`.
+
+**Phase definitions:**
+- Assessment phase: new or continuing claims being assessed for eligibility
+- WRAG (Work-Related Activity Group): assessed as having limited capability for work but expected to prepare for work
+- Support group: most severely ill; not expected to seek work
+
+| Column | Description | Real or estimated | Source |
+|---|---|---|---|
+| esa_total_q_mean | Total ESA claimants in RC LA (all phases) | HIGH | DWP Stat-Xplore ESA Caseload |
+| esa_assess_q_mean | Assessment phase claimants | HIGH | DWP Stat-Xplore ESA Caseload |
+| esa_wrag_q_mean | Work-Related Activity Group claimants | HIGH | DWP Stat-Xplore ESA Caseload |
+| esa_support_q_mean | Support group claimants (most severely ill) | HIGH | DWP Stat-Xplore ESA Caseload |
+| esa_baseline | Mean ESA total over 2019 quarters (post-shock stable level) | HIGH | Derived |
+| esa_excess_q_mean | Excess claimants over 2019 baseline (shock-attributable, clamped >= 0) | HIGH | Derived |
+| esa_excess_pct | Excess as % of total SSI workforce (3,500 approximation) | HIGH | Derived |
+| esa_data_quality | Always HIGH | — | — |
+
+**Key finding:** ESA total peaked at 7,042 at 2016Q1 (+650 excess claimants = 18.6% of 3,500 SSI workers). Excess persists into 2018, indicating some workers permanently transitioned to health-related benefits. Support group dominates throughout (~4,000/quarter), reflecting the underlying pre-existing health burden in the population rather than acute closure impact.
+
+**Data note:** Phase breakdown at RC LA level is available (not suppressed) for total ESA. This was confirmed by testing during data collection — earlier attempts using Phase of Claim as a table dimension caused suppression; using it as a column dimension with geography as a filter resolved this.
 
 ---
 
