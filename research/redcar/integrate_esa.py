@@ -1,26 +1,30 @@
 """
 integrate_esa.py
 ================
-Parses a DWP Stat-Xplore ESA (Employment Support Allowance) download for
+Parses DWP Stat-Xplore ESA (Employment Support Allowance) downloads for
 Redcar & Cleveland LA and merges quarterly ESA caseload into
 math_testing_panel.csv.
 
 How to get the data (Stat-Xplore)
 -----------------------------------
-1. Go to: https://stat-xplore.dwp.gov.uk/
-2. Log in (free account)
-3. Click "Open Data Explorer"
-4. Navigate to:
-     ESA > Caseload (Active Claims)
-5. Set up the table:
-   - Rows:    Quarter (or Month if available)
-   - Columns: Phase of Claim  [or just Total if phase isn't available]
-   - Wafer/Filter: Geography → National - Regional - LAs - UK
-                   → Add "Redcar and Cleveland"
-   - Date range: 2015 Q4 through 2019 Q4
-6. Click "Download" → Excel
-7. Save as:
-     /Users/adityamenon/Downloads/esa_redcar_statxplore.xlsx
+DWP split ESA data into two datasets at the UC transition boundary.
+You need BOTH downloads to cover 2015Q4-2019Q4.
+
+1. Go to: https://stat-xplore.dwp.gov.uk/ and log in
+2. Open Data Explorer → Employment and Support Allowance
+
+Download 1 — "ESA - Data to February 2018":
+   - Rows: Quarter, Columns: Phase of Claim
+   - Filter geography: Redcar and Cleveland
+   - Date: 2015 Q4 → 2018 Q1
+   - Download as Excel → save as:
+     /Users/adityamenon/Downloads/esa_redcar_to_feb2018.xlsx
+
+Download 2 — "ESA - Data from May 2018":
+   - Same setup
+   - Date: 2018 Q2 → 2019 Q4
+   - Download as Excel → save as:
+     /Users/adityamenon/Downloads/esa_redcar_from_may2018.xlsx
 
 Then run:
    cd /Users/adityamenon/Documents/PolicySim/policysim-mesa
@@ -54,8 +58,9 @@ BASE       = Path(__file__).parent
 PANEL_IN   = BASE / "math_testing_panel.csv"
 PANEL_OUT  = BASE / "math_testing_panel.csv"
 
-# Default download location — update if saved elsewhere
-XLSX_DEFAULT = Path("/Users/adityamenon/Downloads/esa_redcar_statxplore.xlsx")
+# Default download locations
+XLSX_PRE  = Path("/Users/adityamenon/Downloads/esa_redcar_to_feb2018.xlsx")
+XLSX_POST = Path("/Users/adityamenon/Downloads/esa_redcar_from_may2018.xlsx")
 
 # SSI total affected workforce (for excess% calculation)
 SSI_WORKERS = 3_500
@@ -217,31 +222,44 @@ def build_lookup(esa_q: pd.DataFrame) -> pd.DataFrame:
 def main():
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--xlsx", default=str(XLSX_DEFAULT),
-                        help="Path to Stat-Xplore ESA Excel download")
+    parser.add_argument("--pre",  default=str(XLSX_PRE),
+                        help="ESA - Data to February 2018 xlsx")
+    parser.add_argument("--post", default=str(XLSX_POST),
+                        help="ESA - Data from May 2018 xlsx")
     args = parser.parse_args()
 
-    xlsx_path = Path(args.xlsx)
+    pre_path  = Path(args.pre)
+    post_path = Path(args.post)
 
     print("integrate_esa.py")
     print("=" * 50)
 
-    if not xlsx_path.exists():
-        print(f"\nFile not found: {xlsx_path}")
-        print()
-        print("Download steps:")
-        print("  1. Go to: https://stat-xplore.dwp.gov.uk/")
-        print("  2. Open Data Explorer → ESA → Caseload (Active Claims)")
-        print("  3. Rows: Quarter")
-        print("  4. Columns: Phase of Claim")
-        print("  5. Filter geography: Redcar and Cleveland")
-        print("  6. Date range: 2015 Q4 to 2019 Q4")
-        print("  7. Download as Excel")
-        print(f"  8. Save to: {xlsx_path}")
+    missing = []
+    if not pre_path.exists():
+        missing.append(f"  {pre_path}  (ESA - Data to February 2018)")
+    if not post_path.exists():
+        missing.append(f"  {post_path}  (ESA - Data from May 2018)")
+
+    if missing:
+        print("\nMissing files:")
+        for m in missing:
+            print(m)
+        print("\nSee docstring at top of this file for download instructions.")
         return
 
-    print(f"\nParsing: {xlsx_path.name}")
-    esa_tidy = parse_esa_xlsx(xlsx_path)
+    print(f"\nParsing pre-2018: {pre_path.name}")
+    esa_pre  = parse_esa_xlsx(pre_path)
+
+    print(f"\nParsing post-2018: {post_path.name}")
+    esa_post = parse_esa_xlsx(post_path)
+
+    # Combine: pre covers up to 2018Q1, post covers 2018Q2+
+    # Drop any overlapping quarters from pre (keep post as authoritative for 2018+)
+    post_quarters = set(esa_post["quarter"].tolist())
+    esa_pre_trim = esa_pre[~esa_pre["quarter"].isin(post_quarters)]
+    esa_tidy = pd.concat([esa_pre_trim, esa_post], ignore_index=True)
+    esa_tidy = esa_tidy.sort_values("quarter").reset_index(drop=True)
+    print(f"\nCombined: {len(esa_tidy)} quarters: {sorted(esa_tidy.quarter.tolist())}")
 
     lookup = build_lookup(esa_tidy)
 
