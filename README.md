@@ -33,7 +33,7 @@ Mesa's per-agent `step()` is deliberately bypassed for the heavy computation. Th
 
 ## Figures
 
-The `visualise.py` script generates four figures:
+The `mesa/visualise.py` script generates four figures:
 
 | Figure | What it shows |
 |--------|--------------|
@@ -44,14 +44,23 @@ The `visualise.py` script generates four figures:
 
 ## Project Structure
 
-| File | Purpose |
-|------|---------|
-| `labour_model.py` | Core ABM: `WorkerAgent`, `LabourModel`, multinomial logit coefficients |
-| `benchmark.py` | Reproducibility check and performance benchmarks |
-| `visualise.py` | Generates all four assessment figures |
-| `extract_evidence.py` | Extracts displacement evidence from literature into CSV |
-| `assessment.tex` | Written assessment document |
-| `research/` | Supporting ONS data, Redcar SSI case study panel, and data processing scripts |
+```
+mesa/                        -- ABM model and assessment
+  labour_model.py            -- Core ABM: WorkerAgent, LabourModel, multinomial logit
+  benchmark.py               -- Reproducibility check and performance benchmarks
+  visualise.py               -- Generates all four assessment figures
+  assessment.tex             -- Written assessment document
+  fig*.png                   -- Generated figures
+
+research/                    -- Supporting data and processing scripts
+  ons_data/                  -- ONS labour market datasets
+  redcar/                    -- Redcar SSI case study panel and pipeline
+  data.py                    -- Data loading utilities
+  displacement_evidence.csv  -- Extracted displacement evidence
+
+extract_evidence.py          -- Extracts displacement evidence from literature
+displacement_evidence.csv    -- Evidence dataset
+```
 
 ## Running
 
@@ -60,6 +69,7 @@ The `visualise.py` script generates four figures:
 pip install mesa numpy matplotlib
 
 # Run the benchmark (reproducibility + timing)
+cd mesa
 python benchmark.py
 
 # Generate all figures
